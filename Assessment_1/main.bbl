@@ -1,0 +1,2323 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{abkowitzEvidenceThatHematopoiesis1996}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AJL}{%
+         family={Abkowitz},
+         familyi={A\bibinitperiod},
+         given={Janis\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CSN}{%
+         family={Catlin},
+         familyi={C\bibinitperiod},
+         given={Sandra\bibnamedelima N.},
+         giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Guttorp},
+         familyi={G\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJL+1}
+    \strng{fullhash}{AJLCSNGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/nm0296-190
+    \endverb
+    \field{issn}{1078-8956, 1546-170X}
+    \field{number}{2}
+    \field{pages}{190\bibrangedash 197}
+    \field{title}{Evidence That Hematopoiesis May Be a Stochastic Process in
+  Vivo}
+    \field{volume}{2}
+    \field{langid}{english}
+    \field{journaltitle}{Nature Medicine}
+    \field{month}{02}
+    \field{year}{1996}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{arkinStochasticKineticAnalysis1998}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AA}{%
+         family={Arkin},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MHH}{%
+         family={McAdams},
+         familyi={M\bibinitperiod},
+         given={H.\bibnamedelima H.},
+         giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Bacteriophage lambda,Dimerization,Escherichia coli,Gene Expression
+  Regulation Viral,Kinetics,Lysogeny,Models
+  Genetic,Mutation,Phenotype,Stochastic Processes,Viral Proteins}
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AARJMHH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Fluctuations in rates of gene expression can produce highly erratic time
+  patterns of protein production in individual cells and wide diversity in
+  instantaneous protein concentrations across cell populations. When two
+  independently produced regulatory proteins acting at low cellular
+  concentrations competitively control a switch point in a pathway, stochastic
+  variations in their concentrations can produce probabilistic pathway
+  selection, so that an initially homogeneous cell population partitions into
+  distinct phenotypic subpopulations. Many pathogenic organisms, for example,
+  use this mechanism to randomly switch surface features to evade host
+  responses. This coupling between molecular-level fluctuations and macroscopic
+  phenotype selection is analyzed using the phage lambda lysis-lysogeny
+  decision circuit as a model system. The fraction of infected cells selecting
+  the lysogenic pathway at different phage:cell ratios, predicted using a
+  molecular-level stochastic kinetic model of the genetic regulatory circuit,
+  is consistent with experimental observations. The kinetic model of the
+  decision circuit uses the stochastic formulation of chemical kinetics,
+  stochastic mechanisms of gene expression, and a statistical-thermodynamic
+  model of promoter regulation. Conventional deterministic kinetics cannot be
+  used to predict statistics of regulatory systems that produce probabilistic
+  outcomes. Rather, a stochastic kinetic analysis must be used to predict
+  statistics of regulatory outcomes for such stochastically regulated systems.%
+    }
+    \verb{doi}
+    \verb 10.1093/genetics/149.4.1633
+    \endverb
+    \field{issn}{0016-6731}
+    \field{number}{4}
+    \field{pages}{1633\bibrangedash 1648}
+    \field{title}{Stochastic Kinetic Analysis of Developmental Pathway
+  Bifurcation in Phage Lambda-Infected {{Escherichia}} Coli Cells}
+    \field{volume}{149}
+    \field{langid}{english}
+    \field{journaltitle}{Genetics}
+    \field{month}{08}
+    \field{year}{1998}
+  \endentry
+
+  \entry{kaernStochasticityGeneExpression2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KM}{%
+         family={K{\ae}rn},
+         familyi={K\bibinitperiod},
+         given={Mads},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ETC}{%
+         family={Elston},
+         familyi={E\bibinitperiod},
+         given={Timothy\bibnamedelima C.},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BWJ}{%
+         family={Blake},
+         familyi={B\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CJJ}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={James\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Agriculture,Animal Genetics and Genomics,Biomedicine,Cancer
+  Research,Gene Function,general,Human Genetics}
+    \strng{namehash}{KM+1}
+    \strng{fullhash}{KMETCBWJCJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Stochasticity in gene expression is manifested as fluctuations in the
+  abundance of expressed molecules at the single-cell level, and variability
+  and heterogeneity within populations of genetically identical cells.Analyses
+  of simple models indicate that stochasticity in gene expression is dominated
+  by translational bursting, arising from a low number of expressed mRNAs, and
+  transcriptional bursting, arising from slow transitions between promoter
+  states.Transcriptional bursting, which arises from random transitions between
+  chromatin states, might cause stochastic all-or-nothing responses in
+  eukaryotic cells and lead to the emergence of populations that contain a
+  mixture of expressing and non-expressing cells.Experimental evidence
+  indicates that translational bursting is a dominant source of stochasticity
+  in prokaryote gene expression, and that both translational and
+  transcriptional bursting contribute to stochasticity in eukaryote gene
+  expression.Evidence also indicates that translational bursting in eukaryotes
+  is an evolvable trait that is subject to natural selection. Transcriptional
+  bursting has been implicated in syndromes that are associated with
+  haploinsufficiency.Sources that are extrinsic to the process of gene
+  expression, such as fluctuations in regulatory signals, also contribute
+  significantly to stochasticity in gene expression. Gene-intrinsic and
+  gene-extrinsic noise can be distinguished experimentally using a two-reporter
+  assay.Fluctuations in regulatory signals are important for the function of
+  transcriptional regulatory networks. In genetic cascades, such fluctuations
+  lead to increased population variability at intermediate expression levels
+  and an initial population asynchrony that increases with cascade length.
+  Increased variability in a regulatory signal might also cause the emergence
+  of mixed populations, containing cells that show either high or low
+  expression levels of the target gene.Negative and positive feedback typically
+  leads to reduction and amplification, respectively, of fluctuations and
+  population heterogeneity. Positive feedback can yield unique or multiple
+  cellular-expression states, depending on the strength of the
+  feedback.Stochasticity in gene expression might provide microorganisms with
+  the flexibility required to respond and adapt to environmental changes and
+  stresses, and can prevent cells from being trapped in suboptimal epigenetic
+  states and phenotypes.Stochastic mechanisms have also been implicated in
+  cellular differentiation and development. They provide a means of generating
+  the initial population heterogeneity on which regulatory mechanisms can
+  function to establish and propagate the expression of cell-type-specific
+  genes.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrg1615
+    \endverb
+    \field{issn}{1471-0064}
+    \field{number}{6}
+    \field{pages}{451\bibrangedash 464}
+    \field{shorttitle}{Stochasticity in Gene Expression}
+    \field{title}{Stochasticity in Gene Expression: From Theories to
+  Phenotypes}
+    \field{volume}{6}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/YI53EYDU/Kærn et al. - 2005 - Stoc
+    \verb hasticity in gene expression from theories to phenotypes.pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews Genetics}
+    \field{month}{06}
+    \field{year}{2005}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{wilkinsonStochasticModellingQuantitative2009}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WDJ}{%
+         family={Wilkinson},
+         familyi={W\bibinitperiod},
+         given={Darren\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Agriculture,Animal Genetics and Genomics,Biomedicine,Cancer
+  Research,Gene Function,general,Human Genetics}
+    \strng{namehash}{WDJ1}
+    \strng{fullhash}{WDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cellular dynamics are intrinsically noisy, so mechanistic models must
+  incorporate stochasticity if they are to adequately model experimental
+  observations.As well as intrinsic stochasticity in gene expression, there are
+  other sources of noise and heterogeneity in cells and cell populations.There
+  is a well-developed framework for stochastic modelling, including algorithms
+  for fast, approximate simulation of cellular dynamics.Multiscale models are
+  particularly challenging, and are likely to require the use of fast
+  stochastic emulators.Statistical modelling is concerned with relating models
+  (either stochastic or deterministic) to experimental data, and as such is of
+  key importance in systems biology.Simple statistical models are useful for
+  fitting to high-throughput data such as time course microarray data for
+  uncovering structural relationships between genes.The parameters of complex
+  dynamic models can be estimated from high-resolution dynamic data using
+  sophisticated statistical inference technology.A nonlinear multivariate
+  stochastic differential equation model known as the chemical Langevin
+  equation provides a natural bridge between simple structural statistical
+  models and detailed mechanistic dynamic models.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrg2509
+    \endverb
+    \field{issn}{1471-0064}
+    \field{number}{2}
+    \field{pages}{122\bibrangedash 133}
+    \field{title}{Stochastic Modelling for Quantitative Description of
+  Heterogeneous Biological Systems}
+    \field{volume}{10}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/UXJZID6J/Wilkinson - 2009 - Stochas
+    \verb tic modelling for quantitative description of heterogeneous biologica
+    \verb l systems.pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews Genetics}
+    \field{month}{02}
+    \field{year}{2009}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{guptasarmaDoesReplicationinducedTranscription1995}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GP}{%
+         family={Guptasarma},
+         familyi={G\bibinitperiod},
+         given={Purnananda},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GP1}
+    \strng{fullhash}{GP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Over 80\% of the genes in the E. coli chromosome express fewer than a
+  hundred copies each of their protein products per cell. It is argued here
+  that transcription of these genes is neither constitutive nor regulated by
+  protein factors, but rather, induced by the act of replication. The utility
+  of such replication-induced (RI) transcription to the temporal regulation of
+  synthesis of determinate quantities of low copy number (LCN) proteins is
+  described. It is suggested that RI transcription may be necessitated, as well
+  as facilitated, by the folding of the bacterial chromosome into a compact
+  nucleoid. Mechanistic aspects of the induction of transcription by
+  replication are discussed with respect to the modulation of transcriptional
+  initiation by negative supercoiling effects, promoter methylation status and
+  derepression. It is shown that RI transcription offers plausible explanations
+  for the constancy of the C period of the E. coli cell cycle and the
+  remarkable conservation of gene order in the chromosomes of enteric bacteria.
+  Some experimental tests of the hypothesis are proposed.%
+    }
+    \verb{doi}
+    \verb 10.1002/bies.950171112
+    \endverb
+    \field{issn}{1521-1878}
+    \field{number}{11}
+    \field{pages}{987\bibrangedash 997}
+    \field{title}{Does Replication-Induced Transcription Regulate Synthesis of
+  the Myriad Low Copy Number Proteins of {{Escherichia}} Coli?}
+    \field{volume}{17}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/SBRIDS3X/Guptasarma - 1995 - Does r
+    \verb eplication-induced transcription regulate synthesis of the myriad low
+    \verb  copy number proteins of.pdf;/home/luca-lubrano/Zotero/storage/LPVMXX
+    \verb BN/bies.html
+    \endverb
+    \field{journaltitle}{BioEssays}
+    \field{year}{1995}
+    \field{urlday}{23}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{elowitzStochasticGeneExpression2002}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EMB}{%
+         family={Elowitz},
+         familyi={E\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LAJ}{%
+         family={Levine},
+         familyi={L\bibinitperiod},
+         given={Arnold\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SED}{%
+         family={Siggia},
+         familyi={S\bibinitperiod},
+         given={Eric\bibnamedelima D.},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SPS}{%
+         family={Swain},
+         familyi={S\bibinitperiod},
+         given={Peter\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{EMB+1}
+    \strng{fullhash}{EMBLAJSEDSPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Clonal populations of cells exhibit substantial phenotypic variation. Such
+  heterogeneity can be essential for many biological processes and is
+  conjectured to arise from stochasticity, or noise, in gene expression. We
+  constructed strains of Escherichia coli that enable detection of noise and
+  discrimination between the two mechanisms by which it is generated. Both
+  stochasticity inherent in the biochemical process of gene expression
+  (intrinsic noise) and fluctuations in other cellular components (extrinsic
+  noise) contribute substantially to overall variation. Transcription rate,
+  regulatory dynamics, and genetic factors control the amplitude of noise.
+  These results establish a quantitative foundation for modeling noise in
+  genetic networks and reveal how low intracellular copy numbers of molecules
+  can fundamentally limit the precision of gene regulation.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.1070919
+    \endverb
+    \field{number}{5584}
+    \field{pages}{1183\bibrangedash 1186}
+    \field{title}{Stochastic {{Gene Expression}} in a {{Single Cell}}}
+    \field{volume}{297}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/X7T9FIAB/Elowitz et al. - 2002 - St
+    \verb ochastic Gene Expression in a Single Cell.pdf
+    \endverb
+    \field{journaltitle}{Science}
+    \field{month}{08}
+    \field{year}{2002}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{rajNatureNurtureChance2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RA}{%
+         family={Raj},
+         familyi={R\bibinitperiod},
+         given={Arjun},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=vOA}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Oudenaarden},
+         familyi={O\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{RAOAv1}
+    \strng{fullhash}{RAOAv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1016/j.cell.2008.09.050
+    \endverb
+    \field{issn}{0092-8674, 1097-4172}
+    \field{number}{2}
+    \field{pages}{216\bibrangedash 226}
+    \field{shorttitle}{Nature, {{Nurture}}, or {{Chance}}}
+    \field{title}{Nature, {{Nurture}}, or {{Chance}}: {{Stochastic Gene
+  Expression}} and {{Its Consequences}}}
+    \field{volume}{135}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/7DUDJZF9/Raj and Oudenaarden - 2008
+    \verb  - Nature, Nurture, or Chance Stochastic Gene Expression and Its Cons
+    \verb equences.pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{month}{10}
+    \field{year}{2008}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warneSimulationInferenceAlgorithms2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BRE}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Ruth\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SMJ}{%
+         family={Simpson},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Royal Society}%
+    }
+    \keyw{approximate Bayesian computation,Bayesian inference,biochemical
+  reaction networks,Monte Carlo,stochastic simulation}
+    \strng{namehash}{WDJ+2}
+    \strng{fullhash}{WDJBRESMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Stochasticity is a key characteristic of intracellular processes such as
+  gene regulation and chemical signalling. Therefore, characterizing stochastic
+  effects in biochemical systems is essential to understand the complex
+  dynamics of living things. Mathematical idealizations of biochemically
+  reacting systems must be able to capture stochastic phenomena. While robust
+  theory exists to describe such stochastic models, the computational
+  challenges in exploring these models can be a significant burden in practice
+  since realistic models are analytically intractable. Determining the expected
+  behaviour and variability of a stochastic biochemical reaction network
+  requires many probabilistic simulations of its evolution. Using a biochemical
+  reaction network model to assist in the interpretation of time-course data
+  from a biological experiment is an even greater challenge due to the
+  intractability of the likelihood function for determining observation
+  probabilities. These computational challenges have been subjects of active
+  research for over four decades. In this review, we present an accessible
+  discussion of the major historical developments and state-of-the-art
+  computational techniques relevant to simulation and inference problems for
+  stochastic biochemical reaction network models. Detailed algorithms for
+  particularly important methods are described and complemented with
+  Matlab\textregistered{} implementations. As a result, this review provides a
+  practical and accessible introduction to computational methods for stochastic
+  models within the life sciences community.%
+    }
+    \verb{doi}
+    \verb 10.1098/rsif.2018.0943
+    \endverb
+    \field{number}{151}
+    \field{pages}{20180943}
+    \field{shorttitle}{Simulation and Inference Algorithms for Stochastic
+  Biochemical Reaction Networks}
+    \field{title}{Simulation and Inference Algorithms for Stochastic
+  Biochemical Reaction Networks: From Basic Concepts to State-of-the-Art}
+    \field{volume}{16}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/G6P7W2LN/Warne et al. - 2019 - Simu
+    \verb lation and inference algorithms for stochastic biochemical reaction n
+    \verb etworks from basic concept.pdf
+    \endverb
+    \field{journaltitle}{Journal of The Royal Society Interface}
+    \field{month}{02}
+    \field{year}{2019}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{lannelongueCarbonFootprintEstimation2023}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LL}{%
+         family={Lannelongue},
+         familyi={L\bibinitperiod},
+         given={Lo{\"i}c},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Inouye},
+         familyi={I\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LLIM1}
+    \strng{fullhash}{LLIM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Data analysis relies heavily on computation, and algorithms have grown more
+  demanding in terms of hardware and energy. Monitoring their environmental
+  impacts is and will continue to be an essential part of sustainable research.
+  Here, we provide guidance on how to do so accurately and with limited
+  overheads.%
+    }
+    \verb{doi}
+    \verb 10.1038/s43586-023-00202-5
+    \endverb
+    \field{title}{Carbon Footprint Estimation for Computational Research}
+    \field{volume}{3}
+    \field{journaltitle}{Nature Reviews Methods Primers}
+    \field{month}{02}
+    \field{year}{2023}
+  \endentry
+
+  \entry{lannelongueGREENERPrinciplesEnvironmentally2023}{article}{}
+    \name{author}{10}{}{%
+      {{hash=LL}{%
+         family={Lannelongue},
+         familyi={L\bibinitperiod},
+         given={Lo{\"i}c},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=AHEG}{%
+         family={Aronson},
+         familyi={A\bibinitperiod},
+         given={Hans-Erik\bibnamedelima G.},
+         giveni={H\bibinithyphendelim E\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bateman},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Birney},
+         familyi={B\bibinitperiod},
+         given={Ewan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Caplan},
+         familyi={C\bibinitperiod},
+         given={Talia},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Juckes},
+         familyi={J\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McEntyre},
+         familyi={M\bibinitperiod},
+         given={Johanna},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Reilly},
+         familyi={R\bibinitperiod},
+         given={Gerry},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Inouye},
+         familyi={I\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LL+1}
+    \strng{fullhash}{LLAHEGBABECTJMMJMADRGIM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s43588-023-00461-y
+    \endverb
+    \field{issn}{2662-8457}
+    \field{number}{6}
+    \field{pages}{514\bibrangedash 521}
+    \field{title}{{{GREENER}} Principles for Environmentally Sustainable
+  Computational Science}
+    \field{volume}{3}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/4NAM9L5I/Lannelongue et al. - 2023
+    \verb - GREENER principles for environmentally sustainable computational sc
+    \verb ience.pdf
+    \endverb
+    \field{journaltitle}{Nature Computational Science}
+    \field{month}{06}
+    \field{year}{2023}
+    \field{urlday}{25}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{brightwellChallengesHighPerformanceNetworking2010}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BR}{%
+         family={Brightwell},
+         familyi={B\bibinitperiod},
+         given={Ron},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BBW}{%
+         family={Barrett},
+         familyi={B\bibinitperiod},
+         given={Brian\bibnamedelima W.},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HKS}{%
+         family={Hemmert},
+         familyi={H\bibinitperiod},
+         given={K.\bibnamedelima Scott},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=UKD}{%
+         family={Underwood},
+         familyi={U\bibinitperiod},
+         given={Keith\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BR+1}
+    \strng{fullhash}{BRBBWHKSUKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2010 {{Proceedings}} of 19th {{International Conference}}
+  on {{Computer Communications}} and {{Networks}}}
+    \verb{doi}
+    \verb 10.1109/ICCCN.2010.5560144
+    \endverb
+    \field{isbn}{978-1-4244-7114-0}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Challenges for {{High-Performance Networking}} for {{Exascale
+  Computing}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {Zurich, Switzerland}%
+    }
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/EHB3TP5L/mcs2010060008.pdf
+    \endverb
+    \field{month}{08}
+    \field{year}{2010}
+    \field{urlday}{25}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{rostirollaGreenHPCNovelFramework2015}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=RG}{%
+         family={Rostirolla},
+         familyi={R\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=dR}{%
+         family={{da Rosa Righi}},
+         familyi={d\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RVF}{%
+         family={Rodrigues},
+         familyi={R\bibinitperiod},
+         given={Vinicius\bibnamedelima Facco},
+         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Velho},
+         familyi={V\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PEL}{%
+         family={Padoin},
+         familyi={P\bibinitperiod},
+         given={Edson\bibnamedelima Luiz},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{ARM,cluster,Energy consumption,Energy
+  measurement,energy-consumption,green computing,Green products,High
+  performance computing,measuring tools and methods,Power demand,Power
+  measurement,Program processors,Voltage measurement}
+    \strng{namehash}{RG+1}
+    \strng{fullhash}{RGdRRVFVPPEL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Energy consumption on systems that have a continuous power source is
+  tightly-related to both the computing time of an application and its required
+  CPU load. Considering the scope of HPC applications which commonly have a
+  time precision in nano or milliseconds, we observe a lack of systems that
+  combine appropriate sampling rate, low intrusiveness and low cost. In this
+  context, this article presents a model called GreenHPC that uses a hall
+  effect sensor to precisely capture current with an arbitrary timeslice on HPC
+  applications. Its scientific contribution relies on analyzing the energy
+  consumption at a cluster scale, without application intrusiveness, showing
+  the impact of maintaining idle nodes or turning them off for energy saving.
+  Furthermore, considering the use of GreenHPC over the execution of a seismic
+  wave application, we also present the number of employed processors which
+  present the best energy consumption index. Finally, we have used the obtained
+  results to infer a model to estimate energy consumption of HPC applications.
+  All the developed work has a special concern on reproducibility, so all data
+  and hardware schematics are available for download at 1.%
+    }
+    \field{booktitle}{2015 {{Sustainable Internet}} and {{ICT}} for
+  {{Sustainability}} ({{SustainIT}})}
+    \verb{doi}
+    \verb 10.1109/SustainIT.2015.7101369
+    \endverb
+    \field{pages}{1\bibrangedash 8}
+    \field{shorttitle}{{{GreenHPC}}}
+    \field{title}{{{GreenHPC}}: A Novel Framework to Measure Energy Consumption
+  on {{HPC}} Applications}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/7NHGSLTD/Rostirolla et al. - 2015 -
+    \verb  GreenHPC a novel framework to measure energy consumption on HPC appl
+    \verb ications.pdf
+    \endverb
+    \field{month}{04}
+    \field{year}{2015}
+    \field{urlday}{25}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warnePulsecoupledNeuralNetwork2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima James},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hayward},
+         familyi={H\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={Neil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Banks},
+         familyi={B\bibinitperiod},
+         given={Jasmine},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Mejias},
+         familyi={M\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+3}
+    \strng{fullhash}{WDJHRKNBJML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.21914/anziamj.v55i0.7851
+    \endverb
+    \field{issn}{1445-8810}
+    \field{pages}{1}
+    \field{title}{Pulse-Coupled Neural Network Performance for Real-Time
+  Identification of Vegetation during Forced Landing}
+    \field{volume}{54}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/5BBXQNJY/Warne et al. - 2014 - Puls
+    \verb e-coupled neural network performance for real-time identification of
+    \verb vegetation during forced la.pdf
+    \endverb
+    \field{journaltitle}{ANZIAM Journal}
+    \field{month}{03}
+    \field{year}{2014}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warneComparisonHighLevel2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KNA}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={Neil\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HRF}{%
+         family={Hayward},
+         familyi={H\bibinitperiod},
+         given={Ross\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+2}
+    \strng{fullhash}{WDJKNAHRF2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Reconfigurable computing devices can increase the performance of compute
+  intensive algorithms by implementing application specific co-processor
+  architectures. The power cost for this performance gain is often an order of
+  magnitude less than that of modern CPUs and GPUs. Exploiting the potential of
+  reconfigurable devices such as Field-Programmable Gate Arrays (FPGAs) is
+  typically a complex and tedious hardware engineering task. Recently the major
+  FPGA vendors (Altera, and Xilinx) have released their own high-level design
+  tools, which have great potential for rapid development of FPGA based custom
+  accelerators. In this paper, we will evaluate Altera's OpenCL Software
+  Development Kit, and Xilinx's Vivado High Level Sythesis tool. These tools
+  will be compared for their performance, logic utilisation, and ease of
+  development for the test case of a tri-diagonal linear system solver.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.procs.2014.05.009
+    \endverb
+    \field{issn}{18770509}
+    \field{pages}{95\bibrangedash 101}
+    \field{title}{Comparison of {{High Level FPGA Hardware Design}} for
+  {{Solving Tri-diagonal Linear Systems}}}
+    \field{volume}{29}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/PYTHG937/Warne et al. - 2014 - Comp
+    \verb arison of High Level FPGA Hardware Design for Solving Tri-diagonal Li
+    \verb near Systems.pdf
+    \endverb
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2014}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{haasNestedMLMCFramework2025}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HIB}{%
+         family={Haas},
+         familyi={H\bibinitperiod},
+         given={Irina-Beatrice},
+         giveni={I\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=GMB}{%
+         family={Giles},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Numerical Analysis,Mathematics - Numerical
+  Analysis,Quantitative Finance - Computational Finance}
+    \strng{namehash}{HIBGMB1}
+    \strng{fullhash}{HIBGMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multilevel Monte Carlo (MLMC) reduces the total computational cost of
+  financial option pricing by combining SDE approximations with multiple
+  resolutions. This paper explores a further avenue for reducing cost and
+  improving power efficiency through the use of low precision calculations on
+  configurable hardware devices such as Field-Programmable Gate Arrays (FPGAs).
+  We propose a new framework that exploits approximate random variables and
+  fixed-point operations with optimised precision to generate most SDE paths
+  with a lower cost and reduce the overall cost of the MLMC framework. We first
+  discuss several methods for the cheap generation of approximate random Normal
+  increments. To set the bit-width of variables in the path generation we then
+  propose a rounding error model and optimise the precision of all variables on
+  each MLMC level. With these key improvements, our proposed framework offers
+  higher computational savings than the existing mixed-precision MLMC
+  frameworks.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2502.07123
+    \endverb
+    \verb{eprint}
+    \verb 2502.07123
+    \endverb
+    \field{number}{arXiv:2502.07123}
+    \field{title}{A Nested {{MLMC}} Framework for Efficient Simulations on
+  {{FPGAs}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/23E9E9WV/Haas and Giles - 2025 - A
+    \verb nested MLMC framework for efficient simulations on FPGAs.pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{q-fin}
+    \field{month}{02}
+    \field{year}{2025}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{kimpsonReducedPrecisionStochasticSimulation2026}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=KT}{%
+         family={Kimpson},
+         familyi={K\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FMB}{%
+         family={Flegg},
+         familyi={F\bibinitperiod},
+         given={Mark\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=FJA}{%
+         family={Flegg},
+         familyi={F\bibinitperiod},
+         given={Jennifer\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {bioRxiv}%
+    }
+    \strng{namehash}{KT+1}
+    \strng{fullhash}{KTFMBFJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The stochastic simulation algorithm (SSA) is widely used to perform exact
+  forward simulation of discrete stochastic processes in biology. However, the
+  computational cost, driven by sequential event-by-event sampling across large
+  ensembles, remains a computational barrier. We investigate whether
+  reduced-precision floating-point arithmetic can accelerate SSA without
+  degrading statistical fidelity, drawing on the success of reduced-precision
+  methods in weather and climate modelling. We evaluate two strategies across
+  five canonical models (birth--death, Schl\"ogl, Telegraph, dimerisation,
+  repressilator): (i) mixed precision, computing propensities in 16-bit while
+  maintaining accumulators in 32-bit; and (ii) uniform precision, performing
+  all arithmetic in 16-bit. Mixed-precision SSA produces ensemble statistics
+  that closely match the 64-bit reference for all models, as measured by
+  Kolmogorov--Smirnov tests and Wasserstein distances. Under uniform precision,
+  deterministic rounding introduces systematic biases across several models,
+  with catastrophic failures in some cases. Stochastic rounding (SR) and
+  propensity normalisation eliminate these biases, restoring distributional
+  fidelity across all models tested (KS p {$>$} 0.05). Our results establish
+  mixed-precision SSA with SR as a viable acceleration strategy for
+  mathematical biology: 16-bit formats shrink per-variable data size by
+  2--4\texttimes{} relative to fp32/fp64, yielding comparable reductions in
+  memory footprint and up to \textasciitilde{} 1.5\texttimes{} wall-clock
+  speedup on CPU hardware that lacks native 16-bit arithmetic. As a
+  hardware-level acceleration, mixed-precision SSA complements algorithmic
+  methods such as tau-leaping and maps naturally onto modern GPU and TPU
+  architectures with native 16-bit arithmetic.%
+    }
+    \field{chapter}{New Results}
+    \verb{doi}
+    \verb 10.64898/2026.05.01.722176
+    \endverb
+    \field{issn}{2692-8205}
+    \field{pages}{2026.05.01.722176}
+    \field{title}{Reduced-{{Precision Stochastic Simulation For Mathematical
+  Biology}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/K8XHLC76/Kimpson et al. - 2026 - Re
+    \verb duced-Precision Stochastic Simulation For Mathematical Biology.pdf
+    \endverb
+    \field{eprinttype}{bioRxiv}
+    \field{eprintclass}{New Results}
+    \field{month}{05}
+    \field{year}{2026}
+    \field{urlday}{30}
+    \field{urlmonth}{05}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{bruggerMixedPrecisionMultilevel2014}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=BC}{%
+         family={Brugger},
+         familyi={B\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DSC}{%
+         family={De\bibnamedelima Schryver},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WN}{%
+         family={Wehn},
+         familyi={W\bibinitperiod},
+         given={Norbert},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Omland},
+         familyi={O\bibinitperiod},
+         given={Steffen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hefter},
+         familyi={H\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Ritter},
+         familyi={R\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kostiuk},
+         familyi={K\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Korn},
+         familyi={K\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BC+1}
+    \strng{fullhash}{BCDSCWNOSHMRKKAKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Nowadays, high-speed computations are mandatory for financial and insurance
+  institutes to survive in competition and to fulfill the regulatory reporting
+  requirements that have just toughened over the last years. A majority of
+  these computations are carried out on huge computing clusters, which are an
+  ever increasing cost burden for the financial industry. There,
+  state-of-the-art CPU and GPU architectures execute arithmetic operations with
+  pre-defined precisions only, that may not meet the actual requirements for a
+  specific application. Reconfigurable architectures like field programmable
+  gate arrays (FPGAs) have a huge potential to accelerate financial simulations
+  while consuming only very low energy by exploiting dedicated precisions in
+  optimal ways.%
+    }
+    \field{booktitle}{2014 {{IEEE Conference}} on {{Computational
+  Intelligence}} for {{Financial Engineering}} \& {{Economics}} ({{CIFEr}})}
+    \verb{doi}
+    \verb 10.1109/CIFEr.2014.6924076
+    \endverb
+    \field{isbn}{978-1-4799-2380-9}
+    \field{pages}{215\bibrangedash 222}
+    \field{title}{Mixed Precision Multilevel {{Monte Carlo}} on Hybrid
+  Computing Systems}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {London, UK}%
+    }
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/HFS4RSWM/Brugger et al. - 2014 - Mi
+    \verb xed precision multilevel Monte Carlo on hybrid computing systems.pdf
+    \endverb
+    \field{month}{03}
+    \field{year}{2014}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{metropolisMonteCarloMethod1949}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MN}{%
+         family={Metropolis},
+         familyi={M\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=US}{%
+         family={Ulam},
+         familyi={U\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{MNUS1}
+    \strng{fullhash}{MNUS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We shall present here the motivation and a general description of a method
+  dealing with a class of problems in mathematical physics. The method is,
+  essentially, a statistical approach to the study of differential equations,
+  or more generally, of integro-differential equations that occur in various
+  branches of the natural sciences.%
+    }
+    \verb{doi}
+    \verb 10.1080/01621459.1949.10483310
+    \endverb
+    \field{issn}{0162-1459}
+    \field{number}{247}
+    \field{pages}{335\bibrangedash 341}
+    \field{title}{The {{Monte Carlo Method}}}
+    \field{volume}{44}
+    \field{journaltitle}{Journal of the American Statistical Association}
+    \field{month}{09}
+    \field{year}{1949}
+    \field{urlday}{19}
+    \field{urlmonth}{05}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{dickHighdimensionalIntegrationQuasiMonte2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DJ}{%
+         family={Dick},
+         familyi={D\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KFY}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={Frances\bibnamedelima Y.},
+         giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=SIH}{%
+         family={Sloan},
+         familyi={S\bibinitperiod},
+         given={Ian\bibnamedelima H.},
+         giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJKFYSIH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    This paper is a contemporary review of QMC (`quasi-Monte Carlo') methods,
+  that is, equal-weight rules for the approximate evaluation of
+  high-dimensional integrals over the unit cube [0,1] s , where s may be large,
+  or even infinite. After a general introduction, the paper surveys recent
+  developments in lattice methods, digital nets, and related themes. Among
+  those recent developments are methods of construction of both lattices and
+  digital nets, to yield QMC rules that have a prescribed rate of convergence
+  for sufficiently smooth functions, and ideally also guaranteed slow growth
+  (or no growth) of the worst-case error as s increases. A crucial role is
+  played by parameters called `weights', since a careful use of the weight
+  parameters is needed to ensure that the worst-case errors in an appropriately
+  weighted function space are bounded, or grow only slowly, as the dimension s
+  increases. Important tools for the analysis are weighted function spaces,
+  reproducing kernel Hilbert spaces, and discrepancy, all of which are
+  discussed with an appropriate level of detail.%
+    }
+    \verb{doi}
+    \verb 10.1017/S0962492913000044
+    \endverb
+    \field{issn}{0962-4929, 1474-0508}
+    \field{pages}{133\bibrangedash 288}
+    \field{shorttitle}{High-Dimensional Integration}
+    \field{title}{High-Dimensional Integration: {{The}} Quasi-{{Monte Carlo}}
+  Way}
+    \field{volume}{22}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/MG3G2FSP/Dick et al. - 2013 - High-
+    \verb dimensional integration The quasi-Monte Carlo way.pdf
+    \endverb
+    \field{journaltitle}{Acta Numerica}
+    \field{month}{05}
+    \field{year}{2013}
+    \field{urlday}{06}
+    \field{urlmonth}{04}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{gilesMultilevelMonteCarlo2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GMB}{%
+         family={Giles},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GMB1}
+    \strng{fullhash}{GMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1017/S096249291500001X
+    \endverb
+    \verb{eprint}
+    \verb 1304.5472
+    \endverb
+    \field{pages}{259\bibrangedash 328}
+    \field{title}{Multilevel {Monte Carlo} Methods}
+    \field{volume}{24}
+    \field{journaltitle}{Acta Numerica}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.NA}
+    \field{year}{2015}
+  \endentry
+
+  \entry{gilesMultilevelMonteCarlo2008}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GMB}{%
+         family={Giles},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {INFORMS}%
+    }
+    \keyw{analysis of algorithms,computational
+  complexity,efficiency,finance,simulation}
+    \strng{namehash}{GMB1}
+    \strng{fullhash}{GMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We show that multigrid ideas can be used to reduce the computational
+  complexity of estimating an expected value arising from a stochastic
+  differential equation using Monte Carlo path simulations. In the simplest
+  case of a Lipschitz payoff and a Euler discretisation, the computational cost
+  to achieve an accuracy of O({$\epsilon$}) is reduced from O({$\epsilon-$}3)
+  to O({$\epsilon-$}2 (log {$\epsilon$})2). The analysis is supported by
+  numerical results showing significant computational savings.%
+    }
+    \verb{doi}
+    \verb 10.1287/opre.1070.0496
+    \endverb
+    \field{issn}{0030-364X}
+    \field{number}{3}
+    \field{pages}{607\bibrangedash 617}
+    \field{title}{Multilevel {{Monte Carlo Path Simulation}}}
+    \field{volume}{56}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/DMX5ZNT3/Giles - 2008 - Multilevel
+    \verb Monte Carlo Path Simulation.pdf
+    \endverb
+    \field{journaltitle}{Operations Research}
+    \field{month}{06}
+    \field{year}{2008}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warneSolvingTriDiagonalLinear}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={D\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KNA}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={N\bibnamedelima A},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HRF}{%
+         family={Hayward},
+         familyi={H\bibinitperiod},
+         given={R\bibnamedelima F},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+1}
+    \strng{fullhash}{WDJKNAHRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper, we present the outcomes of a project on the exploration of
+  the use of Field Programmable Gate Arrays (FPGAs) as co-processors for
+  scientific computation. We designed a custom circuit for the pipelined
+  solving of multiple tri-diagonal linear systems. The design is well suited
+  for applications that require many independent tri-diagonal system solves,
+  such as finite difference methods for solving PDEs or applications utilising
+  cubic spline interpolation. The selected solver algorithm was the
+  Tri-Diagonal Matrix Algorithm (TDMA or Thomas Algorithm). Our solver supports
+  user specified precision thought the use of a custom floating point VHDL
+  library supporting addition, subtraction, multiplication and division. The
+  variable precision TDMA solver was tested for correctness in simulation mode.
+  The TDMA pipeline was tested successfully in hardware using a simplified
+  solver model. The details of implementation, the limitations, and future work
+  are also discussed.%
+    }
+    \field{title}{Solving {{Tri-Diagonal Linear Systems}} Using {{Field
+  Programmable Gate Arrays}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/MWTFKX23/Warne et al. - Solving Tri
+    \verb -Diagonal Linear Systems using Field Programmable Gate Arrays.pdf
+    \endverb
+  \endentry
+
+  \entry{banksCALCULATIONENGINEPARAMETERS2014}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BJ}{%
+         family={Banks},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KNA}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={N.\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Macintosh},
+         familyi={M\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dagg},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hayward},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bodisco},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BRJ}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJKNAMHDMHRBTBRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The feasibility of real-time calculation of parameters for an internal
+  combustion engine via reconfigurable hardware implementation is investigated
+  as an alternative to software computation. A detailed in-hardware field
+  programmable gate array (FPGA)-based design is developed and evaluated using
+  input crank angle and in-cylinder pressure data from fully instrumented
+  diesel engines in the QUT Biofuel Engine Research Facility (BERF). Results
+  indicate the feasibility of employing a hardware-based implementation for
+  real-time processing for speeds comparable to the data sampling rate
+  currently used in the facility, with acceptably low level of discrepancies
+  between hardware and software-based calculation of key engine parameters.%
+    }
+    \verb{doi}
+    \verb 10.1142/S0219876213440118
+    \endverb
+    \field{issn}{0219-8762, 1793-6969}
+    \field{number}{supp01}
+    \field{pages}{1344011}
+    \field{title}{{{CALCULATION OF ENGINE PARAMETERS USING RECONFIGURABLE
+  HARDWARE}}}
+    \field{volume}{11}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/DVRAVZ82/Banks et al. - 2014 - CALC
+    \verb ULATION OF ENGINE PARAMETERS USING RECONFIGURABLE HARDWARE.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Computational Methods}
+    \field{month}{11}
+    \field{year}{2014}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{deschryverFPGABasedAccelerators2015}{book}{}
+    \name{editor}{1}{}{%
+      {{hash=DSC}{%
+         family={De\bibnamedelima Schryver},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{DSC1}
+    \strng{fullhash}{DSC1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-3-319-15407-7
+    \endverb
+    \field{isbn}{978-3-319-15406-0 978-3-319-15407-7}
+    \field{title}{{{FPGA Based Accelerators}} for {{Financial Applications}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/SZKC9Q2L/De Schryver - 2015 - FPGA
+    \verb Based Accelerators for Financial Applications.pdf
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warneVectorOperationsAccelerating2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SSA}{%
+         family={Sisson},
+         familyi={S\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Drovandi},
+         familyi={D\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+2}
+    \strng{fullhash}{WDJSSADC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Many applications in Bayesian statistics are extremely computationally
+  intensive. However, they are often inherently parallel, making them prime
+  targets for modern massively parallel processors. Multi-core and distributed
+  computing is widely applied in the Bayesian community, however, very little
+  attention has been given to fine-grain parallelisation using single
+  instruction multiple data (SIMD) operations that are available on most modern
+  CPUs. In this work, we practically demonstrate, using standard programming
+  libraries, the utility of the SIMD approach for several topical Bayesian
+  applications. Using the C programming language, we show that SIMD can improve
+  the single-core floating point arithmetic performance by up to a factor of
+  6\texttimes{} compared scalar C code and more than 25\texttimes{} compared
+  with optimised R code. Such improvements are multiplicative to any gains
+  achieved through multi-core processing. We illustrate the potential of SIMD
+  for accelerating Bayesian computations and provide the reader with techniques
+  for exploiting modern massively parallel processing environments.%
+    }
+    \verb{doi}
+    \verb 10.1214/21-BA1265
+    \endverb
+    \field{issn}{1936-0975}
+    \field{number}{2}
+    \field{title}{Vector {{Operations}} for {{Accelerating Expensive Bayesian
+  Computations}} -- {{A Tutorial Guide}}}
+    \field{volume}{17}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/NZZETEH2/Warne et al. - 2022 - Vect
+    \verb or Operations for Accelerating Expensive Bayesian Computations – A
+    \verb Tutorial Guide.pdf
+    \endverb
+    \field{journaltitle}{Bayesian Analysis}
+    \field{month}{06}
+    \field{year}{2022}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{macintoshImplementingEvaluatingHeterogeneous2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MHJ}{%
+         family={Macintosh},
+         familyi={M\bibinitperiod},
+         given={Hamish\bibnamedelima J.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BJE}{%
+         family={Banks},
+         familyi={B\bibinitperiod},
+         given={Jasmine\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KNA}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={Neil\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MHJ+1}
+    \strng{fullhash}{MHJBJEKNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Solving diagonally dominant tridiagonal linear systems is a common problem
+  in scientific high-performance computing (HPC). Furthermore, it is becoming
+  more commonplace for HPC platforms to utilise a heterogeneous combination of
+  computing devices. Whilst it is desirable to design faster implementations of
+  parallel linear system solvers, power consumption concerns are increasing in
+  priority. This work presents the oclspkt routine. The oclspkt routine is a
+  heterogeneous OpenCL implementation of the truncated SPIKE algorithm that can
+  use FPGAs, GPUs, and CPUs to concurrently accelerate the solving of
+  diagonally dominant tridiagonal linear systems. The routine is designed to
+  solve tridiagonal systems of any size and can dynamically allocate optimised
+  workloads to each accelerator in a heterogeneous environment depending on the
+  accelerator's compute performance. The truncated SPIKE FPGA solver is
+  developed first for optimising OpenCL device kernel performance, global
+  memory bandwidth, and interleaved host to device memory transactions. The
+  FPGA OpenCL kernel code is then refactored and optimised to best exploit the
+  underlying architecture of the CPU and GPU. An optimised TDMA OpenCL kernel
+  is also developed to act as a serial baseline performance comparison for the
+  parallel truncated SPIKE kernel since no FPGA tridiagonal solver capable of
+  solving large tridiagonal systems was available at the time of development.
+  The individual GPU, CPU, and FPGA solvers of the oclspkt routine are 110\%,
+  150\%, and 170\% faster, respectively, than comparable device-optimised
+  third-party solvers and applicable baselines. Assessing heterogeneous
+  combinations of compute devices, the GPU\,+\,FPGA combination is found to
+  have the best compute performance and the FPGA-only configuration is found to
+  have the best overall estimated energy efficiency.%
+    }
+    \verb{doi}
+    \verb 10.1155/2019/3679839
+    \endverb
+    \field{issn}{1687-7195, 1687-7209}
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{Implementing and {{Evaluating}} an {{Heterogeneous}},
+  {{Scalable}}, {{Tridiagonal Linear System Solver}} with {{OpenCL}} to
+  {{Target FPGAs}}, {{GPUs}}, and {{CPUs}}}
+    \field{volume}{2019}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/GMP8WVPR/Macintosh et al. - 2019 -
+    \verb Implementing and Evaluating an Heterogeneous, Scalable, Tridiagonal L
+    \verb inear System Solver with OpenCL.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Reconfigurable Computing}
+    \field{month}{10}
+    \field{year}{2019}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warneHeterogeneousComputingApproach2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima James},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lindsay},
+         familyi={L\bibinitperiod},
+         given={Kenneth},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hurn},
+         familyi={H\bibinitperiod},
+         given={Stan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+3}
+    \strng{fullhash}{WDJLKHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.21914/anziamj.v57i0.10425
+    \endverb
+    \field{issn}{1445-8810}
+    \field{pages}{364}
+    \field{title}{A {{Heterogeneous Computing Approach}} to {{Simulation}} of
+  the {{Heston Stochastic Volatility Model}}}
+    \field{volume}{57}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/MSVPERLT/Warne et al. - 2016 - A He
+    \verb terogeneous Computing Approach to Simulation of the Heston Stochastic
+    \verb  Volatility Model.pdf
+    \endverb
+    \field{journaltitle}{ANZIAM Journal}
+    \field{month}{11}
+    \field{year}{2016}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{macintoshImplementationParallelTridiagonal2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MHJ}{%
+         family={Macintosh},
+         familyi={M\bibinitperiod},
+         given={Hamish\bibnamedelima J},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KNA}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={Neil\bibnamedelima A},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BJE}{%
+         family={Banks},
+         familyi={B\bibinitperiod},
+         given={Jasmine\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=FTW}{%
+         family={Farrell},
+         familyi={F\bibinitperiod},
+         given={Troy\bibnamedelima W},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MHJ+2}
+    \strng{fullhash}{MHJWDJKNABJEFTW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Tridiagonal diagonally dominant linear systems arise in many scientific and
+  engineering applications. The standard Thomas algorithm for solving such
+  systems is inherently serial, forming a bottleneck in computation. Algorithms
+  such as cyclic reduction and spike reduce a single large tridiagonal system
+  into multiple small independent systems which are solved in parallel. We
+  develop portable cyclic reduction and the spike algorithm for Open Computing
+  Language implementations on a range of co-processors in a heterogeneous
+  computing environment, including field programmable gate arrays, graphics
+  processing units and other multi-core processors. We evaluate these designs
+  in the context of solver performance, resource efficiency and numerical
+  accuracy.%
+    }
+    \verb{doi}
+    \verb 10.21914/anziamj.v56i0.9371
+    \endverb
+    \field{issn}{1445-8810}
+    \field{pages}{446}
+    \field{title}{Implementation of Parallel Tridiagonal Solvers for a
+  Heterogeneous Computing Environment}
+    \field{volume}{56}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/EQMNY5DT/Macintosh et al. - 2016 -
+    \verb Implementation of parallel tridiagonal solvers for a heterogeneous co
+    \verb mputing environment.pdf
+    \endverb
+    \field{journaltitle}{ANZIAM Journal}
+    \field{month}{02}
+    \field{year}{2016}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{cardosoChapter2Highperformance2017}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=CJMP}{%
+         family={Cardoso},
+         familyi={C\bibinitperiod},
+         given={Jo{\~a}o M.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=CJGF}{%
+         family={Coutinho},
+         familyi={C\bibinitperiod},
+         given={Jos{\'e} Gabriel\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=DPC}{%
+         family={Diniz},
+         familyi={D\bibinitperiod},
+         given={Pedro\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=CJMP}{%
+         family={Cardoso},
+         familyi={C\bibinitperiod},
+         given={Jo{\~a}o M.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=CJGF}{%
+         family={Coutinho},
+         familyi={C\bibinitperiod},
+         given={Jos{\'e} Gabriel\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=DPC}{%
+         family={Diniz},
+         familyi={D\bibinitperiod},
+         given={Pedro\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Morgan Kaufmann}%
+    }
+    \keyw{Amdahl's law,Computer architectures,FPGAs,GPUs,Hardware
+  accelerators,Profiling}
+    \strng{namehash}{CJMP+1}
+    \strng{fullhash}{CJMPCJGFDPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This chapter provides an overview of the main concepts and representative
+  computer architectures for high-performance embedded computing systems. As
+  the multicore and many-core trends are shaping the organization of computing
+  devices on all computing domain spectrums, from high-performance computing
+  (HPC) to embedded computing, this chapter briefly describes some of the
+  common CPU architectures, including platforms containing multiple
+  cores/processors. In addition, this chapter introduces heterogeneous
+  architectures, including hardware accelerators (GPUs and FPGAs) and
+  system-on-a-chip (SoC) reconfigurable devices. The chapter highlights the
+  importance of the Amdahl's law and its implications when offloading
+  computations to hardware accelerators. Lastly, this chapter describes
+  power/energy and performance models.%
+    }
+    \field{booktitle}{Embedded {{Computing}} for {{High Performance}}}
+    \verb{doi}
+    \verb 10.1016/B978-0-12-804189-5.00002-8
+    \endverb
+    \field{isbn}{978-0-12-804189-5}
+    \field{pages}{17\bibrangedash 56}
+    \field{title}{Chapter 2 - {{High-performance}} Embedded Computing}
+    \list{location}{1}{%
+      {Boston}%
+    }
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/ZWND53ES/Cardoso et al. - 2017 - Ch
+    \verb apter 2 - High-performance embedded computing.pdf;/home/luca-lubrano/
+    \verb Zotero/storage/7MVIN83G/B9780128041895000028.html
+    \endverb
+    \field{month}{01}
+    \field{year}{2017}
+    \field{urlday}{25}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{gillespieChemicalLangevinEquation2000}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GDT}{%
+         family={Gillespie},
+         familyi={G\bibinitperiod},
+         given={Daniel\bibnamedelima T.},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDT1}
+    \strng{fullhash}{GDT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The stochastic dynamical behavior of a well-stirred mixture of N molecular
+  species that chemically interact through M reaction channels is accurately
+  described by the chemical master equation. It is shown here that, whenever
+  two explicit dynamical conditions are satisfied, the microphysical premise
+  from which the chemical master equation is derived leads directly to an
+  approximate time-evolution equation of the Langevin type. This chemical
+  Langevin equation is the same as one studied earlier by Kurtz, in
+  contradistinction to some other earlier proposed forms that assume a
+  deterministic macroscopic evolution law. The novel aspect of the present
+  analysis is that it shows that the accuracy of the equation depends on the
+  satisfaction of certain specific conditions that can change from moment to
+  moment, rather than on a static system size parameter. The derivation affords
+  a new perspective on the origin and magnitude of noise in a chemically
+  reacting system. It also clarifies the connection between the stochastically
+  correct chemical master equation, and the deterministic but often
+  satisfactory reaction rate equation.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.481811
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{1}
+    \field{pages}{297\bibrangedash 306}
+    \field{title}{The Chemical {{Langevin}} Equation}
+    \field{volume}{113}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/9A9CG63P/Gillespie - 2000 - The che
+    \verb mical Langevin equation.pdf;/home/luca-lubrano/Zotero/storage/M34UJZ5
+    \verb L/1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{07}
+    \field{year}{2000}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{haasNestedMLMCFramework2025a}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HIB}{%
+         family={Haas},
+         familyi={H\bibinitperiod},
+         given={Irina-Beatrice},
+         giveni={I\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=GMB}{%
+         family={Giles},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Numerical Analysis,Mathematics - Numerical
+  Analysis,Quantitative Finance - Computational Finance}
+    \strng{namehash}{HIBGMB1}
+    \strng{fullhash}{HIBGMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multilevel Monte Carlo (MLMC) reduces the total computational cost of
+  financial option pricing by combining SDE approximations with multiple
+  resolutions. This paper explores a further avenue for reducing cost and
+  improving power efficiency through the use of low precision calculations on
+  configurable hardware devices such as Field-Programmable Gate Arrays (FPGAs).
+  We propose a new framework that exploits approximate random variables and
+  fixed-point operations with optimised precision to generate most SDE paths
+  with a lower cost and reduce the overall cost of the MLMC framework. We first
+  discuss several methods for the cheap generation of approximate random Normal
+  increments. To set the bit-width of variables in the path generation we then
+  propose a rounding error model and optimise the precision of all variables on
+  each MLMC level. With these key improvements, our proposed framework offers
+  higher computational savings than the existing mixed-precision MLMC
+  frameworks.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2502.07123
+    \endverb
+    \verb{eprint}
+    \verb 2502.07123
+    \endverb
+    \field{number}{arXiv:2502.07123}
+    \field{title}{A Nested {{MLMC}} Framework for Efficient Simulations on
+  {{FPGAs}}}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/YPWI7X47/Haas and Giles - 2025 - A
+    \verb nested MLMC framework for efficient simulations on FPGAs.pdf;/home/lu
+    \verb ca-lubrano/Zotero/storage/MYB8ECNV/2502.html
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{q-fin}
+    \field{month}{02}
+    \field{year}{2025}
+    \field{urlday}{06}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{jahnkeSolvingChemicalMaster2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JT}{%
+         family={Jahnke},
+         familyi={J\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Huisinga},
+         familyi={H\bibinitperiod},
+         given={Wilhelm},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{34A05,60J25,92C45,Chemical master equation,Continuous-time Markov
+  process,Convergence to steady state,Explicit solution formula}
+    \strng{namehash}{JTHW1}
+    \strng{fullhash}{JTHW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The stochastic dynamics of a well-stirred mixture of molecular species
+  interacting through different biochemical reactions can be accurately
+  modelled by the chemical master equation (CME). Research in the biology and
+  scientific computing community has concentrated mostly on the development of
+  numerical techniques to approximate the solution of the CME via many
+  realizations of the associated Markov jump process. The domain of exact
+  and/or efficient methods for directly solving the CME is still widely open,
+  which is due to its large dimension that grows exponentially with the number
+  of molecular species involved. In this article, we present an exact solution
+  formula of the CME for arbitrary initial conditions in the case where the
+  underlying system is governed by monomolecular reactions. The solution can be
+  expressed in terms of the convolution of multinomial and product Poisson
+  distributions with time-dependent parameters evolving according to the
+  traditional reaction-rate equations. This very structured representation
+  allows to deduce easily many properties of the solution. The model class
+  includes many interesting examples. For more complex reaction systems, our
+  results can be seen as a first step towards the construction of new numerical
+  integrators, because solutions to the monomolecular case provide promising
+  ansatz functions for Galerkin-type methods.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00285-006-0034-x
+    \endverb
+    \field{issn}{1432-1416}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 26}
+    \field{title}{Solving the Chemical Master Equation for Monomolecular
+  Reaction Systems Analytically}
+    \field{volume}{54}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/XNYBTCQR/Jahnke and Huisinga - 2007
+    \verb  - Solving the chemical master equation for monomolecular reaction sy
+    \verb stems analytically.pdf
+    \endverb
+    \field{journaltitle}{Journal of Mathematical Biology}
+    \field{month}{01}
+    \field{year}{2007}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{michaelisKinetikInvertinwirkung1913}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ML}{%
+         family={Michaelis},
+         familyi={M\bibinitperiod},
+         given={Leonor},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MML}{%
+         family={Menten},
+         familyi={M\bibinitperiod},
+         given={Maud\bibnamedelima Leonora},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MLMML1}
+    \strng{fullhash}{MLMML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{0366-0753}
+    \field{pages}{333\bibrangedash 369}
+    \field{title}{{Die Kinetik der Invertinwirkung}}
+    \field{volume}{49}
+    \field{langid}{deu}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/VXAGMTVV/17273.html
+    \endverb
+    \field{journaltitle}{Biochemische Zeitschrift}
+    \field{year}{1913}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{marshallQuantitativeModelingTranscription2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MR}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Noireaux},
+         familyi={N\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Dynamical systems,Synthetic biology}
+    \strng{namehash}{MRNV1}
+    \strng{fullhash}{MRNV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cell-free transcription-translation (TXTL) is expanding as a polyvalent
+  experimental platform to engineer biological systems outside living
+  organisms. As the number of TXTL applications and users is rapidly growing,
+  some aspects of this technology could be better characterized to provide a
+  broader description of its basic working mechanisms. In particular,
+  developing simple quantitative biophysical models that grasp the different
+  regimes of in vitro gene expression, using relevant kinetic constants and
+  concentrations of molecular components, remains insufficiently examined. In
+  this work, we present an ODE (Ordinary Differential Equation)-based model of
+  the expression of a reporter gene in an all E. coli TXTL that we apply to a
+  set of regulatory elements spanning several orders of magnitude in strengths,
+  far beyond the T7 standard system used in most of the TXTL platforms. Several
+  key biochemical constants are experimentally determined through fluorescence
+  assays. The robustness of the model is tested against the experimental
+  parameters, and limitations of TXTL resources are described. We establish
+  quantitative references between the performance of E. coli and synthetic
+  promoters and ribosome binding sites. The model and the data should be useful
+  for the TXTL community interested either in gene network engineering or in
+  biomanufacturing beyond the conventional platforms relying on phage
+  transcription.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41598-019-48468-8
+    \endverb
+    \field{issn}{2045-2322}
+    \field{number}{1}
+    \field{pages}{11980}
+    \field{title}{Quantitative Modeling of Transcription and Translation of an
+  All-{{E}}. Coli Cell-Free System}
+    \field{volume}{9}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/FBK9JQTG/Marshall and Noireaux - 20
+    \verb 19 - Quantitative modeling of transcription and translation of an all
+    \verb -E. coli cell-free system.pdf
+    \endverb
+    \field{journaltitle}{Scientific Reports}
+    \field{month}{08}
+    \field{year}{2019}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{elowitzSyntheticOscillatoryNetwork2000}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EMB}{%
+         family={Elowitz},
+         familyi={E\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leibler},
+         familyi={L\bibinitperiod},
+         given={Stanislas},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Humanities and Social Sciences,multidisciplinary,Science}
+    \strng{namehash}{EMBLS1}
+    \strng{fullhash}{EMBLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Networks of interacting biomolecules carry out many essential functions in
+  living cells1, but the `design principles' underlying the functioning of such
+  intracellular networks remain poorly understood, despite intensive efforts
+  including quantitative analysis of relatively simple systems2. Here we
+  present a complementary approach to this problem: the design and construction
+  of a synthetic network to implement a particular function. We used three
+  transcriptional repressor systems that are not part of any natural biological
+  clock3,4,5 to build an oscillating network, termed the repressilator, in
+  Escherichia coli. The network periodically induces the synthesis of green
+  fluorescent protein as a readout of its state in individual cells. The
+  resulting oscillations, with typical periods of hours, are slower than the
+  cell-division cycle, so the state of the oscillator has to be transmitted
+  from generation to generation. This artificial clock displays noisy
+  behaviour, possibly because of stochastic fluctuations of its components.
+  Such `rational network design' may lead both to the engineering of new
+  cellular behaviours and to an improved understanding of naturally occurring
+  networks.%
+    }
+    \verb{doi}
+    \verb 10.1038/35002125
+    \endverb
+    \field{issn}{1476-4687}
+    \field{number}{6767}
+    \field{pages}{335\bibrangedash 338}
+    \field{title}{A Synthetic Oscillatory Network of Transcriptional
+  Regulators}
+    \field{volume}{403}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/S54HM5R9/Elowitz and Leibler - 2000
+    \verb  - A synthetic oscillatory network of transcriptional regulators.pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{month}{01}
+    \field{year}{2000}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{pulkkinenVariancecorrectedMichaelisMentenEquation2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PO}{%
+         family={Pulkkinen},
+         familyi={P\bibinitperiod},
+         given={Otto},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Metzler},
+         familyi={M\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Chemical physics,Reaction kinetics and dynamics}
+    \strng{namehash}{POMR1}
+    \strng{fullhash}{POMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Many chemical reactions in biological cells occur at very low
+  concentrations of constituent molecules. Thus, transcriptional
+  gene-regulation is often controlled by poorly expressed
+  transcription-factors, such as E.coli lac repressor with few tens of copies.
+  Here we study the effects of inherent concentration fluctuations of
+  substrate-molecules on the seminal Michaelis-Menten scheme of biochemical
+  reactions. We present a universal correction to the Michaelis-Menten equation
+  for the reaction-rates. The relevance and validity of this correction for
+  enzymatic reactions and intracellular gene-regulation is demonstrated. Our
+  analytical theory and simulation results confirm that the proposed
+  variance-corrected Michaelis-Menten equation predicts the rate of reactions
+  with remarkable accuracy even in the presence of large non-equilibrium
+  concentration fluctuations. The major advantage of our approach is that it
+  involves only the mean and variance of the substrate-molecule concentration.
+  Our theory is therefore accessible to experiments and not specific to the
+  exact source of the concentration fluctuations.%
+    }
+    \verb{doi}
+    \verb 10.1038/srep17820
+    \endverb
+    \field{issn}{2045-2322}
+    \field{number}{1}
+    \field{pages}{17820}
+    \field{title}{Variance-Corrected {{Michaelis-Menten}} Equation Predicts
+  Transient Rates of Single-Enzyme Reactions and Response Times in Bacterial
+  Gene-Regulation}
+    \field{volume}{5}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/8YAVR72M/Pulkkinen and Metzler - 20
+    \verb 15 - Variance-corrected Michaelis-Menten equation predicts transient
+    \verb rates of single-enzyme reactions and.pdf
+    \endverb
+    \field{journaltitle}{Scientific Reports}
+    \field{month}{12}
+    \field{year}{2015}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{wongStructuralConditionsComplex2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WF}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dutta},
+         familyi={D\bibinitperiod},
+         given={Annwesha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chowdhury},
+         familyi={C\bibinitperiod},
+         given={Debashish},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gunawardena},
+         familyi={G\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Proceedings of the National Academy of Sciences}%
+    }
+    \strng{namehash}{WF+1}
+    \strng{fullhash}{WFDACDGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Michaelis\&ndash;Menten (MM) fundamental formula describes how the rate
+  of enzyme catalysis depends on substrate concentration. The familiar
+  hyperboli...%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1808053115
+    \endverb
+    \field{number}{39}
+    \field{pages}{9738\bibrangedash 9743}
+    \field{title}{Structural Conditions on Complex Networks for the
+  {{Michaelis}}--{{Menten}} Input--Output Response}
+    \field{volume}{115}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/TTPHQWW8/Wong et al. - 2018 - Struc
+    \verb tural conditions on complex networks for the Michaelis–Menten input
+    \verb –output response.pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{month}{09}
+    \field{year}{2018}
+    \field{urlday}{20}
+    \field{urlmonth}{10}
+    \field{urlyear}{2025}
+  \endentry
+\enddatalist
+\endinput

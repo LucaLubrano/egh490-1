@@ -1,0 +1,289 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{wrapfig}
+\usepackage{fancyhdr} 
+\usepackage[a4paper, left=2cm,right=2cm,top=2cm,bottom=1.5cm]{geometry}
+\usepackage{appendix}
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{ Figures }
+\usepackage{amsmath}
+\usepackage{comment}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{fancyhdr}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{dsfont}
+\usepackage{cuted}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{sectsty}
+\usepackage{pdfpages}
+\definecolor{section_heading}{RGB}{0, 59, 113}
+\sectionfont{\color{section_heading}}  
+\subsectionfont{\color{section_heading}}  
+\subsubsectionfont{\color{section_heading}}  
+\paragraphfont{\color{section_heading}}  
+%\usepackage{svg}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{placeins}
+\usepackage{makecell}
+\usepackage[inkscapearea=page]{svg}
+\svgsetup{inkscapeexe={~/inkscape-wrapper.sh}}
+\lstdefinelanguage{OpenCL}{
+	language=C,
+	morekeywords={__kernel, __global, __local, __constant, __private,
+		kernel, global, local, constant, private,
+		get_global_id, get_local_id, get_group_id,
+		get_global_size, get_local_size, get_num_groups,
+		barrier, CLK_LOCAL_MEM_FENCE, CLK_GLOBAL_MEM_FENCE,
+		float2, float3, float4, float8, float16,
+		int2, int3, int4, int8, int16,
+		uint2, uint3, uint4, uint8, uint16,
+		char2, char3, char4, char8, char16,
+		uchar2, uchar3, uchar4, uchar8, uchar16,
+		image2d_t, image3d_t, sampler_t,
+		read_imagef, write_imagef, read_imagei, write_imagei},
+}
+\lstset{
+	%language=OpenCL,
+	basicstyle=\ttfamily\footnotesize,
+	keywordstyle=\color{red}\bfseries,
+	commentstyle=\color{green!50!black}\itshape,
+	stringstyle=\color{orange},
+	morekeywords={size_t, cl_int, cl_uint, cl_float, cl_double, cl_bool, cl_kernel, cl_mem, queue, kernel, enqueueNDRangeKernel, NullRange, NDRange},
+	literate=
+	{0}{{\textcolor{orange}{0}}}{1}
+	{1}{{\textcolor{orange}{1}}}{1}
+	{2}{{\textcolor{orange}{2}}}{1}
+	{3}{{\textcolor{orange}{3}}}{1}
+	{4}{{\textcolor{orange}{4}}}{1}
+	{5}{{\textcolor{orange}{5}}}{1}
+	{6}{{\textcolor{orange}{6}}}{1}
+	{7}{{\textcolor{orange}{7}}}{1}
+	{8}{{\textcolor{orange}{8}}}{1}
+	{9}{{\textcolor{orange}{9}}}{1},
+	numbers=left,
+	numberstyle=\tiny\color{gray}\ttfamily,
+	numbersep=10pt,
+	breaklines=true,
+	showstringspaces=false,
+	backgroundcolor=\color{gray!12},
+	frame=single,
+	frameround=tttt,
+	rulecolor=\color{gray!30},
+	xleftmargin=15pt,
+	framexleftmargin=15pt,
+	aboveskip=10pt,
+	belowskip=10pt,
+	columns=fullflexible,
+	keepspaces=true,
+	%identifierstyle=\color{black!80},  % slightly grey identifiers
+	emphstyle=\color{cyan},
+}
+\usepackage[
+    style=ieee,
+    sorting=none,
+    citestyle=numeric-comp,
+    backend=bibtex,
+    doi=false,
+    isbn=false,
+    url=false,
+    eprint=false
+]{biblatex}
+
+\AtEveryBibitem{
+    \clearfield{urlyear}
+    \clearfield{urlmonth}
+    \clearfield{urlday}
+}
+
+\addbibresource{refs.bib}
+\usepackage{amsmath,amsthm,amssymb,setspace,enumitem,epsfig,titlesec,verbatim,color,array,eurosym,multirow,blkarray,lscape,soul,graphicx,comment,nicefrac,lineno,epstopdf,accents,pifont}
+\usepackage[bf,small]{caption}
+\DeclareMathSizes{11.5}{20}{14}{10}   % For size 11 text
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\qedsymbol}{$\hfill\blacksquare$}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=blue,
+	urlcolor=blue,
+	filecolor=black
+}
+
+\newcommand{\refeq}[1]{\hyperref[#1]{Equation \ref{#1}}}
+\newcommand{\reffig}[1]{\hyperref[#1]{Figure \ref{#1}}}
+\newcommand{\reftbl}[1]{\hyperref[#1]{Table \ref{#1}}}
+\newcommand{\refapn}[1]{\hyperref[#1]{Appendix \ref{#1}}}
+\newcommand{\refsec}[1]{\hyperref[#1]{Section \ref{#1}}}
+\newcommand{\reflst}[1]{\hyperref[#1]{Listing \ref{#1}}}
+\newcommand{\refalg}[1]{\hyperref[#1]{Algorithm \ref{#1}}}
+\newcommand{\refsup}[1]{\hyperref[#1]{Supplementary Material}}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\title{FPGA-based mix-precision Monte Carlo using high level synthesis tools}
+\date{
+	EGH490-1 Project Proposal\\
+	\vspace{10mm}
+	September 4, 2026
+}
+\pagestyle{fancy}
+\fancyhf{} 
+% Footer config
+\fancyfoot[C]{\raisebox{0.2cm}{\thepage}}
+\fancyfoot[L]{\includegraphics[height=0.75cm]{Figures/Misc/QUT_logo_footer.png}} 
+\fancyfoot[R]{\raisebox{0.2cm}{L. Lubrano Lavadera}}
+\fancyhead{} 
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+	\maketitle
+    \pagenumbering{Roman}
+    \vspace{200px}
+    \begin{center}
+        Author:\\
+        \vspace{0.4cm}
+        \textbf{{\Large Luca Lubrano Lavadera}}\\
+        \vspace{0.8cm}
+        Under the supervision of:\\
+        \vspace{0.4cm}
+        \textbf{{\Large Dr Jasmine Banks}}\\
+        \vspace{0.4cm}
+        \textbf{{\Large Dr David J. Warne}}
+    \end{center}
+    \vfill
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.3\linewidth]{Figures/Misc/QUT-logo.png}
+    \end{figure}
+    \thispagestyle{empty}
+    \newpage
+    \hypersetup{
+    	colorlinks=true,
+    	linkcolor=blue,
+    	citecolor=blue,
+    	urlcolor=blue,
+    	filecolor=black
+    }
+    \newpage
+    \pagenumbering{arabic} 
+	
+	\section{General Objective}
+	The primary objective of this project is to explore how reconfigurable computing can be used to reduce the total power consumption of heterogeneous computing environment, such as data centres. We will develop practical implementations of Monte Carlo algorithms to benchmark against theoretical techniques that have previously been explored in the literature. To do this, we will perform a case study utilising field programmable gate arrays (FPGAs) and high-level synthesis tools to understand the feasibility of adopting and utilising reconfigurable devices as accelerator hardware in these heterogeneous frameworks. \hl{add to}
+	
+	\subsection{Research Questions}
+	\begin{enumerate}
+		\item To what extent can implementations of Monte Carlo on reconfigurable computing hardware improve the power efficiency of algorithms compared to graphical processing units?
+		\item To what extent can high-level synthesis tools and portable code frameworks be used to reduce the development time of algorithms in heterogeneous computing environments>
+	\end{enumerate}
+	
+	\section{Key Finding from the Literature}
+	\hl{todo after literature is finalised}
+	
+	\section{Stakeholders \& Resources}
+	\hl{intro para}
+	
+	\subsection{Stakeholders}
+	\hl{todo}
+	
+	\subsection{Resources}
+	To be able to complete this project there are several key resources that need to be secured. The most critical of these being access to an FPGA on the QUT high performance computer (HPC). This involves the coordination of appropriate software installation and hardware access permissions with Hamish Macintosh, DevOps Team Lead with HPC. 
+	
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{l|X|r}
+			Item & Description & Cost \\\hline
+			AMD U55C FPGA & \hl{todo} & \$0.00 \\
+			Intel CPU & \hl{todo} & \$0.00 \\
+			NVIDIA GPU & \hl{todo} & \$0.00 \\
+			Xilinx Vivado Vitis & \hl{todo} & TBD \\
+		\end{tabularx}	
+		\caption{\hl{todo}}
+	\end{table}
+	
+	\section{Project Methodology}
+	
+	\subsection{Methods}
+	
+	\subsection{Results}
+	
+	\section{Deliverables}
+	The expected outcome of this project will be the development and verification of algorithms using high-level synthesis tools for FPGA devices. The main contribution of this work will be benchmarking results and analysis in how FPGAs and reconfigurable computing architectures can be implemented in heterogeneous computing environments to reduce power consumption for compute intensive tasks. This will include a detailed report on the usability of, and development time for complex algorithms using, these HLS tools to better understand the feasibility of adopting FPGAs into scientific computing. 
+	
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{X|X|r}
+			Deliverable & Stakeholder & Due Date\\\hline
+			EGH490-1 Project Proposal Draft & Supervisors & 21/08/26\\
+			FPGA Simulation Example Simulation & Supervisors & 04/09/26\\
+			EGH490-1 Project Proposal & Supervisors & 04/09/26\\
+			Preliminary Simulation Findings & Supervisors & 11/09/26\\
+			Geometric Brownian Motion Simulation & Supervisors & 02/10/26\\
+			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
+			EGH490-1 Progress Report & Supervisors & 23/10/26\\
+		\end{tabularx}	
+		\caption{\hl{todo}}
+	\end{table}
+	
+	\section{Risks, Requirements \& Constraints}
+	
+	\subsection{Risks}
+	Since this project has key dependencies that must be met in order to progress, specifically access and functionality of the FPGA on the QUT HPC. If access cannot be gained to this resource or there are issues with the installation of the appropriate software to run HLS tools on the card, implementation of algorithms will be limited. To mitigate this risk, development of the deliverable software will be done in parallel with simulation using the Xilinx Vitas tool-chain which can be used to generate estimated results for the FPGAs performance. Due to the complexity of algorithms being developed using the simulated hardware, the computational bandwidth required is unknown. As such, the QUT HPC will be used for the execution of simulations should it be too intense for a personal computer. 
+	
+	Secondary risks to the project are the compatibility of portable software kernels amongst devices, constrained by the availability of devices on the QUT HPC. A goal of the project is also to investigate the portability of software written in the OpenCL language as a way to reduce development time of algorithms. However, recently AMD have deviated the OpenCL standard to the Heterogeneous-computing Interface for Portability (HIP) framework. To reduce the impact of this on the project, the code base will written in HIP and bench marked on AMD compute device to provide comparable to an OpenCL implementation.  
+
+	\subsection{Requirements}
+	\hl{todo}
+	
+	\subsection{Constraints}
+	
+	\hl{todo}
+	
+	\subsection{Risk Assessment}
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{X|X|X|X|X}
+			Risk & Likelihood & Consequence & Control type & Control \\\hline
+			Musculoskeletal strain/poor posture from prolonged sitting and computer use & Medium & Low & Administrative & Take regular breaks (15 minutes per hour), maintain correct posture, use an adjustable chair and monitor height in line to be in line with eye level with elbows at 90 degrees. \\\hline
+			Eye strain and mental fatigue from extended screen exposure & Medium & Low & Administrative & Follow the 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds), adjust screen brightness/contrast, ensure adequate ambient lighting \\\hline
+			Loss of thesis work, code, or data due to hardware failure, corruption, or accidental deletion & Medium & High & Engineering \& Administrative & Use git version control with a remote repository, push commits to remote repository daily \\\hline
+			Electrical or trip hazard from computer equipment, chargers, and loose cabling & Low & Medium & Engineering & Ensure all equipment is electrical tested where required, route cables away from walkways, keep the desk area tidy and free of clutter \\\hline
+			Burnout or stress from extended, isolated independent work under project deadlines & Medium & Medium & Administrative & Set realistic milestones and a project schedule, maintain regular check-ins with supervisors, schedule rest days and enforce reasonable working hours \\\hline
+		\end{tabularx}	
+		\caption{\hl{Project risk assessment}}
+	\end{table}
+	
+	\section{Quality \& Sustainability}
+	\subsection{Quality}
+	
+	
+	\subsection{Sustainability}
+	Sustainability is a key focus of this project, specifically we are exploring how reconfigurable devices in heterogeneous computing environments can lower the total power consumption for a HPC with equivalent computational performance. While this is the end goal, we are required to do significant testing on the QUT HPC. As such, it is important to consider the short-term impact this has on the environment through via power utilisation. We aim to mitigate this by ensuring all algorithms are validated through simulation testing before being executed on the HPC. 
+	
+	\section{Timeline \& Deliverables}
+	
+	
+	\section{Management of Project Changes}
+	\vfill
+	\section*{Sign off}
+	\begin{tabularx}{\textwidth}{X|X|X}
+	Name & Signature & Date \\\hline
+	Luca Lubrano & & 04/09/2026\\\hline
+	\end{tabularx}
+	\vspace{5mm}
+	\appendix
+	\newpage
+	\input{Sections/LiteratureReview}
+	
+	\newpage
+    \printbibliography
+
+\end{document}
