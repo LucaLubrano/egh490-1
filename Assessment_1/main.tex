@@ -180,7 +180,7 @@
     \pagenumbering{arabic} 
 	
 	\section{General Objective}
-	The primary objective of this project is to explore how reconfigurable computing can be used to reduce the total power consumption of heterogeneous computing environment, such as data centres. We will develop practical implementations of Monte Carlo algorithms to benchmark against theoretical techniques that have previously been explored in the literature. To do this, we will perform a case study utilising field programmable gate arrays (FPGAs) and high-level synthesis tools to understand the feasibility of adopting and utilising reconfigurable devices as accelerator hardware in these heterogeneous frameworks. \hl{add to}
+	The primary objective of this project is to explore how reconfigurable computing can be used to reduce the total power consumption of heterogeneous computing environment, such as data centres. We will develop practical implementations of Monte Carlo algorithms to benchmark against theoretical techniques that have previously been explored in the literature. To do this, we will perform a case study utilising field programmable gate arrays (FPGAs) and high-level synthesis tools to understand the feasibility of adopting and utilising reconfigurable devices as accelerator hardware in these heterogeneous frameworks. \hl{add to --- should i be talking about mixed-precision methods here?}
 	
 	\subsection{Research Questions}
 	\begin{enumerate}
@@ -221,7 +221,7 @@
 	The expected outcome of this project will be the development and verification of algorithms using high-level synthesis tools for FPGA devices. The main contribution of this work will be benchmarking results and analysis in how FPGAs and reconfigurable computing architectures can be implemented in heterogeneous computing environments to reduce power consumption for compute intensive tasks. This will include a detailed report on the usability of, and development time for complex algorithms using, these HLS tools to better understand the feasibility of adopting FPGAs into scientific computing. 
 	
 	\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{X|X|r}
+		\begin{tabularx}{\textwidth}{|X|X|r|}\hline
 			Deliverable & Stakeholder & Due Date\\\hline
 			EGH490-1 Project Proposal Draft & Supervisors & 21/08/26\\
 			FPGA Simulation Example Simulation & Supervisors & 04/09/26\\
@@ -229,9 +229,23 @@
 			Preliminary Simulation Findings & Supervisors & 11/09/26\\
 			Geometric Brownian Motion Simulation & Supervisors & 02/10/26\\
 			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
-			EGH490-1 Progress Report & Supervisors & 23/10/26\\
+			EGH490-1 Progress Report & Supervisors & 23/10/26\\\hline
 		\end{tabularx}	
-		\caption{\hl{todo}}
+		\caption{\hl{Deliverable outcomes of EGH490-1}}
+	\end{table}
+	
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{|X|X|r|}\hline
+			Deliverable & Stakeholder & Due Date\\\hline
+			EGH490-1 Project Proposal Draft & Supervisors & 21/08/26\\
+			FPGA Simulation Example Simulation & Supervisors & 04/09/26\\
+			EGH490-1 Project Proposal & Supervisors & 04/09/26\\
+			Preliminary Simulation Findings & Supervisors & 11/09/26\\
+			Geometric Brownian Motion Simulation & Supervisors & 02/10/26\\
+			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
+			EGH490-1 Progress Report & Supervisors & 23/10/26\\\hline
+		\end{tabularx}	
+		\caption{\hl{TODO: Deliverable outcomes of EGH490-2}}
 	\end{table}
 	
 	\section{Risks, Requirements \& Constraints}
@@ -258,12 +272,14 @@
 			Electrical or trip hazard from computer equipment, chargers, and loose cabling & Low & Medium & Engineering & Ensure all equipment is electrical tested where required, route cables away from walkways, keep the desk area tidy and free of clutter \\\hline
 			Burnout or stress from extended, isolated independent work under project deadlines & Medium & Medium & Administrative & Set realistic milestones and a project schedule, maintain regular check-ins with supervisors, schedule rest days and enforce reasonable working hours \\\hline
 		\end{tabularx}	
-		\caption{\hl{Project risk assessment}}
+		\caption{\hl{Project risk assessment --- should this be an appendix? (probably)}}
 	\end{table}
 	
 	\section{Quality \& Sustainability}
 	\subsection{Quality}
+	To ensure that the quality of outcome from this research, we will structure the milestone deliverables such that the codebase and corresponding simulation outputs match existing literature and verified results. This is crucial in ensuring the validity of solutions, as this project aims to work closely with novel implementations of algorithms through the use of compilation pipelines that introduce significant abstraction. This is accompanied by the staged implementation of progressively more complex biological models. By ensuring the validity of algorithms initially on simple models --- Geometric Brownian Motion \hl{cite} --- with well understood analytical behaviour we can ascertain whether the algorithms are performing per their intention.
 	
+	While validating the mathematical accuracy of models is important in ensuring the statistical usability of the research, the main focus of the work will be to explore the power usage of computation is impacted through the utilisation of reconfigurable hardware. Therefore, a key result that we will be looking to understand is the total power consumption of the device for an allotted amount of calculations. It is important to the outcomes of this research that these results are reflective of the conditions that this equipment will be used, i.e. in data centres. Hence, we will be targeting consumption readings directly from the equipment we use on the HPC. This will be accompanied by hardware simulations in preliminary findings to make initial comments on observed performance.
 	
 	\subsection{Sustainability}
 	Sustainability is a key focus of this project, specifically we are exploring how reconfigurable devices in heterogeneous computing environments can lower the total power consumption for a HPC with equivalent computational performance. While this is the end goal, we are required to do significant testing on the QUT HPC. As such, it is important to consider the short-term impact this has on the environment through via power utilisation. We aim to mitigate this by ensuring all algorithms are validated through simulation testing before being executed on the HPC. 

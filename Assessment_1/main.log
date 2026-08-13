@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.24)  13 AUG 2026 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.24)  13 AUG 2026 21:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1380,259 +1380,256 @@ Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [1{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Figures/Misc/
 QUT_logo_footer.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
+<use Figures/Misc/QUT_logo_footer.png>
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
+65.
+(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Musculoskeletal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 strain/poor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 pos-ture from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Take reg-u-lar
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 260--260
+Underfull \hbox (badness 1596) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 breaks (15 min-
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 260--260
+Underfull \hbox (badness 4328) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 utes per hour),
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 260--260
+Underfull \hbox (badness 2846) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 main-tain cor-rect
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 260--260
+Underfull \hbox (badness 2229) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 pos-ture, use an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 ad-justable chair
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 and mon-i-tor
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 260--260
+Underfull \hbox (badness 1953) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 be in line with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 eye level with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 el-bows at 90
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 260--260
+Underfull \hbox (badness 5893) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Eye strain and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 men-tal fa-tigue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 from ex-tended
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Follow the 20-
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 260--260
+Underfull \hbox (badness 4132) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 sec-onds), ad-just
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 screen bright-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 ness/-con-trast,
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 260--260
+Underfull \hbox (badness 6592) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 en-sure ad-e-quate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Loss of the-sis
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 260--260
+Underfull \hbox (badness 4739) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 work, code, or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 data due to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 hard-ware fail-
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 260--260
+Underfull \hbox (badness 7221) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 ure, cor-rup-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 or ac-ci-den-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Engineering &
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 260--260
+Underfull \hbox (badness 4940) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Use git ver-sion
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 260--260
+Underfull \hbox (badness 5022) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 mote repos-i-tory,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 charg-ers, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 tested where
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 re-quired, route
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 walk-ways, keep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 the desk area
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 from ex-tended,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/10.95 Set re-al-is-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 mile-stones and
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 260--260
+Underfull \hbox (badness 1168) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 a project sched-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 ule, main-tain
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 260--260
+Underfull \hbox (badness 1308) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 reg-u-lar check-ins
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 sched-ule rest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 days and en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 \OT1/cmr/m/n/10.95 force rea-son-able
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-70.
+78.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
-[2]
+[3]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-71.
-(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [3]
-File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
-<use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-83.
+99.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [4] (./Sections/LiteratureReview.tex)
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-86.
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
+02.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [5]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-87.
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
+03.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [6]
-Overfull \hbox (4.07947pt too wide) in paragraph at lines 288--288
+Overfull \hbox (4.07947pt too wide) in paragraph at lines 304--304
 \OT1/cmr/m/n/10.95 HARD-WARE,'' \OT1/cmr/m/it/10.95 In-ter-na-tional Jour-nal o
 f Com-pu-ta-tional Meth-ods\OT1/cmr/m/n/10.95 , vol. 11, no. supp01, p. 1 344 0
 11,
@@ -1640,8 +1637,8 @@ f Com-pu-ta-tional Meth-ods\OT1/cmr/m/n/10.95 , vol. 11, no. supp01, p. 1 344 0
 
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-89.
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
+05.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [7] (./main.aux)
  ***********
@@ -1655,13 +1652,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31499 strings out of 474222
- 611322 string characters out of 5748733
+ 31500 strings out of 474222
+ 611337 string characters out of 5748733
  1946975 words of memory out of 5000000
  53193 multiletter control sequences out of 15000+600000
  567779 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,14n,93p,1850b,1931s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,93p,1850b,1931s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -1669,10 +1666,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1095.pfb>
-Output written on main.pdf (8 pages, 498446 bytes).
+Output written on main.pdf (8 pages, 503061 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 500000)
  223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
