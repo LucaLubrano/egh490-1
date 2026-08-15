@@ -195,7 +195,9 @@
 	\hl{intro para}
 	
 	\subsection{Stakeholders}
-	\hl{todo}
+	When conducting this research we will be considering several different end users who may use or add to the work completed. The first user that we will consider are the potential researchers who will be utilising the algorithms we develop. This is an important consideration as when researchers produce code to run experiments, development time of the code itself is a consideration in their choice of methods. Therefore, we consider the code complexity of the code .
+	
+	\hl{also consider the HPC staff for using the equipment more}
 	
 	\subsection{Resources}
 	To be able to complete this project there are several key resources that need to be secured. The most critical of these being access to an FPGA on the QUT high performance computer (HPC). This involves the coordination of appropriate software installation and hardware access permissions with Hamish Macintosh, DevOps Team Lead with HPC. 
@@ -285,14 +287,29 @@
 	Sustainability is a key focus of this project, specifically we are exploring how reconfigurable devices in heterogeneous computing environments can lower the total power consumption for a HPC with equivalent computational performance. While this is the end goal, we are required to do significant testing on the QUT HPC. As such, it is important to consider the short-term impact this has on the environment through via power utilisation. We aim to mitigate this by ensuring all algorithms are validated through simulation testing before being executed on the HPC. 
 	
 	\section{Timeline \& Deliverables}
+	The project will be split into three main phases, each with key deliverables that will flow on to the final outcome of the project. The first, and most critical, phase of the project will be making the FPGA cluster on the QUT HPC usable to submit interactive jobs. As previously discussed, this presents the most risk to the project and as such this phase will be accompanied with similar work on simulated hardware models. The goal of which being the execution of \textit{Hello World} examples on hardware to develop understanding of the processes required to build more complex algorithms. \hl{talk about when this will be achieved}
 	
+	Following the success of this first phase will be when the main body of work is completed. This will be the creation of both simple and complex simulation algorithms, described in the literature, on the available FPGA card. To mitigate potential risks in the usage of the physical hardware on the HPC, simulation models will first be created. This mitigation is twofold as the creation of FPGA firmware is extremely time intensive, the simulation allows us to experiment with a lower time-cost model before transferring to hardware. Key deliverables in this phase are simulation algorithms written in the AMD portable language, as well as validity of outcome tests and preliminary efficiency measures. \hl{talk about when this will be achieved}
+	
+	To complete the work, the final phase of the project will be an in-depth analysis of the power efficiency of the simulation algorithms on the FPGA, compared to a CPU or GPU. This will be complemented by the specific programming language used, which will allow us to use almost identical code on each device to conduct fair analysis. 
+			
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{|l|X|X|X|r|}\hline
+			Number & Focus & Deliverable & Dependency & Milestone\\\hline
+			1 & Literature Review & Literature review report & NA & TBD \\
+			2 & Preliminary FPGA on HPC usage& TBD & NA & TBD \\
+			2.1 & Vivado Vitis example code & TBD & NA & TBD \\
+			2.2 &  & TBD & NA & TBD \\
+		\end{tabularx}	
+		\caption{\hl{TODO: Timeline of deliverable outcomes for EGH490}}
+	\end{table}
 	
 	\section{Management of Project Changes}
 	\vfill
 	\section*{Sign off}
 	\begin{tabularx}{\textwidth}{X|X|X}
 	Name & Signature & Date \\\hline
-	Luca Lubrano & & 04/09/2026\\\hline
+	Luca Lubrano & LL & 04/09/2026\\\hline
 	\end{tabularx}
 	\vspace{5mm}
 	\appendix
