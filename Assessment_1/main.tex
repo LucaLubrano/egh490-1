@@ -184,7 +184,7 @@
 	
 	\subsection{Research Questions}
 	\begin{enumerate}
-		\item To what extent can implementations of Monte Carlo on reconfigurable computing hardware improve the power efficiency of algorithms compared to graphical processing units?
+		\item To what extent can implementations of mixed-precision Monte Carlo on reconfigurable computing hardware improve the power efficiency of algorithms compared to graphical processing units?
 		\item To what extent can high-level synthesis tools and portable code frameworks be used to reduce the development time of algorithms in heterogeneous computing environments>
 	\end{enumerate}
 	
@@ -192,25 +192,21 @@
 	\hl{todo after literature is finalised}
 	
 	\section{Stakeholders \& Resources}
-	\hl{intro para}
+	When conducting this research we will be considering several different end users who may use or add to the work completed. The first user that we will consider are the potential researchers who will be utilising the algorithms we develop. This is an important consideration as when researchers produce code to run experiments, development time of the code itself is a consideration in their choice of methods. Therefore, we consider the complexity of the code throughout the design cycle of our project to ensure that there is a clear benefit for the additional time cost for these methods in terms of power or time efficiency improvements.
+
+	We will also be working closely with the HPC DevOps team throughout the entirety of the project. This team will provide key support to the project in ensuring that progress can be made in the hardware development and application of methods on physical hardware. This collaboration will also provide an opportunity for this work to contribute to the HPC, as we will be assisting in validating software upgrades to the existing FPGA cluster. \hl{talk more here?}
 	
-	\subsection{Stakeholders}
-	When conducting this research we will be considering several different end users who may use or add to the work completed. The first user that we will consider are the potential researchers who will be utilising the algorithms we develop. This is an important consideration as when researchers produce code to run experiments, development time of the code itself is a consideration in their choice of methods. Therefore, we consider the code complexity of the code .
-	
-	\hl{also consider the HPC staff for using the equipment more}
-	
-	\subsection{Resources}
-	To be able to complete this project there are several key resources that need to be secured. The most critical of these being access to an FPGA on the QUT high performance computer (HPC). This involves the coordination of appropriate software installation and hardware access permissions with Hamish Macintosh, DevOps Team Lead with HPC. 
+	To be able to complete this project there are several key resources that need to be secured. The most critical of these being access to an FPGA on the QUT high performance computer (HPC) \hl{introduce HPC acronym earlier}. This involves the coordination of appropriate software installation and hardware access permissions with Hamish Macintosh, DevOps Team Lead with HPC. 
 	
 	\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{l|X|r}
+		\begin{tabularx}{\textwidth}{|l|X|r|}\hline
 			Item & Description & Cost \\\hline
-			AMD U55C FPGA & \hl{todo} & \$0.00 \\
-			Intel CPU & \hl{todo} & \$0.00 \\
-			NVIDIA GPU & \hl{todo} & \$0.00 \\
-			Xilinx Vivado Vitis & \hl{todo} & TBD \\
+			\textbf{AMD U55C FPGA} & The AMD U55C FPGA is a HPC accelerator card that is currently installed on the QUT HPC, \textit{Aqua}. This FPGA has built-in bootloader and communication protocols which is dissimilar to development FPGAs which most commonly require the engineer to build the entire system from scratch. & \$0.00 \\
+			\textbf{Intel CPU} & A CPU cluster will be utilised on the HPC as the \textit{host} for running simulation algorithms, where the FPGA or GPU is the compute device. The CPU cluster will also be used for hardware simulation and the generation of bitstream to offload work from personal computers and allow job queues to run consistently. & \$0.00 \\
+			\textbf{AMD GPU} & We will be utilising an AMD GPU to allow us to perform fair efficiency comparisons between a traditional heterogeneous computing environment and the FPGA accelerated cluster. By choosing AMD hardware for this we are also able to use extremely similar kernel code to minimise the risk of code optimisation being a factor in efficiency results. & \$0.00 \\
+			\textbf{Xilinx Vivado Vitis} & The Vivado Vitis software tool chain allows for the simulation of hardware components locally. This means we are able to test and validate methods extensively with a much lower time cost before compiling and sending to the FPGA cluster. & TBD \\\hline
 		\end{tabularx}	
-		\caption{\hl{todo}}
+		\caption{List of resources required to complete the describe project.}
 	\end{table}
 	
 	\section{Project Methodology}
@@ -233,7 +229,7 @@
 			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
 			EGH490-1 Progress Report & Supervisors & 23/10/26\\\hline
 		\end{tabularx}	
-		\caption{\hl{Deliverable outcomes of EGH490-1}}
+		\caption{Deliverable outcomes of EGH490-1}
 	\end{table}
 	
 	\begin{table}[h!]
@@ -251,39 +247,19 @@
 	\end{table}
 	
 	\section{Risks, Requirements \& Constraints}
-	
-	\subsection{Risks}
 	Since this project has key dependencies that must be met in order to progress, specifically access and functionality of the FPGA on the QUT HPC. If access cannot be gained to this resource or there are issues with the installation of the appropriate software to run HLS tools on the card, implementation of algorithms will be limited. To mitigate this risk, development of the deliverable software will be done in parallel with simulation using the Xilinx Vitas tool-chain which can be used to generate estimated results for the FPGAs performance. Due to the complexity of algorithms being developed using the simulated hardware, the computational bandwidth required is unknown. As such, the QUT HPC will be used for the execution of simulations should it be too intense for a personal computer. 
 	
-	Secondary risks to the project are the compatibility of portable software kernels amongst devices, constrained by the availability of devices on the QUT HPC. A goal of the project is also to investigate the portability of software written in the OpenCL language as a way to reduce development time of algorithms. However, recently AMD have deviated the OpenCL standard to the Heterogeneous-computing Interface for Portability (HIP) framework. To reduce the impact of this on the project, the code base will written in HIP and bench marked on AMD compute device to provide comparable to an OpenCL implementation.  
+	Secondary risks to the project are the compatibility of portable software kernels amongst devices, constrained by the availability of devices on the QUT HPC. A goal of the project is also to investigate the portability of software written in the OpenCL language as a way to reduce development time of algorithms. However, recently AMD have deviated the OpenCL standard to the Heterogeneous-computing Interface for Portability (HIP) framework. To reduce the impact of this on the project, the code base will written in HIP and bench marked on AMD compute device to provide comparable to an OpenCL implementation. 
+	
+	To ensure that we complete this project safely, we have conducted a risk assessment which can be seen in \refapn{apn:RA}.
 
-	\subsection{Requirements}
-	\hl{todo}
-	
-	\subsection{Constraints}
-	
-	\hl{todo}
-	
-	\subsection{Risk Assessment}
-	\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{X|X|X|X|X}
-			Risk & Likelihood & Consequence & Control type & Control \\\hline
-			Musculoskeletal strain/poor posture from prolonged sitting and computer use & Medium & Low & Administrative & Take regular breaks (15 minutes per hour), maintain correct posture, use an adjustable chair and monitor height in line to be in line with eye level with elbows at 90 degrees. \\\hline
-			Eye strain and mental fatigue from extended screen exposure & Medium & Low & Administrative & Follow the 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds), adjust screen brightness/contrast, ensure adequate ambient lighting \\\hline
-			Loss of thesis work, code, or data due to hardware failure, corruption, or accidental deletion & Medium & High & Engineering \& Administrative & Use git version control with a remote repository, push commits to remote repository daily \\\hline
-			Electrical or trip hazard from computer equipment, chargers, and loose cabling & Low & Medium & Engineering & Ensure all equipment is electrical tested where required, route cables away from walkways, keep the desk area tidy and free of clutter \\\hline
-			Burnout or stress from extended, isolated independent work under project deadlines & Medium & Medium & Administrative & Set realistic milestones and a project schedule, maintain regular check-ins with supervisors, schedule rest days and enforce reasonable working hours \\\hline
-		\end{tabularx}	
-		\caption{\hl{Project risk assessment --- should this be an appendix? (probably)}}
-	\end{table}
+	Through this engineering project, we will dutifully uphold the Engineers Australia Code of Ethics. Since we will be working closely with methods in the literature, to maintain integrity we will verify that our methods appropriately deviate from existing work. The literature that we work with and build upon will be correctly referenced and cited throughout the project. We will practise competently by focusing heavily on the software engineering and computer science aspects of this project in which we have the most expertise. We follow from this with supporting diversity of knowledge through the acknowledgement of areas of less competency. Being advised by and communicating with external engineering practitioners, such as the project supervisors with expertise in electrical engineering and mathematical biology, as well as HPC experts with knowledge in computers science and program optimisation. We later detail how we promote sustainability within our project and practices in the following section.  
 	
 	\section{Quality \& Sustainability}
-	\subsection{Quality}
 	To ensure that the quality of outcome from this research, we will structure the milestone deliverables such that the codebase and corresponding simulation outputs match existing literature and verified results. This is crucial in ensuring the validity of solutions, as this project aims to work closely with novel implementations of algorithms through the use of compilation pipelines that introduce significant abstraction. This is accompanied by the staged implementation of progressively more complex biological models. By ensuring the validity of algorithms initially on simple models --- Geometric Brownian Motion \hl{cite} --- with well understood analytical behaviour we can ascertain whether the algorithms are performing per their intention.
 	
 	While validating the mathematical accuracy of models is important in ensuring the statistical usability of the research, the main focus of the work will be to explore the power usage of computation is impacted through the utilisation of reconfigurable hardware. Therefore, a key result that we will be looking to understand is the total power consumption of the device for an allotted amount of calculations. It is important to the outcomes of this research that these results are reflective of the conditions that this equipment will be used, i.e. in data centres. Hence, we will be targeting consumption readings directly from the equipment we use on the HPC. This will be accompanied by hardware simulations in preliminary findings to make initial comments on observed performance.
 	
-	\subsection{Sustainability}
 	Sustainability is a key focus of this project, specifically we are exploring how reconfigurable devices in heterogeneous computing environments can lower the total power consumption for a HPC with equivalent computational performance. While this is the end goal, we are required to do significant testing on the QUT HPC. As such, it is important to consider the short-term impact this has on the environment through via power utilisation. We aim to mitigate this by ensuring all algorithms are validated through simulation testing before being executed on the HPC. 
 	
 	\section{Timeline \& Deliverables}
@@ -305,6 +281,8 @@
 	\end{table}
 	
 	\section{Management of Project Changes}
+	Due to the several layers of dependency of external factors for this project to be completed, we have formulated the goals of the work to be flexible. Meaning that if we are unable to gain access to physical hardware on the HPC within a reasonable time frame to implement, and experiment with, the algorithms we will conduct the research only on simulated hardware. This project is also entirely academic with weekly meetings with the supervising staff and constant communication available. As such, should a request be made for the project, or issues arise from other dependencies, we will be able to quickly pivot the methodology of the research to continue relevant work. These changes will also be succinctly communicated to the supervisors of the project through email and discussed at the weekly meeting.
+	
 	\vfill
 	\section*{Sign off}
 	\begin{tabularx}{\textwidth}{X|X|X}
@@ -315,7 +293,19 @@
 	\appendix
 	\newpage
 	\input{Sections/LiteratureReview}
-	
+	\newpage
+	\section{Risk Assessment}\label{apn:RA}
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{|X|X|X|X|X|}\hline
+			Risk & Likelihood & Consequence & Control type & Control \\\hline
+			Musculoskeletal strain/poor posture from prolonged sitting and computer use & Medium & Low & Administrative & Take regular breaks (15 minutes per hour), maintain correct posture, use an adjustable chair and monitor height in line to be in line with eye level with elbows at 90 degrees. \\\hline
+			Eye strain and mental fatigue from extended screen exposure & Medium & Low & Administrative & Follow the 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds), adjust screen brightness/contrast, ensure adequate ambient lighting \\\hline
+			Loss of thesis work, code, or data due to hardware failure, corruption, or accidental deletion & Medium & High & Engineering \& Administrative & Use git version control with a remote repository, push commits to remote repository daily \\\hline
+			Electrical or trip hazard from computer equipment, chargers, and loose cabling & Low & Medium & Engineering & Ensure all equipment is electrical tested where required, route cables away from walkways, keep the desk area tidy and free of clutter \\\hline
+			Burnout or stress from extended, isolated independent work under project deadlines & Medium & Medium & Administrative & Set realistic milestones and a project schedule, maintain regular check-ins with supervisors, schedule rest days and enforce reasonable working hours \\\hline
+		\end{tabularx}	
+		\caption{Project risk assessment}
+	\end{table}
 	\newpage
     \printbibliography
 

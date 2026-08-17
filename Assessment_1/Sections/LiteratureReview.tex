@@ -1,10 +1,56 @@
 \section{Literature Review}
-\hl{introduction goes here}
-\subsection{Field Programmable Gate Arrays}
-\hl{similar to MXB372, add more electrical engineering / computer science stuff}
+Through this literature review we aim to summarise the key methodologies in mixed-precision Monte Carlo methods in the literature that are relevant to our work. In this report we work to understand how we can utilise and exploit reconfigurable hardware with mixed-precision to take advantage of unique features in the computing architectures of FPGAs over GPUs. We perform this research within the context of Mathematical Biology in which large quantities of statistical independent simulations are required to produce meaningful results. This presents a clear use case for these methods as there is potential for both the wall-time and power efficiency improvements over conventional computing frameworks. 
+
+\subsection{Heterogeneous Computing - \hl{reword}}\label{sec:heterogeneous_computing}
+It is important to first understand heterogeneous computing as a framework to conceptualise how reconfigurable and accelerator hardware can be used to complement and improve existing computing ecosystems. Heterogeneous computing environments are those in which there are \hl{add}
+
+The numerical models --- mainly geometric Brownian motion --- that Haas and Giles \cite{haasNestedMLMCFramework2025} use to validate their methods are relatively simple, by the fact they can be broken down into their elementary binary operations. In the context of Systems Biology however, this is often not possible as realistic models are too complex to perform this kind of decomposition. As such, we are unable to explore the more detailed intricacies of the proposed bit-width optimisations in this work. 
+
+Instead, we focus on the more commonly available bit-widths on modern CPU and GPU chips. To maximise the clock cycle efficiency in our computing, we wish to keep our computations to the size of the floating point registers available on the target hardware. For current GPUs, this is double $64$-bit, single $32$-bit, and half $16$-bit. Working with these register sizes is critical in the efficiency of our methods. By doing this, we can increase the throughput of our algorithm per clock cycle by using \textit{Single Instruction Multiple Data} (SIMD) operations \cite{warnePulsecoupledNeuralNetwork2014, warneSolvingTriDiagonalLinear}. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/simd.png}
+	\caption{Schematic of vector unit operations in single instruction single data and single instruction multiple data configurations with varying precision levels. \hl{needs to be fixed}}
+	\label{fig:simd}
+\end{figure}
+This works as the register is of a fixed size, usually 64-bit, each clock cycle then pushes an instruction to the register where it completes the operation on the data held. If we reduce the bit width of our data to a less precise variable type, i.e. 32 bit, the register is able to perform the same operation on two independent sets of data \cite{banksCALCULATIONENGINEPARAMETERS2014, warneComparisonHighLevel2014, deschryverFPGABasedAccelerators2015}, see diagram in \reffig{fig:simd}. Importantly, it is able to do this in the same clock cycle as if the data had been a single full precision width. This is a key part in how mixed-precision methods can provide significant speed up in high performance computing in lower precision levels \cite{warneVectorOperationsAccelerating2022}. 
+
+Kimpson et al. \cite{kimpsonReducedPrecisionStochasticSimulation2026} investigate methods for computing simulation estimates using mixed and reduced precision in the context of SSAs. These algorithms aim to minimise the error in approximation while using native 16-bit arithmetic. At a hardware-level, this reduces the memory footprint while increasing the SIMD operations able to be computed. They specifically target GPU and tensor processing unit (TPU), which provides insight into how methods can be mapped between device hardware and the results they can achieve in heterogeneous environments. 
+
+A key advantage provided by conducting our computations in a heterogeneous environment is that we are able to optimise the choice of device based on suitability to the task \cite{macintoshImplementingEvaluatingHeterogeneous2019, warneHeterogeneousComputingApproach2016, macintoshImplementationParallelTridiagonal2016}. Meaning we are able to maximise the utilisation of hardware, which is beneficial since general purpose compute devices, such as CPUs and GPUs, carry high idle power costs. These systems often use a variety of these general purpose devices in combination with accelerator hardware, including application-specific integrated circuits (ASIC), intelligence processing units (IPU) and FPGAs \cite{cardosoChapter2Highperformance2017}. 
+
+\subsubsection{Reconfigurable Computing - \hl{reword}}
+Reconfigurable computing is classified by a computer architecture that is able to change its logic programming. The most common and popular example of which are FPGAs, built from 'reconfigurable fabric' which contains the configurable logic blocks, interconnections and BRAM that allow the hardware to change its logic functions \cite{cardosoChapter2Highperformance2017}. In computing, this means that we are able to construct programs not at a software level, but instead program them onto the physical architecture of the card. This is a key aspect of the power efficiency that these devices can provide. Unlike CPUs and GPUs, they do not have any overhead power cost related to unnecessary and always active processes.
+
+As a result of the freedom provided by FPGA hardware, we are also able to increase computational efficiency in low precision settings through the creation of unique precision levels. Unlike modern CPUs which can provide either double (64-bit), float (32-bit) or half-precision (16-bit), we are able to define custom bit length precision data types. This can be directly applied in areas such as multi-fidelity Monte-Carlo simulation, which sample cheap, low-precision simulations for Bayesian inference acceleration. 
+
+These devices have been traditionally used by electrical engineers for hardware prototyping and development, requiring users to understand low-level hardware description languages (HDLs). Making them inaccessible to scientific researchers without the proper background to fully take advantage of their utility. Recent advancements in compilation abilities have lead to the ability for OpenCL to be compiled into bit-stream and hence are now able to be used to program these devices. This has made them a target of active research in areas such as high-dimensional linear algebra \cite{warneComparisonHighLevel2014,ComparingEnergyEfficiency, macintoshImplementationParallelTridiagonal2016, macintoshImplementingEvaluatingHeterogeneous2019, warneSolvingTriDiagonalLinear}, simulation problems \cite{banksCALCULATIONENGINEPARAMETERS2014} and time-critical safety operations \cite{warnePulsecoupledNeuralNetwork2014}.
+
+Intelligence processing units (IPUs) are an emerging technology driven by the need for more specialised Artificial Intelligence computing capabilities \cite{kulkarniAcceleratingSimulationbasedInference2020}. Unlike traditional GPU architecture which uses single-instruction multiple data (SIMD) vectorised parallelism to accelerate tasks, the IPU utilises multi-instruction multiple data (MIMD) \cite{jiaDissectingGraphcoreIPU2019}. This allows each thread to perform operations in a distinct flow, and irregular data access patterns without loss of efficiency \cite{jiaDissectingGraphcoreIPU2019}. Similarly to FPGAs, these devices are also able to define custom precision data types, which has made them extremely efficient processors in the AI inference problem \cite{fitzgibbonStochasticRoundingFew2025,sunIntelligenceProcessingUnits2022,MixedPrecisionArithmeticAI}.
+
 \subsection{Stochastic Simulation}
 \hl{similar to MXB372}
-\subsection{Monte Carlo}
-\hl{similar to MXB372}
+
+\subsection{Monte Carlo Methods - \hl{reword}}
+Monte Carlo methods are a common first step in understanding the average behaviour of observed system states given  some known parameter inputs \cite{warneSimulationInferenceAlgorithms2019,wilkinsonStochasticModellingQuantitative2009}. If one were to want to know the expectation of a function $P$ at some time $t$ given an observed state $S$ it is intuitive to think that we can take repeated samples of the system to determine an average behaviour \cite{metropolisMonteCarloMethod1949}. Formally, to approximate $\mathbb{E}[P]$ a Monte Carlo estimator is the average values $P(\mathbf{X}(t))$ for $N$ i.i.d. samples $\mathbf{X}(t)$ 
+\begin{equation}
+	\mathbb{E}[P(\mathbf{X}(t))] = \int P(\mathbf{x})p(\mathbf{x}) \textrm{d}x,\notag
+\end{equation}	
+\begin{equation}
+	\lim_{N\to\infty}\sum_{n=1}^{N} P(\mathbf{X}(t)^{(n)}) =  \mathbb{E}[P(\mathbf{X}(t))],\notag %^\label{eq:monte_carlo_estimator}
+\end{equation}
+where $p(\mathbf{x})$ is the probability density function of the random variable $\mathbf{X}(t)$. With variance $V_N = \frac{1}{N} \mathbb{V}[P]$, therefore, in order to achieve a root mean squared error (RMSE) of $\epsilon$ we require $N = \mathcal{O}(\epsilon^{-2})$. This is where the Monte Carlo method becomes computationally unwieldy, as each of these simulations often involves the solution to an It\={o} stochastic differential equation (SDE) or a costly approximation. 
+\begin{equation}
+	X_i(t) = X_i(0) + \sum_{j=1}^{M} \nu_{i,j} \int_0^t a_j(\mathbf{X}(\eta(s)) ; \boldsymbol{\theta}) \, ds + \sum_{j=1}^{M} \nu_{ij} \int_0^t \sqrt{a_j(\mathbf{X}(\eta(s)) ; \boldsymbol{\theta})} \, dW_j(s), \label{eqn:ItoSDE}
+\end{equation}
+noting that $X_i(t)$ is the value of a random solution path at some time $t>0$. When computing these estimates, we have a statistical error from the Monte Carlo and a bias introduced by the discretisation of the It\={o} SDE, thus we have, 
+\begin{equation*}
+	\textrm{MSE} = \textrm{Var} + \textrm{Bias}^2.
+\end{equation*}
+If we want a RMSE less than $\epsilon$ we need $N = \mathcal{O}(\epsilon^{-2})$. However, we also need $\tau = \mathcal{O}(\epsilon)$ since $\textrm{Bias} = \mathcal{O}(\tau)$ for Euler Maruyama. As a result, the total cost of the estimator is $\mathcal{O}(\epsilon^{-3})$. 
+
+Due to this, we seek methods for generating more accurate results while minimising the number of Monte Carlo samples we need to take. Methods such as quasi-Monte Carlo in which each sample is chosen deterministically to reduce the error \cite{dickHighdimensionalIntegrationQuasiMonte2013}. An alternative, the multilevel Monte Carlo method, uses a coupling scheme to apply \textit{control variate reduction} to minimise simulation cost for some desired RMSE $\epsilon$. 
+
 \subsection{Mixed-precision Methods}
 \hl{similar to MXB372}
