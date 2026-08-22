@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,8 +16,8 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{haasNestedMLMCFramework2025}{misc}{}
+\datalist[entry]{none/global//global/global/global}
+  \entry{haasNestedMLMCFramework2025}{misc}{}{}
     \name{author}{2}{}{%
       {{hash=HIB}{%
          family={Haas},
@@ -80,7 +80,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{warnePulsecoupledNeuralNetwork2014}{article}{}
+  \entry{warnePulsecoupledNeuralNetwork2014}{article}{}{}
     \name{author}{5}{}{%
       {{hash=WDJ}{%
          family={Warne},
@@ -139,7 +139,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{warneSolvingTriDiagonalLinear}{article}{}
+  \entry{warneSolvingTriDiagonalLinear}{article}{}{}
     \name{author}{3}{}{%
       {{hash=WDJ}{%
          family={Warne},
@@ -189,7 +189,7 @@
     \endverb
   \endentry
 
-  \entry{banksCALCULATIONENGINEPARAMETERS2014}{article}{}
+  \entry{banksCALCULATIONENGINEPARAMETERS2014}{article}{}{}
     \name{author}{7}{}{%
       {{hash=BJ}{%
          family={Banks},
@@ -272,7 +272,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{warneComparisonHighLevel2014}{article}{}
+  \entry{warneComparisonHighLevel2014}{article}{}{}
     \name{author}{3}{}{%
       {{hash=WDJ}{%
          family={Warne},
@@ -332,7 +332,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{deschryverFPGABasedAccelerators2015}{book}{}
+  \entry{deschryverFPGABasedAccelerators2015}{book}{}{}
     \name{editor}{1}{}{%
       {{hash=DSC}{%
          family={De\bibnamedelima Schryver},
@@ -367,7 +367,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{warneVectorOperationsAccelerating2022}{article}{}
+  \entry{warneVectorOperationsAccelerating2022}{article}{}{}
     \name{author}{3}{}{%
       {{hash=WDJ}{%
          family={Warne},
@@ -431,7 +431,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{kimpsonReducedPrecisionStochasticSimulation2026}{misc}{}
+  \entry{kimpsonReducedPrecisionStochasticSimulation2026}{misc}{}{}
     \name{author}{3}{}{%
       {{hash=KT}{%
          family={Kimpson},
@@ -508,7 +508,7 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{macintoshImplementingEvaluatingHeterogeneous2019}{article}{}
+  \entry{macintoshImplementingEvaluatingHeterogeneous2019}{article}{}{}
     \name{author}{3}{}{%
       {{hash=MHJ}{%
          family={Macintosh},
@@ -583,7 +583,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{warneHeterogeneousComputingApproach2016}{article}{}
+  \entry{warneHeterogeneousComputingApproach2016}{article}{}{}
     \name{author}{3}{}{%
       {{hash=WDJ}{%
          family={Warne},
@@ -630,7 +630,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{macintoshImplementationParallelTridiagonal2016}{article}{}
+  \entry{macintoshImplementationParallelTridiagonal2016}{article}{}{}
     \name{author}{5}{}{%
       {{hash=MHJ}{%
          family={Macintosh},
@@ -702,7 +702,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{cardosoChapter2Highperformance2017}{incollection}{}
+  \entry{cardosoChapter2Highperformance2017}{incollection}{}{}
     \name{author}{3}{}{%
       {{hash=CJMP}{%
          family={Cardoso},
@@ -792,7 +792,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{ComparingEnergyEfficiency}{misc}{}
+  \entry{ComparingEnergyEfficiency}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{abstract}{%
     Access 135+ million publications and connect with 20+ million researchers.
@@ -813,7 +813,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{kulkarniAcceleratingSimulationbasedInference2020}{book}{}
+  \entry{kulkarniAcceleratingSimulationbasedInference2020}{book}{}{}
     \name{author}{4}{}{%
       {{hash=KS}{%
          family={Kulkarni},
@@ -854,7 +854,7 @@
     \field{year}{2020}
   \endentry
 
-  \entry{jiaDissectingGraphcoreIPU2019}{misc}{}
+  \entry{jiaDissectingGraphcoreIPU2019}{misc}{}{}
     \name{author}{4}{}{%
       {{hash=JZ}{%
          family={Jia},
@@ -932,7 +932,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{fitzgibbonStochasticRoundingFew2025}{misc}{}
+  \entry{fitzgibbonStochasticRoundingFew2025}{misc}{}{}
     \name{author}{2}{}{%
       {{hash=FA}{%
          family={Fitzgibbon},
@@ -1000,7 +1000,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{sunIntelligenceProcessingUnits2022}{misc}{}
+  \entry{sunIntelligenceProcessingUnits2022}{misc}{}{}
     \name{author}{7}{}{%
       {{hash=SPSV}{%
          family={Sun},
@@ -1101,7 +1101,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{MixedPrecisionArithmeticAI}{article}{}
+  \entry{MixedPrecisionArithmeticAI}{article}{}{}
     \field{labeltitlesource}{title}
     \field{title}{Mixed-{{Precision Arithmetic}} for {{AI}}: {{A Hardware
   Perspective}}}
@@ -1112,7 +1112,7 @@
     \endverb
   \endentry
 
-  \entry{warneSimulationInferenceAlgorithms2019}{article}{}
+  \entry{warneSimulationInferenceAlgorithms2019}{article}{}{}
     \name{author}{3}{}{%
       {{hash=WDJ}{%
          family={Warne},
@@ -1189,7 +1189,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{wilkinsonStochasticModellingQuantitative2009}{article}{}
+  \entry{wilkinsonStochasticModellingQuantitative2009}{article}{}{}
     \name{author}{1}{}{%
       {{hash=WDJ}{%
          family={Wilkinson},
@@ -1249,7 +1249,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{metropolisMonteCarloMethod1949}{article}{}
+  \entry{metropolisMonteCarloMethod1949}{article}{}{}
     \name{author}{2}{}{%
       {{hash=MN}{%
          family={Metropolis},
@@ -1294,7 +1294,7 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{dickHighdimensionalIntegrationQuasiMonte2013}{article}{}
+  \entry{dickHighdimensionalIntegrationQuasiMonte2013}{article}{}{}
     \name{author}{3}{}{%
       {{hash=DJ}{%
          family={Dick},
