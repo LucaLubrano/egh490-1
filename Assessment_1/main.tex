@@ -180,23 +180,23 @@
     \pagenumbering{arabic} 
 	
 	\section{General Objective}
-	The primary objective of this project is to explore how reconfigurable computing can be used to reduce the total power consumption of heterogeneous computing environment, such as data centres. We will develop practical implementations of Monte Carlo algorithms to benchmark against theoretical techniques that have previously been explored in the literature. To do this, we will perform a case study utilising field programmable gate arrays (FPGAs) and high-level synthesis tools to understand the feasibility of adopting and utilising reconfigurable devices as accelerator hardware in these heterogeneous frameworks. \hl{add to --- should i be talking about mixed-precision methods here?}
+	The primary objective of this project is to explore how reconfigurable computing can be used to reduce the total power consumption of heterogeneous computing environment, such as data centres. We will develop practical implementations of Monte Carlo algorithms to benchmark against theoretical techniques that have previously been explored in the literature. To do this, we will perform a case study utilising field programmable gate arrays (FPGAs) and high-level synthesis tools to understand the feasibility of adopting and utilising reconfigurable devices as accelerator hardware in these heterogeneous frameworks. A key focus of the project will be to understand whether mixed-precision algorithms on specialised hardware, such as FPGAs, can reduce the total power consumption for equivalent results. 
 	
 	\subsection{Research Questions}
 	\begin{enumerate}
 		\item To what extent can implementations of mixed-precision Monte Carlo on reconfigurable computing hardware improve the power efficiency of algorithms compared to graphical processing units?
-		\item To what extent can high-level synthesis tools and portable code frameworks be used to reduce the development time of algorithms in heterogeneous computing environments>
+		\item To what extent can high-level synthesis tools and portable code frameworks be used to reduce the development time of algorithms in heterogeneous computing environments?
 	\end{enumerate}
 	
 	\section{Key Finding from the Literature}
-	\hl{todo after literature is finalised}
+	The literature shows that heterogeneous computing environments, which consist of a variety of computer architectures such as general purpose devices (CPUs, GPUs) and accelerator hardware (ASICs, IPUs, and FPGAs), allow for the optimisation of algorithms to the most suitable device \cite{macintoshImplementingEvaluatingHeterogeneous2019, warneHeterogeneousComputingApproach2016, macintoshImplementationParallelTridiagonal2016, cardosoChapter2Highperformance2017}. Within this, mixed-precision methods are shown to be able to exploit hardware registers via SIMD operations, allowing low precision data types to increase throughput per clock cycle, reducing total power consumption \cite{warnePulsecoupledNeuralNetwork2014, warneSolvingTriDiagonalLinear, warneVectorOperationsAccelerating2022}. FPGAs extend this principle further than GPUs, as their reconfigurable fabric allow custom length precision data types rather than being restricted to fixed 16/32/64 bit precision, while reducing the overhead power costs associated with general purpose hardware \cite{cardosoChapter2Highperformance2017, haasNestedMLMCFramework2025}. Advances in high level synthesis tools and compilation abilities of portable languages (e.g. HLS, OpenCL, HIP) have reduced the low-level hardware expertise previously required to make us of these devices, increasing their viability for scientific research outside of hardware prototyping \cite{warneComparisonHighLevel2014, macintoshImplementationParallelTridiagonal2016, macintoshImplementingEvaluatingHeterogeneous2019, warneSolvingTriDiagonalLinear, banksCALCULATIONENGINEPARAMETERS2014}. 
 	
 	\section{Stakeholders \& Resources}
 	When conducting this research we will be considering several different end users who may use or add to the work completed. The first user that we will consider are the potential researchers who will be utilising the algorithms we develop. This is an important consideration as when researchers produce code to run experiments, development time of the code itself is a consideration in their choice of methods. Therefore, we consider the complexity of the code throughout the design cycle of our project to ensure that there is a clear benefit for the additional time cost for these methods in terms of power or time efficiency improvements.
 
-	We will also be working closely with the HPC DevOps team throughout the entirety of the project. This team will provide key support to the project in ensuring that progress can be made in the hardware development and application of methods on physical hardware. This collaboration will also provide an opportunity for this work to contribute to the HPC, as we will be assisting in validating software upgrades to the existing FPGA cluster. \hl{talk more here?}
+	We will also be working closely with the HPC DevOps team throughout the entirety of the project. This team will provide key support to the project in ensuring that progress can be made in the hardware development and application of methods on physical hardware. This collaboration will also provide an opportunity for this work to contribute to the HPC, as we will be assisting in validating software upgrades to the existing FPGA cluster.
 	
-	To be able to complete this project there are several key resources that need to be secured. The most critical of these being access to an FPGA on the QUT high performance computer (HPC) \hl{introduce HPC acronym earlier}. This involves the coordination of appropriate software installation and hardware access permissions with Hamish Macintosh, DevOps Team Lead with HPC. 
+	To be able to complete this project there are several key resources that need to be secured. The most critical of these being access to an FPGA on the QUT high performance computer. This involves the coordination of appropriate software installation and hardware access permissions with Hamish Macintosh, DevOps Team Lead with HPC. 
 	
 	\begin{table}[h!]
 		\begin{tabularx}{\textwidth}{|l|X|r|}\hline
@@ -210,21 +210,20 @@
 	\end{table}
 	
 	\section{Project Methodology}
+	The main research approach that we will be taking in this thesis will be to first experimentally validate the thoeretical results in Haas and Giles \cite{haasNestedMLMCFramework2025} through virtualised hardware simulations and preliminary experiments on physical hardware. Key results that we aim to measure are mostly focused on the power consumption of the computational devices themselves. While the runtime of the simulations on the varying hardware can let us make preliminary investigations into efficiency. The true goal of the research is to understand if we are able to achieve an equivalent simulation result for a lower total energy cost. It is possible that the reconfigurable devices may take longer to process the same amount of computer but at this lower cost, which is why we focus on power consumption readings. We aim to utilise physical power monitoring of the cluster during jobs, as this will give the most accurate result. However, this can be difficult to correctly isolate and obtain results for, we therefore will also collect software derived power consumption readings. 
 	
-	\subsection{Methods}
-	
-	\subsection{Results}
+	Through the collection of these results, as well as understanding of the configuration of current HPC systems, we will make comment on how existing accelerator hardware can be used in-situ to reduce power consumption of data centres. We aim to develop a final outcome and answer our research questions by combining results from our simulated and physical hardware. This will allow us to test under ideal and more realistic conditions to gain further insight into the problem and how this approach may contribute to solving it. 
 	
 	\section{Deliverables}
 	The expected outcome of this project will be the development and verification of algorithms using high-level synthesis tools for FPGA devices. The main contribution of this work will be benchmarking results and analysis in how FPGAs and reconfigurable computing architectures can be implemented in heterogeneous computing environments to reduce power consumption for compute intensive tasks. This will include a detailed report on the usability of, and development time for complex algorithms using, these HLS tools to better understand the feasibility of adopting FPGAs into scientific computing. 
 	
 	\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{|X|X|r|}\hline
+		\begin{tabularx}{\textwidth}{|X|r|r|}\hline
 			Deliverable & Stakeholder & Due Date\\\hline
 			EGH490-1 Project Proposal Draft & Supervisors & 21/08/26\\
 			FPGA Simulation Example Simulation & Supervisors & 04/09/26\\
 			EGH490-1 Project Proposal & Supervisors & 04/09/26\\
-			Preliminary Simulation Findings & Supervisors & 11/09/26\\
+			Preliminary Simulation Development & Supervisors & 11/09/26\\
 			Geometric Brownian Motion Simulation & Supervisors & 02/10/26\\
 			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
 			EGH490-1 Progress Report & Supervisors & 23/10/26\\\hline
@@ -233,17 +232,16 @@
 	\end{table}
 	
 	\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{|X|X|r|}\hline
+		\begin{tabularx}{\textwidth}{|X|r|r|}\hline
 			Deliverable & Stakeholder & Due Date\\\hline
-			EGH490-1 Project Proposal Draft & Supervisors & 21/08/26\\
-			FPGA Simulation Example Simulation & Supervisors & 04/09/26\\
-			EGH490-1 Project Proposal & Supervisors & 04/09/26\\
-			Preliminary Simulation Findings & Supervisors & 11/09/26\\
-			Geometric Brownian Motion Simulation & Supervisors & 02/10/26\\
-			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
-			EGH490-1 Progress Report & Supervisors & 23/10/26\\\hline
+			Hardware Implementation of Geometric Brownian Motion & Supervisors & TBD\\
+			Simulation Implementation of Simple BCRN & Supervisors & TBD\\
+			Hardware Implementation of Simple BCRN & Supervisors & TBD\\
+			HPC Power Studies & Supervisors & TBD\\
+			EGH490-2 Final Report Draft & Supervisors & TBD\\
+			EGH490-2 Final Report & Supervisors & TBD\\\hline
 		\end{tabularx}	
-		\caption{\hl{TODO: Deliverable outcomes of EGH490-2}}
+		\caption{Preliminary deliverable outcomes plan for EGH490-2}
 	\end{table}
 	
 	\section{Risks, Requirements \& Constraints}
@@ -256,28 +254,42 @@
 	Through this engineering project, we will dutifully uphold the Engineers Australia Code of Ethics. Since we will be working closely with methods in the literature, to maintain integrity we will verify that our methods appropriately deviate from existing work. The literature that we work with and build upon will be correctly referenced and cited throughout the project. We will practise competently by focusing heavily on the software engineering and computer science aspects of this project in which we have the most expertise. We follow from this with supporting diversity of knowledge through the acknowledgement of areas of less competency. Being advised by and communicating with external engineering practitioners, such as the project supervisors with expertise in electrical engineering and mathematical biology, as well as HPC experts with knowledge in computers science and program optimisation. We later detail how we promote sustainability within our project and practices in the following section.  
 	
 	\section{Quality \& Sustainability}
-	To ensure that the quality of outcome from this research, we will structure the milestone deliverables such that the codebase and corresponding simulation outputs match existing literature and verified results. This is crucial in ensuring the validity of solutions, as this project aims to work closely with novel implementations of algorithms through the use of compilation pipelines that introduce significant abstraction. This is accompanied by the staged implementation of progressively more complex biological models. By ensuring the validity of algorithms initially on simple models --- Geometric Brownian Motion \hl{cite} --- with well understood analytical behaviour we can ascertain whether the algorithms are performing per their intention.
+	To ensure that the quality of outcome from this research, we will structure the milestone deliverables such that the codebase and corresponding simulation outputs match existing literature and verified results. This is crucial in ensuring the validity of solutions, as this project aims to work closely with novel implementations of algorithms through the use of compilation pipelines that introduce significant abstraction. This is accompanied by the staged implementation of progressively more complex biological models. By ensuring the validity of algorithms initially on simple models --- Geometric Brownian Motion \cite{haasNestedMLMCFramework2025} --- with well understood analytical behaviour we can ascertain whether the algorithms are performing per their intention.
 	
 	While validating the mathematical accuracy of models is important in ensuring the statistical usability of the research, the main focus of the work will be to explore the power usage of computation is impacted through the utilisation of reconfigurable hardware. Therefore, a key result that we will be looking to understand is the total power consumption of the device for an allotted amount of calculations. It is important to the outcomes of this research that these results are reflective of the conditions that this equipment will be used, i.e. in data centres. Hence, we will be targeting consumption readings directly from the equipment we use on the HPC. This will be accompanied by hardware simulations in preliminary findings to make initial comments on observed performance.
 	
 	Sustainability is a key focus of this project, specifically we are exploring how reconfigurable devices in heterogeneous computing environments can lower the total power consumption for a HPC with equivalent computational performance. While this is the end goal, we are required to do significant testing on the QUT HPC. As such, it is important to consider the short-term impact this has on the environment through via power utilisation. We aim to mitigate this by ensuring all algorithms are validated through simulation testing before being executed on the HPC. 
 	
 	\section{Timeline \& Deliverables}
-	The project will be split into three main phases, each with key deliverables that will flow on to the final outcome of the project. The first, and most critical, phase of the project will be making the FPGA cluster on the QUT HPC usable to submit interactive jobs. As previously discussed, this presents the most risk to the project and as such this phase will be accompanied with similar work on simulated hardware models. The goal of which being the execution of \textit{Hello World} examples on hardware to develop understanding of the processes required to build more complex algorithms. \hl{talk about when this will be achieved}
+	The project will be split into three main phases, each with key deliverables that will flow on to the final outcome of the project. The first, and most critical, phase of the project will be making the FPGA cluster on the QUT HPC usable to submit interactive jobs. As previously discussed, this presents the most risk to the project and as such this phase will be accompanied with similar work on simulated hardware models. The goal of which being the execution of \textit{Hello World} examples on hardware to develop understanding of the processes required to build more complex algorithms. To keep the project aligned with the critical path, it is essential that the development of simulation begin before the end of EGH490-1. 
 	
-	Following the success of this first phase will be when the main body of work is completed. This will be the creation of both simple and complex simulation algorithms, described in the literature, on the available FPGA card. To mitigate potential risks in the usage of the physical hardware on the HPC, simulation models will first be created. This mitigation is twofold as the creation of FPGA firmware is extremely time intensive, the simulation allows us to experiment with a lower time-cost model before transferring to hardware. Key deliverables in this phase are simulation algorithms written in the AMD portable language, as well as validity of outcome tests and preliminary efficiency measures. \hl{talk about when this will be achieved}
+	Following the success of this first phase will be when the main body of work is completed. This will be the creation of both simple and complex simulation algorithms, described in the literature, on the available FPGA card. To mitigate potential risks in the usage of the physical hardware on the HPC, simulation models will first be created. This mitigation is twofold as the creation of FPGA firmware is extremely time intensive, the simulation allows us to experiment with a lower time-cost model before transferring to hardware. Key deliverables in this phase are simulation algorithms written in the AMD portable language, as well as validity of outcome tests and preliminary efficiency measures. The prefered outcome of this phase is that by the mid point of EGH490-2, we have developed these simulated algorithms and have begun implementing on hardware. Should this not be able to be met, we will pivot to focus entirely on simulated hardware to ensure progress is consistently made.
 	
 	To complete the work, the final phase of the project will be an in-depth analysis of the power efficiency of the simulation algorithms on the FPGA, compared to a CPU or GPU. This will be complemented by the specific programming language used, which will allow us to use almost identical code on each device to conduct fair analysis. 
 			
 	\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{|l|X|X|X|r|}\hline
+		\begin{tabularx}{\textwidth}{|l|X|X|r|r|}\hline
 			Number & Focus & Deliverable & Dependency & Milestone\\\hline
-			1 & Literature Review & Literature review report & NA & TBD \\
-			2 & Preliminary FPGA on HPC usage& TBD & NA & TBD \\
-			2.1 & Vivado Vitis example code & TBD & NA & TBD \\
-			2.2 &  & TBD & NA & TBD \\
+			1 & Literature Review & Literature review report & NA & 1 \\
+			2 & Preliminary FPGA on HPC usage& \textit{Hello World} program output & NA &  \\
+			2.1 & Querying FPGA resources on HPC & NA & NA & 2 \\
+			2.2 & Understanding of HPC job allocation structure & TBD & NA &  \\
+			2.3 & Compilation and execution of \textit{Hello World} program  & Program output & 2.1/2.2 & 2 \\
+			3 & Simulated hardware environment set-up & Working Xilinx Vitis simulation environment & NA &  \\
+			3.1 & Toolchain configuration and validation & Simulation environment configured & NA & 3 \\
+			3.2 & Preliminary simulation development & Preliminary simulation results & 3.1 & 3 \\
+			4 & Simple model implementation & Geometric Brownian Motion (GBM) simulation & 2.3/3.2 &  \\
+			4.1 & GBM simulation algorithm (HIP, software) & Validated simulation implementation & 3.2 & 4 \\
+			4.2 & GBM hardware implementation (FPGA) & Hardware bitstream \& program output & 2.3/4.1 & 4 \\
+			5 & Complex model implementation & Simple BCRN simulation & 4.1/4.2 &  \\
+			5.1 & BCRN simulation algorithm (HIP, software) & Validated simulation implementation & 4.1 & 5 \\
+			5.2 & BCRN hardware implementation (FPGA) & Hardware bitstream \& program output & 4.2/5.1 & 5 \\
+			6 & Power efficiency analysis & HPC power studies report & 4.2/5.2 &  \\
+			6.1 & Physical power monitoring (FPGA/GPU/CPU) & Power consumption dataset & 5.2 & 6 \\
+			6.2 & Software-derived power monitoring & Power consumption dataset & 5.2 & 6 \\
+			6.3 & Benchmark comparison \& analysis & Efficiency benchmarking analysis & 6.1/6.2 & 6 \\\hline
 		\end{tabularx}	
-		\caption{\hl{TODO: Timeline of deliverable outcomes for EGH490}}
+		\caption{Timeline of deliverable outcomes for EGH490}
 	\end{table}
 	
 	\section{Management of Project Changes}

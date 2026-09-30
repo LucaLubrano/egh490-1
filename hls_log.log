@@ -1,0 +1,48 @@
+
+*** Running loader
+    with args -exec vitis_hls -f vadd.tcl -messageDb vitis_hls.pb
+
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2026.1 (64-bit)
+  **** SW Build 6493734 on Jun 16 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sun Sep  6 16:09:44 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /home/luca/vivado-vitis/2026.1/Vitis/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'luca' on host 'luca-laptop' (Linux_x86_64 version 7.1.8-arch1-3) on Sun Sep 06 16:09:44 AEST 2026
+INFO: [HLS 200-10] On os Ubuntu 24.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/luca/Documents/Vitis_Accel_Examples/hello_world/_x.hw_emu.xilinx_u55c_gen3x16_xdma_3_202210_1/vadd/vadd'
+WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'vadd.tcl'
+INFO: [HLS 200-1510] Running: open_project vadd 
+WARNING: [HLS 200-2182] The 'vadd' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution '/home/luca/Documents/Vitis_Accel_Examples/hello_world/_x.hw_emu.xilinx_u55c_gen3x16_xdma_3_202210_1/vadd/vadd/vadd'.
+INFO: [HLS 200-1510] Running: set_top vadd 
+INFO: [HLS 200-1510] Running: add_files /home/luca/Documents/Vitis_Accel_Examples/hello_world/src/vadd.cpp -cflags  -g -I /home/luca/Documents/Vitis_Accel_Examples/hello_world/src 
+INFO: [HLS 200-10] Adding design file '/home/luca/Documents/Vitis_Accel_Examples/hello_world/src/vadd.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
+INFO: [HLS 200-10] Creating and opening solution '/home/luca/Documents/Vitis_Accel_Examples/hello_world/_x.hw_emu.xilinx_u55c_gen3x16_xdma_3_202210_1/vadd/vadd/vadd/solution'.
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2149] The 'flow_target' option is deprecated and will be removed in a future release. For 'vitis' value see below messsages for equivalent options.
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -default_axi=1
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'flow_target=vitis' configuration: config_rtl -register_reset_num=3
+WARNING: [HLS 200-484] The 'open_solution -flow_target' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_part xcu55c-fsvh2892-2L-e 
+ERROR: Vivado Design Suite cannot be launched because a valid license was not found. Visit the Vivado Licensing page to choose and generate the right license.
+ERROR: [HLS 200-1023] Part 'xcu55c-fsvh2892-2L-e' is not supported. It is either unknown, not installed or does not have an appropriate license.
+command 'create_platform' returned error code
+    while executing
+"source vadd.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 1.05 seconds. Total CPU system time: 0.28 seconds. Total elapsed time: 1.39 seconds; peak allocated memory: 133.922 MB.

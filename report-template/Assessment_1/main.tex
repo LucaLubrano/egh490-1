@@ -1,0 +1,235 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{wrapfig}
+\usepackage{fancyhdr} 
+\usepackage[a4paper, left=2cm,right=2cm,top=2cm,bottom=1.5cm]{geometry}
+\usepackage{appendix}
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{ Figures }
+\usepackage{amsmath}
+\usepackage{comment}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{fancyhdr}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{dsfont}
+\usepackage{cuted}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{sectsty}
+\usepackage{pdfpages}
+\definecolor{section_heading}{RGB}{0, 59, 113}
+\sectionfont{\color{section_heading}}  
+\subsectionfont{\color{section_heading}}  
+\subsubsectionfont{\color{section_heading}}  
+\paragraphfont{\color{section_heading}}  
+%\usepackage{svg}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{placeins}
+\usepackage{makecell}
+\usepackage[inkscapearea=page]{svg}
+\svgsetup{inkscapeexe={~/inkscape-wrapper.sh}}
+\lstdefinelanguage{OpenCL}{
+	language=C,
+	morekeywords={__kernel, __global, __local, __constant, __private,
+		kernel, global, local, constant, private,
+		get_global_id, get_local_id, get_group_id,
+		get_global_size, get_local_size, get_num_groups,
+		barrier, CLK_LOCAL_MEM_FENCE, CLK_GLOBAL_MEM_FENCE,
+		float2, float3, float4, float8, float16,
+		int2, int3, int4, int8, int16,
+		uint2, uint3, uint4, uint8, uint16,
+		char2, char3, char4, char8, char16,
+		uchar2, uchar3, uchar4, uchar8, uchar16,
+		image2d_t, image3d_t, sampler_t,
+		read_imagef, write_imagef, read_imagei, write_imagei},
+}
+\lstset{
+	%language=OpenCL,
+	basicstyle=\ttfamily\footnotesize,
+	keywordstyle=\color{red}\bfseries,
+	commentstyle=\color{green!50!black}\itshape,
+	stringstyle=\color{orange},
+	morekeywords={size_t, cl_int, cl_uint, cl_float, cl_double, cl_bool, cl_kernel, cl_mem, queue, kernel, enqueueNDRangeKernel, NullRange, NDRange},
+	literate=
+	{0}{{\textcolor{orange}{0}}}{1}
+	{1}{{\textcolor{orange}{1}}}{1}
+	{2}{{\textcolor{orange}{2}}}{1}
+	{3}{{\textcolor{orange}{3}}}{1}
+	{4}{{\textcolor{orange}{4}}}{1}
+	{5}{{\textcolor{orange}{5}}}{1}
+	{6}{{\textcolor{orange}{6}}}{1}
+	{7}{{\textcolor{orange}{7}}}{1}
+	{8}{{\textcolor{orange}{8}}}{1}
+	{9}{{\textcolor{orange}{9}}}{1},
+	numbers=left,
+	numberstyle=\tiny\color{gray}\ttfamily,
+	numbersep=10pt,
+	breaklines=true,
+	showstringspaces=false,
+	backgroundcolor=\color{gray!12},
+	frame=single,
+	frameround=tttt,
+	rulecolor=\color{gray!30},
+	xleftmargin=15pt,
+	framexleftmargin=15pt,
+	aboveskip=10pt,
+	belowskip=10pt,
+	columns=fullflexible,
+	keepspaces=true,
+	%identifierstyle=\color{black!80},  % slightly grey identifiers
+	emphstyle=\color{cyan},
+}
+\usepackage[
+    style=ieee,
+    sorting=none,
+    citestyle=numeric-comp,
+    backend=bibtex,
+    doi=false,
+    isbn=false,
+    url=false,
+    eprint=false
+]{biblatex}
+
+\AtEveryBibitem{
+    \clearfield{urlyear}
+    \clearfield{urlmonth}
+    \clearfield{urlday}
+}
+
+\addbibresource{refs.bib}
+\usepackage{amsmath,amsthm,amssymb,setspace,enumitem,epsfig,titlesec,verbatim,color,array,eurosym,multirow,blkarray,lscape,soul,graphicx,comment,nicefrac,lineno,epstopdf,accents,pifont}
+\usepackage[bf,small]{caption}
+\DeclareMathSizes{11.5}{20}{14}{10}   % For size 11 text
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\qedsymbol}{$\hfill\blacksquare$}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=blue,
+	urlcolor=blue,
+	filecolor=black
+}
+
+\newcommand{\refeq}[1]{\hyperref[#1]{Equation \ref{#1}}}
+\newcommand{\reffig}[1]{\hyperref[#1]{Figure \ref{#1}}}
+\newcommand{\reftbl}[1]{\hyperref[#1]{Table \ref{#1}}}
+\newcommand{\refapn}[1]{\hyperref[#1]{Appendix \ref{#1}}}
+\newcommand{\refsec}[1]{\hyperref[#1]{Section \ref{#1}}}
+\newcommand{\reflst}[1]{\hyperref[#1]{Listing \ref{#1}}}
+\newcommand{\refalg}[1]{\hyperref[#1]{Algorithm \ref{#1}}}
+\newcommand{\refsup}[1]{\hyperref[#1]{Supplementary Material}}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\title{Title}
+\date{
+	EGH490-1 Project Proposal\\
+	\vspace{10mm}
+	September 4, 2026
+}
+\pagestyle{fancy}
+\fancyhf{} 
+% Footer config
+\fancyfoot[C]{\raisebox{0.2cm}{\thepage}}
+\fancyfoot[L]{\includegraphics[height=0.75cm]{Figures/Misc/QUT_logo_footer.png}} 
+\fancyfoot[R]{\raisebox{0.2cm}{Author}}
+\fancyhead{} 
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+	\maketitle
+    \pagenumbering{Roman}
+    \vspace{200px}
+    \begin{center}
+        Author:\\
+        \vspace{0.4cm}
+        \textbf{{\Large Author}}\\
+        \vspace{0.8cm}
+        Under the supervision of:\\
+        \vspace{0.4cm}
+        \textbf{{\Large Supervisor 1}}\\
+        \vspace{0.4cm}
+        \textbf{{\Large Supervisor 2}}
+    \end{center}
+    \vfill
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.3\linewidth]{Figures/Misc/QUT-logo.png}
+    \end{figure}
+    \thispagestyle{empty}
+    \newpage
+    \hypersetup{
+    	colorlinks=true,
+    	linkcolor=blue,
+    	citecolor=blue,
+    	urlcolor=blue,
+    	filecolor=black
+    }
+    \newpage
+    \pagenumbering{arabic} 
+	
+	\section{General Objective}
+	
+	\subsection{Research Questions}
+	\begin{enumerate}
+		\item 
+		\item 
+	\end{enumerate}
+	
+	\section{Key Finding from the Literature}
+	
+	\section{Stakeholders \& Resources}
+	
+	\section{Project Methodology}
+	
+	\subsection{Methods}
+	
+	\subsection{Results}
+	
+	\section{Deliverables}
+	
+	\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{|X|X|r|}\hline
+			Deliverable & Stakeholder & Due Date\\\hline
+			EGH490-1 Project Proposal Draft & Supervisors & 21/08/26\\
+			FPGA Simulation Example Simulation & Supervisors & 04/09/26\\
+			EGH490-1 Project Proposal & Supervisors & 04/09/26\\
+			Preliminary Simulation Findings & Supervisors & 11/09/26\\
+			Geometric Brownian Motion Simulation & Supervisors & 02/10/26\\
+			EGH490-1 Progress Report Draft & Supervisors & 09/10/26\\
+			EGH490-1 Progress Report & Supervisors & 23/10/26\\\hline
+		\end{tabularx}	
+		\caption{Deliverable outcomes of EGH490-1}
+	\end{table}
+	
+	\section{Risks, Requirements \& Constraints}
+	
+	\section{Quality \& Sustainability}
+	
+	\section{Timeline \& Deliverables}
+	
+	\section{Management of Project Changes}
+	
+	\vfill
+	\section*{Sign off}
+	\begin{tabularx}{\textwidth}{X|X|X}
+	Name & Signature & Date \\\hline
+	Author & Author Initials & 04/09/2026\\\hline
+	\end{tabularx}
+	\vspace{5mm}
+	\appendix
+	\newpage
+    \printbibliography
+
+\end{document}
