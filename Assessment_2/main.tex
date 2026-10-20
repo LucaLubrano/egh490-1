@@ -223,10 +223,9 @@
 		\caption{Visualisation of the simplified structure of a field programmable gate array.}
 		\label{fig:fpga_internals}
 	\end{figure}
-	
-	When developing the FPGA kernels, it is important to understand how the device is indeed reconfigurable as this affects the structuring and pragmatic flagging of the kernel. Since essentially, when we load a kernel onto the FPGA, we are consuming \textit{space} on the device, we optimise our kernels to be physically compact such that we can load as many as possible onto the card. This is how we achieve the parallelism of our simulation similar to the operation of a GPU. \reffig{fig:fpga_internals} describes the general high-level structure of the card, \hl{come back to}
+	When developing the FPGA kernels, it is important to understand how the device is indeed reconfigurable as this affects the structuring and pragmatic flagging of the kernel. Since essentially, when we load a kernel onto the FPGA, we are consuming \textit{space} on the device, we optimise our kernels to be physically compact such that we can load as many as possible onto the card. This is how we achieve the parallelism of our simulation similar to the operation of a GPU. \reffig{fig:fpga_internals} describes the general high-level structure of the card and demonstrates how things such as look up tables and block random access memory are held within the card. 
 
-	The compilation of kernel code to an instruction set that is able to be utilised by the FPGA is a cascading process. \hl{add to} 
+	The compilation of kernel code to an instruction set that is able to be utilised by the FPGA is a cascading process. \reffig{fig:kernel_loading} shows this high-level process as experienced by the user of the system. Each of these steps adds to the complexity and a potential failure point of the process and will be further analysed in the second phase of work. Marked in this figure is also the point at which our emulated hardware operates and the step following to which we can use the kernel on a physical card. We focus on this emulated hardware level throughout this work and later analysis. 
 	\begin{figure}[h!]
 		\centering
 		\rule{0.8\textwidth}{8cm} 
@@ -264,35 +263,52 @@
 	The findings we demonstrate in this work are representative of the preliminary milestones for the overall project. Our first goal with this set of deliverables is to validate the ability to run complex simulation pathway algorithms entirely within an FPGA, inclusive of random number generation. By doing this, we provide the groundwork for the continuation of this work in the second phase, focused more on the power usage and run time on physical hardware. Due to access limitations to the FPGA hardware, these initial findings are passed on emulated simulation of the hardwares true performance. As such, the findings reported here may deviate when moving to the physical hardware as it is accepted that this emulation is only an approximation. 
 	
 	\subsubsection{Hardware Emulation}
+	We begin our experimentation analysis by conducting hardware emulation simulation of our kernel algorithms. This compiles most of the prerequisite files and surrounding infrastructure to run our kernel on the actual hardware. With essentially the only segment not done in this pipeline being the conversion of the kernel to bitstream. We can therefore be relatively certain in the results and build of our algorithms based off this analysis. 
 	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=1\textwidth]{Figures/em-simulation-1.png}
-		\caption{vivado analysis.}
+		\caption{\hl{todo} vivado analysis.}
 		\label{fig:vivado_analysis}
 	\end{figure}
+	\reffig{fig:vivado_analysis} shows the high-level block diagram of what our kernel code compiles to on the FPGA. A substantial benefit to the accelerator, or HPC, FPGA tools is that they come with many of the required dataflow and clock managers already developed. Unlike a tradition FPGA where the user is required to implement the entire design from the ground up, we are able to use predesigned blocks, meaning we only need to concentrate on the development of the actual kernel, reducing the time cost of this solution. 
+	
+	This can be seen in \reffig{fig:vivado_analysis} as the large centre block of the diagram. This is the only unique section of design, with the Vitis toolchain handling the data pipelines entirely itself. While this overview appears relatively simple, \refapn{apn:kernel_schematic}, shows the circuit design that underpins this block. This is exactly the benefit of the layer of abstraction that is provided to us by HLS. Yet, analogous to, for example, writing C++ code and then later opimising the produced assembly code, we can do the same thing with our circuit design. The HLS compilation simply provides us with the bulk of the work, meaning experienced designers may choose to delve into this layer to further optimise processes or debug. 
+	
+	In our preliminary experimentation we only dealt with serial simulations, running on single kernel realisation on the emulated FPGA. Our simulations are not however, parallelisable within the simulation, instead we achieve parallelism by running many independent simulations and using the results in analysis later. This is done by running many independent workers concurrently, in a CPU framework this would be the threads, or on a GPU it would be compute units. On an FPGA, we achieve these parallel simulations by physically replicating the kernel circuit multiple times on the device. This raises the question of many simulations we can run in parallel at once on any given FPGA. 
+	
+	There are several layers to this problem, given every simulation type would consume different amounts of the FPGA resouces. In our example model, using emulated hardware, each kernel occupies roughly, $3\%$ of the AMD U55C FPGAs resources, seen in \reffig{fig:fpga_utilisation}. We note that there are different finite resources on the FPGA, the three key are; Look-Up Tables (LUT), Flip-Flops (FF), and Digital Signal Processing blocks (DSP). 
 	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/utilisation.png}
-		\caption{fpga utilisation.}
+		\caption{\hl{todo} fpga utilisation.}
 		\label{fig:fpga_utilisation}
 	\end{figure}
+	A primitive approximation to the total number of independent kernels able to be loaded onto the FPGA could use the usages found in \reffig{fig:fpga_utilisation} to find a maximum value. However, we are unsure how this would truly scale as we increase the number of kernels. It is likely that there will be efficiencies in the shared usage of DSPs and LUTs since the mathematical operations performed remain largely similar with the exception of the deviation caused by the random number generation. Limitations in memory bandwidth would also likely be introduced and would have to be investigated how the BRAM of the card handles the concurrent simulations.
+	
+	We anticipate that there will however, be many optimisations that can be made to the multi-kernel implementation to reduce resource utilisation and increase workers on the devices. One of which is the generation of random numbers. This process remains identical throughout all the simulation kernels, and as such may potentially be able to be isolated from the main kernel. An approach could be to use a higher clock on this independent random number generator circuit and fill a buffer with random numbers, to be fetched by the simulations. A cost-benefit analysis on the complexity this would introduce would also have to be done to keep integrity of our focus on usability for general-purpose computational research.
 	
 	\subsubsection{Validation of Implementation}
+	To ensure that our kernel provides accurate results and indeed computes our simulation correctly, we complete a comparison betwen the output of the hardware emulation and verified GPU implementations. These GPU implementations are constructed using a similar OpenCL framework approach and are not unfairly optimised. This was developed and verified through previous work completed. 
+	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/overlayed_plot.png}
-		\caption{comparison}
+		\caption{(\textbf{blue/red}) Euler-Maruyama method sample path of the Monomolecular chain model using C++/OpenCL on a GPU. (\textbf{black/green}) Euler-Maruyama method sample path of the Monomolecular chain model using C++/HLS on an emulated FPGA. Both models follow kinetic rate parameters $k_1 = 1.0$, $k_2 = 0.1$ and $k_3 = 0.05$, initial conditions $A(0) = 100$, $B(0) = 0$, final time $T = 100$.}
 		\label{fig:comparison}
 	\end{figure}
+	\reffig{fig:comparison} shows a comparison between the two implementations and their corresponding results. We can see that the two pathways clearly show a substantial deviation towards the beginning of the simulation and tend towards a similar final result. This is acceptable however, as the underlying process of our simulation is stochastic in nature and hence we expect to see variation in the population over time between simulations. This plot demonstrates that we achieve results usable for analysis from our FPGA the same as we do from our GPU implementation.
+	
+	A key decision for our choice of example model in this report is the ability for us to solve it analytically. This means we can find an analytic expression for the time-dependant average population of both species. This analysis is not within the scope of this report, however, \reffig{fig:mean_behaviour} demonstrates a close match to this behaviour \hl{cite}. The results used in the generation of this plot come from the independent serial simulation of ten pathways. Of course, in the limit as we increase the number of simulations used, we will find the average behaviour and standard deviation will approach the known values more closely.
 	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/mean_behaviour.png}
-		\caption{mean behaviour.}
+		\caption{\textbf{(blue/red solid line)} Mean path of a Euler-Maruyama method simulation of the Monomolecular chain model using C++/HLS on an emulated FPGA. \textbf{(blue/red shaded area)} Standard deviation of the same Euler-Maruyama method simulation pathway. Following kinetic rate parameters $k_1 = 1.0$, $k_2 = 0.1$ and $k_3 = 0.05$, initial conditions $A(0) = 100$, $B(0) = 0$, final time $T = 100$, number of simulation $N=10$.}
 		\label{fig:mean_behaviour}
 	\end{figure}
+	We choose to use only ten simulations in this analysis as the wall-time to produce these results on emulated hardware grows worse than linear in time. This is compounded by the fact that during this emulation, we raise several flags to the compiler to gain granular results about how our hardware is operating to help analysis and understanding. When moving to physical hardware, we expect to generate significantly more simulations and reproduce this figure accordingly. 
 	
 	\subsubsection{Physical Hardware}
 	Within the scope of this interim deliverable report, we aimed to produce preliminary results mainly on emulated FPGA hardware. This was due to identified risks in our project proposal surrounding access to FPGA hardware on the QUT HPC. Through discussion between the academic supervisors and the DevOps team at the QUT HPC, the hardware was not able to be configured in a timeframe that aligned with this project. However, through continued conversation with the DevOps team, we were able to organise the validation of FPGA hardware on the HPC via job-queueing. This meant that all necessary toolchains were loaded we were able to compile and execute example FPGA kernels on the FPGA cluster. 

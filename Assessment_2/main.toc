@@ -8,28 +8,28 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Euler-Maruyama Simulation}{4}{subsubsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}Initial Findings}{5}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Hardware Emulation}{5}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Validation of Implementation}{5}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Physical Hardware}{5}{subsubsection.2.3.3}%
-\contentsline {section}{\numberline {3}Risk Management}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Health \& Safety}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Progress Inhibitors}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Emergent Issues}{8}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Ethics}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Sustainability}{9}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Project Collaboration}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Stakeholders}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Resources}{10}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Discussion}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Future Work}{10}{subsection.6.1}%
-\contentsline {paragraph}{Timing Studies}{11}{subsection.6.1}%
-\contentsline {paragraph}{Power Studies}{11}{subsection.6.1}%
-\contentsline {paragraph}{Hardware Implementations}{11}{subsection.6.1}%
-\contentsline {section}{\numberline {A}Literature Review}{12}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Heterogeneous Computing}{12}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Reconfigurable Computing}{13}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Systems Biology}{13}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Stochastic Simulation Algorithms}{14}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Monte Carlo Methods}{14}{subsection.A.5}%
-\contentsline {section}{\numberline {B}Timelines \& Deliverables}{16}{appendix.B}%
-\contentsline {section}{\numberline {C}Risk Assessment}{17}{appendix.C}%
-\contentsline {section}{\numberline {D}Kernel Schematic}{18}{appendix.D}%
+\contentsline {subsubsection}{\numberline {2.3.2}Validation of Implementation}{8}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Physical Hardware}{8}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Risk Management}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Health \& Safety}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Progress Inhibitors}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Emergent Issues}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Ethics}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Sustainability}{10}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Project Collaboration}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Stakeholders}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Resources}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Discussion}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Future Work}{12}{subsection.6.1}%
+\contentsline {paragraph}{Timing Studies}{12}{subsection.6.1}%
+\contentsline {paragraph}{Power Studies}{12}{subsection.6.1}%
+\contentsline {paragraph}{Hardware Implementations}{13}{subsection.6.1}%
+\contentsline {section}{\numberline {A}Literature Review}{14}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Heterogeneous Computing}{14}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Reconfigurable Computing}{15}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Systems Biology}{15}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Stochastic Simulation Algorithms}{16}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Monte Carlo Methods}{16}{subsection.A.5}%
+\contentsline {section}{\numberline {B}Timelines \& Deliverables}{18}{appendix.B}%
+\contentsline {section}{\numberline {C}Risk Assessment}{19}{appendix.C}%
+\contentsline {section}{\numberline {D}Kernel Schematic}{20}{appendix.D}%

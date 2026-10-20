@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.8.21)  20 OCT 2026 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.9.30)  20 OCT 2026 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,12 +1365,17 @@ File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 1
 76.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [2 <./Figures/Misc/QUT_logo_footer.png>] (./main.lof)
+ [2 <./Figures/Misc/QUT_logo_footer.png>] (./main.lof
+Overfull \hbox (5.88257pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/10.95 Monomolec-u-lar chain model us-ing C++/HLS on an em-u-lated
+ FPGA. \OT1/cmr/bx/n/10.95 (blue/red shaded 
+ []
+
+)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
-
-(./main.lot)
+ (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
@@ -1396,32 +1401,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-29.
+27.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [2]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-39.
+38.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [3]
-<Figures/mmc-gdm-example-samplepath.png, id=260, 844.65562pt x 597.73312pt>
-File: Figures/mmc-gdm-example-samplepath.png Graphic file (type png)
-<use Figures/mmc-gdm-example-samplepath.png>
-Package pdftex.def Info: Figures/mmc-gdm-example-samplepath.png  used on input 
-line 256.
-(pdftex.def)             Requested size: 362.77264pt x 256.72836pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-62.
+52.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
-[4]
-<Figures/em-simulation-1.png, id=270, 1706.375pt x 2208.25pt>
+ [4]
+<Figures/mmc-gdm-example-samplepath.png, id=277, 844.65562pt x 597.73312pt>
+File: Figures/mmc-gdm-example-samplepath.png Graphic file (type png)
+<use Figures/mmc-gdm-example-samplepath.png>
+Package pdftex.def Info: Figures/mmc-gdm-example-samplepath.png  used on input 
+line 255.
+(pdftex.def)             Requested size: 362.77264pt x 256.72836pt.
+<Figures/em-simulation-1.png, id=280, 1706.375pt x 2208.25pt>
 File: Figures/em-simulation-1.png Graphic file (type png)
 <use Figures/em-simulation-1.png>
 Package pdftex.def Info: Figures/em-simulation-1.png  used on input line 270.
@@ -1430,75 +1431,80 @@ Package pdftex.def Info: Figures/em-simulation-1.png  used on input line 270.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/utilisation.png, id=271, 1576.9314pt x 839.7774pt>
-File: Figures/utilisation.png Graphic file (type png)
-<use Figures/utilisation.png>
-Package pdftex.def Info: Figures/utilisation.png  used on input line 277.
-(pdftex.def)             Requested size: 362.77264pt x 193.18318pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/overlayed_plot.png, id=272, 1519.5972pt x 801.7152pt>
-File: Figures/overlayed_plot.png Graphic file (type png)
-<use Figures/overlayed_plot.png>
-Package pdftex.def Info: Figures/overlayed_plot.png  used on input line 285.
-(pdftex.def)             Requested size: 362.77264pt x 191.38799pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/mean_behaviour.png, id=273, 1519.5972pt x 818.5782pt>
-File: Figures/mean_behaviour.png Graphic file (type png)
-<use Figures/mean_behaviour.png>
-Package pdftex.def Info: Figures/mean_behaviour.png  used on input line 292.
-(pdftex.def)             Requested size: 362.77264pt x 195.41357pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-99.
+75.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [5 <./Figures/mmc-gdm-example-samplepath.png>]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-01.
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
+76.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [6 <./Figures/em-simulation-1.png>]
+<Figures/utilisation.png, id=301, 1576.9314pt x 839.7774pt>
+File: Figures/utilisation.png Graphic file (type png)
+<use Figures/utilisation.png>
+Package pdftex.def Info: Figures/utilisation.png  used on input line 284.
+(pdftex.def)             Requested size: 362.77264pt x 193.18318pt.
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-04.
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
+92.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [7 <./Figures/utilisation.png (PNG copy)> <./Figures/overlayed_plot.png (PNG c
-opy)> <./Figures/mean_behaviour.png (PNG copy)>]
+ [7 <./Figures/utilisation.png (PNG copy)>]
+<Figures/overlayed_plot.png, id=309, 1519.5972pt x 801.7152pt>
+File: Figures/overlayed_plot.png Graphic file (type png)
+<use Figures/overlayed_plot.png>
+Package pdftex.def Info: Figures/overlayed_plot.png  used on input line 297.
+(pdftex.def)             Requested size: 362.77264pt x 191.38799pt.
+<Figures/mean_behaviour.png, id=314, 1519.5972pt x 818.5782pt>
+File: Figures/mean_behaviour.png Graphic file (type png)
+<use Figures/mean_behaviour.png>
+Package pdftex.def Info: Figures/mean_behaviour.png  used on input line 307.
+(pdftex.def)             Requested size: 362.77264pt x 195.41357pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-18.
+15.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [8]
+[8 <./Figures/overlayed_plot.png (PNG copy)>]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-35.
+26.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [9]
+ [9 <./Figures/mean_behaviour.png (PNG copy)>]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-50.
+41.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [10]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-64.
+58.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [11]
-(./Sections/LiteratureReview.tex
-<Figures/simd.png, id=317, 1271.5003pt x 392.21532pt>
+File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
+<use Figures/Misc/QUT_logo_footer.png>
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
+74.
+(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
+ [12]
+File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
+<use Figures/Misc/QUT_logo_footer.png>
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
+80.
+(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
+ [13] (./Sections/LiteratureReview.tex
+<Figures/simd.png, id=349, 1271.5003pt x 392.21532pt>
 File: Figures/simd.png Graphic file (type png)
 <use Figures/simd.png>
 Package pdftex.def Info: Figures/simd.png  used on input line 13.
@@ -1508,19 +1514,19 @@ File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
 0.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [12 <./Figures/simd.png>]
+ [14 <./Figures/simd.png>]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
 7.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [13]
+ [15]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 6
 7.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [14
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1538,263 +1544,252 @@ l.67 D
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-67.
+83.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [15]
+ [17]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-98.
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 4
+14.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [16]
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Musculoskeletal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 strain/poor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 pos-ture from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Take reg-u-lar
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 408--408
+Underfull \hbox (badness 1515) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 breaks (15 min-
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 408--408
+Underfull \hbox (badness 4168) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 utes per hour),
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 408--408
+Underfull \hbox (badness 2608) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 main-tain cor-rect
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 408--408
+Underfull \hbox (badness 2142) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 pos-ture, use an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 ad-justable chair
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 and mon-i-tor
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 408--408
+Underfull \hbox (badness 1895) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 be in line with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 eye level with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 el-bows at 90
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 408--408
+Underfull \hbox (badness 5696) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Eye strain and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 men-tal fa-tigue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 from ex-tended
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Follow the 20-
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 408--408
+Underfull \hbox (badness 3884) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 sec-onds), ad-just
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 screen bright-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 ness/contrast,
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 408--408
+Underfull \hbox (badness 6157) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 en-sure ad-e-quate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Loss of the-sis
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 408--408
+Underfull \hbox (badness 4608) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 work, code, or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 data due to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 hard-ware fail-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 408--408
+Underfull \hbox (badness 6859) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 ure, cor-rup-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 or ac-ci-den-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Engineering &
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 408--408
+Underfull \hbox (badness 4765) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Use git ver-sion
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 408--408
+Underfull \hbox (badness 4673) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 mote repos-i-tory,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 charg-ers, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 tested where
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 re-quired, route
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 walk-ways, keep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 the desk area
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 from ex-tended,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/cmr/m/n/10.95 Set re-al-is-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 mile-stones and
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 408--408
+Underfull \hbox (badness 1102) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 a project sched-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 ule, main-tain
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 408--408
+Underfull \hbox (badness 1168) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 reg-u-lar check-ins
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 sched-ule rest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 days and en-
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 408--408
+Underfull \hbox (badness 7777) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 force rea-son-able
  []
 
-<Figures/schematic-1.png, id=425, 1706.375pt x 2208.25pt>
+<Figures/schematic-1.png, id=458, 1706.375pt x 2208.25pt>
 File: Figures/schematic-1.png Graphic file (type png)
 <use Figures/schematic-1.png>
-Package pdftex.def Info: Figures/schematic-1.png  used on input line 414.
-(pdftex.def)             Requested size: 628.8074pt x 813.7713pt.
-
-Overfull \hbox (145.11053pt too wide) in paragraph at lines 414--415
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 90.30908pt on input line 417.
-
+Package pdftex.def Info: Figures/schematic-1.png  used on input line 430.
+(pdftex.def)             Requested size: 483.69687pt x 625.95459pt.
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 4
-17.
+33.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
-[17]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[19]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 4
-18.
+34.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
-[18]
-Overfull \hbox (4.07947pt too wide) in paragraph at lines 420--420
+ [20 <./Figures/schematic-1.png>]
+Overfull \hbox (4.07947pt too wide) in paragraph at lines 436--436
 \OT1/cmr/m/n/10.95 HARD-WARE,'' \OT1/cmr/m/it/10.95 In-ter-na-tional Jour-nal o
 f Com-pu-ta-tional Meth-ods\OT1/cmr/m/n/10.95 , vol. 11, no. supp01, p. 1 344 0
 11,
@@ -1803,21 +1798,15 @@ f Com-pu-ta-tional Meth-ods\OT1/cmr/m/n/10.95 , vol. 11, no. supp01, p. 1 344 0
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 4
-19.
+35.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
-[19]
+[21]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 4
-21.
+37.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [20]
-File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
-<use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 4
-21.
-(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [21 <./Figures/schematic-1.png>] (./main.aux)
+ [22] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1838,9 +1827,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32091 strings out of 469515
- 620609 string characters out of 5470807
- 1286319 words of memory out of 5000000
+ 32092 strings out of 469515
+ 620616 string characters out of 5470807
+ 1288101 words of memory out of 5000000
  60138 multiletter control sequences out of 15000+600000
  642964 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1881,10 +1870,10 @@ s/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (24 pages, 1350656 bytes).
+Output written on main.pdf (25 pages, 1360267 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
+ 587 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
  314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

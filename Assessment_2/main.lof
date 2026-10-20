@@ -2,9 +2,9 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Visualisation of the compilation and execution of code on a supercomputer using field programmable gate arrays. \texthl {HLS C++ code $\rightarrow $ system linking $\rightarrow $ logic synthesis $\rightarrow $ routing $\rightarrow $ bitstream generation --- describe the processes the user is involved with and what is handled by the compiler}}}{3}{figure.caption.3}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Monomolecular chain model for the production and degredation of two molecules.}}{4}{figure.caption.4}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Example Euler-Maruyama method sample path of the Monomolecular chain model using C++ on a GPU. With kinetic rate parameters $k_1 = 1.0$, $k_2 = 0.1$ and $k_3 = 0.05$, initial conditions $A(0) = 100$, $B(0) = 0$, final time $T = 100$.}}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {5}{\ignorespaces vivado analysis.}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {6}{\ignorespaces fpga utilisation.}}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {7}{\ignorespaces comparison}}{7}{figure.caption.8}%
-\contentsline {figure}{\numberline {8}{\ignorespaces mean behaviour.}}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Schematic of vector unit operations in single instruction single data and single instruction multiple data configurations with varying precision levels.}}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {10}{\ignorespaces \texthl {todo}}}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \texthl {todo} vivado analysis.}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \texthl {todo} fpga utilisation.}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {7}{\ignorespaces (\textbf {blue/red}) Euler-Maruyama method sample path of the Monomolecular chain model using C++/OpenCL on a GPU. (\textbf {black/green}) Euler-Maruyama method sample path of the Monomolecular chain model using C++/HLS on an emulated FPGA. Both models follow kinetic rate parameters $k_1 = 1.0$, $k_2 = 0.1$ and $k_3 = 0.05$, initial conditions $A(0) = 100$, $B(0) = 0$, final time $T = 100$.}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \textbf {(blue/red solid line)} Mean path of a Euler-Maruyama method simulation of the Monomolecular chain model using C++/HLS on an emulated FPGA. \textbf {(blue/red shaded area)} Standard deviation of the same Euler-Maruyama method simulation pathway. Following kinetic rate parameters $k_1 = 1.0$, $k_2 = 0.1$ and $k_3 = 0.05$, initial conditions $A(0) = 100$, $B(0) = 0$, final time $T = 100$, number of simulation $N=10$.}}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Schematic of vector unit operations in single instruction single data and single instruction multiple data configurations with varying precision levels.}}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {10}{\ignorespaces \texthl {todo}}}{20}{figure.caption.14}%
