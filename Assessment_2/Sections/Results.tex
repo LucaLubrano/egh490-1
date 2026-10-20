@@ -1,0 +1,10 @@
+\section{Results}\label{sec:results}
+The following section describes the results found through numerical analysis on the Monomolecular Chain and Enzyme Kinetic Biochemical Reaction Networks using the algorithms described in \refsec{sec:methodology}. In all cases the OpenCL host device is an Intel Core Ultra 7 255HX and the compute device is a NVIDIA GeForce RTX 5060 (power limited to 50W). For our mixed precision multilevel scheme we use the coupling scheme described in \refsec{sec:mpmlmc_coupling_scheme_2}, and for both the mixed precision and standard multilevel we use $M=2$. 
+
+\input{Sections/Results/BCRNs}
+
+\input{Sections/Results/Variance}
+
+%\input{Sections/Results/Cost}
+
+\input{Sections/Results/Performance}

@@ -1,0 +1,23 @@
+\section{Methodology}\label{sec:methodology}
+To investigate the potential computational advantages of the proposed method by Haas and Giles in the context of Systems Biology, we first must rigorously define our MLMC model and coupling scheme. The definition of the coupling used in both the standard and nested MLMC is then validated through numerical studies in \refsec{sec:results}. We utilise a stochastic differential equation discretisation for our simulation method as this is well studied in the MLMC context.
+
+\input{Sections/Methodology/EulerMaruyamaMethod}
+
+\input{Sections/Methodology/MonteCarlo}
+
+\input{Sections/Methodology/MultilevelMonteCarlo}
+
+\input{Sections/Methodology/MixedPrecisionMultilevelMonteCarlo}
+
+\subsection{Implementation}
+Here we explore the programmatic methods for implementing the MLMC schemes in heterogeneous computing architecture. To make kernels that are able to be run on a diverse array of compute devices we use the OpenCL programming language. This language is able to be compiled to CPU, GPU and accelerator cards, such as FPGAs. This means that we are able to develop algorithms in a single language and vary them between device to optimise to specific hardware. By doing this, the development time of these algorithms is greatly reduced and makes them a much more accessible tool to researchers.
+
+When using computational accelerator hardware such as GPUs and FPGAs, memory management becomes a significant bottleneck in wall-time reduction. Since, in our context we are compiling kernels to be run continuously on these devices, we need methods of storing and managing the data produced by the simulation such that we are minimising the movement of data between devices. We explore methods for optimising the amount of computation done per device based on available memory and computational bandwidth. 
+
+\input{Sections/Methodology/Implementation/MonteCarlo}
+
+\input{Sections/Methodology/Implementation/MultilevelMonteCarlo}
+
+\input{Sections/Methodology/Implementation/MixedPrecisionMultilevelMonteCarlo}
+
+\input{Sections/Methodology/Implementation/MemoryManagement}
