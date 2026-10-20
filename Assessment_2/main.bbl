@@ -410,193 +410,6 @@
     \endverb
   \endentry
 
-  \entry{warneVectorOperationsAccelerating2022}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=WDJ}{%
-         family={Warne},
-         familyi={W\bibinitperiod},
-         given={David\bibnamedelima J.},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=SSA}{%
-         family={Sisson},
-         familyi={S\bibinitperiod},
-         given={Scott\bibnamedelima A.},
-         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=DC}{%
-         family={Drovandi},
-         familyi={D\bibinitperiod},
-         given={Christopher},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WDJ+2}
-    \strng{fullhash}{WDJSSADC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Many applications in Bayesian statistics are extremely computationally
-  intensive. However, they are often inherently parallel, making them prime
-  targets for modern massively parallel processors. Multi-core and distributed
-  computing is widely applied in the Bayesian community, however, very little
-  attention has been given to fine-grain parallelisation using single
-  instruction multiple data (SIMD) operations that are available on most modern
-  CPUs. In this work, we practically demonstrate, using standard programming
-  libraries, the utility of the SIMD approach for several topical Bayesian
-  applications. Using the C programming language, we show that SIMD can improve
-  the single-core floating point arithmetic performance by up to a factor of
-  6\texttimes{} compared scalar C code and more than 25\texttimes{} compared
-  with optimised R code. Such improvements are multiplicative to any gains
-  achieved through multi-core processing. We illustrate the potential of SIMD
-  for accelerating Bayesian computations and provide the reader with techniques
-  for exploiting modern massively parallel processing environments.%
-    }
-    \verb{doi}
-    \verb 10.1214/21-BA1265
-    \endverb
-    \field{issn}{1936-0975}
-    \field{number}{2}
-    \field{title}{Vector {{Operations}} for {{Accelerating Expensive Bayesian
-  Computations}} -- {{A Tutorial Guide}}}
-    \field{volume}{17}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/luca-lubrano/Zotero/storage/NZZETEH2/Warne et al. - 2022 - Vect
-    \verb or Operations for Accelerating Expensive Bayesian Computations – A
-    \verb Tutorial Guide.pdf
-    \endverb
-    \field{journaltitle}{Bayesian Analysis}
-    \field{month}{06}
-    \field{year}{2022}
-    \field{urlday}{24}
-    \field{urlmonth}{08}
-    \field{urlyear}{2025}
-  \endentry
-
-  \entry{haasNestedMLMCFramework2025}{misc}{}{}
-    \name{author}{2}{}{%
-      {{hash=HIB}{%
-         family={Haas},
-         familyi={H\bibinitperiod},
-         given={Irina-Beatrice},
-         giveni={I\bibinithyphendelim B\bibinitperiod},
-      }}%
-      {{hash=GMB}{%
-         family={Giles},
-         familyi={G\bibinitperiod},
-         given={Michael\bibnamedelima B.},
-         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {arXiv}%
-    }
-    \keyw{Computer Science - Numerical Analysis,Mathematics - Numerical
-  Analysis,Quantitative Finance - Computational Finance}
-    \strng{namehash}{HIBGMB1}
-    \strng{fullhash}{HIBGMB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Multilevel Monte Carlo (MLMC) reduces the total computational cost of
-  financial option pricing by combining SDE approximations with multiple
-  resolutions. This paper explores a further avenue for reducing cost and
-  improving power efficiency through the use of low precision calculations on
-  configurable hardware devices such as Field-Programmable Gate Arrays (FPGAs).
-  We propose a new framework that exploits approximate random variables and
-  fixed-point operations with optimised precision to generate most SDE paths
-  with a lower cost and reduce the overall cost of the MLMC framework. We first
-  discuss several methods for the cheap generation of approximate random Normal
-  increments. To set the bit-width of variables in the path generation we then
-  propose a rounding error model and optimise the precision of all variables on
-  each MLMC level. With these key improvements, our proposed framework offers
-  higher computational savings than the existing mixed-precision MLMC
-  frameworks.%
-    }
-    \verb{doi}
-    \verb 10.48550/arXiv.2502.07123
-    \endverb
-    \verb{eprint}
-    \verb 2502.07123
-    \endverb
-    \field{number}{arXiv:2502.07123}
-    \field{title}{A Nested {{MLMC}} Framework for Efficient Simulations on
-  {{FPGAs}}}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/luca-lubrano/Zotero/storage/23E9E9WV/Haas and Giles - 2025 - A
-    \verb nested MLMC framework for efficient simulations on FPGAs.pdf
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{q-fin}
-    \field{month}{02}
-    \field{year}{2025}
-    \field{urlday}{24}
-    \field{urlmonth}{08}
-    \field{urlyear}{2025}
-  \endentry
-
-  \entry{warneComparisonHighLevel2014}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=WDJ}{%
-         family={Warne},
-         familyi={W\bibinitperiod},
-         given={David\bibnamedelima J.},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=KNA}{%
-         family={Kelson},
-         familyi={K\bibinitperiod},
-         given={Neil\bibnamedelima A.},
-         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=HRF}{%
-         family={Hayward},
-         familyi={H\bibinitperiod},
-         given={Ross\bibnamedelima F.},
-         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WDJ+2}
-    \strng{fullhash}{WDJKNAHRF2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Reconfigurable computing devices can increase the performance of compute
-  intensive algorithms by implementing application specific co-processor
-  architectures. The power cost for this performance gain is often an order of
-  magnitude less than that of modern CPUs and GPUs. Exploiting the potential of
-  reconfigurable devices such as Field-Programmable Gate Arrays (FPGAs) is
-  typically a complex and tedious hardware engineering task. Recently the major
-  FPGA vendors (Altera, and Xilinx) have released their own high-level design
-  tools, which have great potential for rapid development of FPGA based custom
-  accelerators. In this paper, we will evaluate Altera's OpenCL Software
-  Development Kit, and Xilinx's Vivado High Level Sythesis tool. These tools
-  will be compared for their performance, logic utilisation, and ease of
-  development for the test case of a tri-diagonal linear system solver.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.procs.2014.05.009
-    \endverb
-    \field{issn}{18770509}
-    \field{pages}{95\bibrangedash 101}
-    \field{title}{Comparison of {{High Level FPGA Hardware Design}} for
-  {{Solving Tri-diagonal Linear Systems}}}
-    \field{volume}{29}
-    \field{langid}{english}
-    \verb{file}
-    \verb /home/luca-lubrano/Zotero/storage/PYTHG937/Warne et al. - 2014 - Comp
-    \verb arison of High Level FPGA Hardware Design for Solving Tri-diagonal Li
-    \verb near Systems.pdf
-    \endverb
-    \field{journaltitle}{Procedia Computer Science}
-    \field{year}{2014}
-    \field{urlday}{24}
-    \field{urlmonth}{08}
-    \field{urlyear}{2025}
-  \endentry
-
   \entry{banksCALCULATIONENGINEPARAMETERS2014}{article}{}{}
     \name{author}{7}{}{%
       {{hash=BJ}{%
@@ -680,6 +493,66 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{warneComparisonHighLevel2014}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KNA}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={Neil\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HRF}{%
+         family={Hayward},
+         familyi={H\bibinitperiod},
+         given={Ross\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+2}
+    \strng{fullhash}{WDJKNAHRF2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Reconfigurable computing devices can increase the performance of compute
+  intensive algorithms by implementing application specific co-processor
+  architectures. The power cost for this performance gain is often an order of
+  magnitude less than that of modern CPUs and GPUs. Exploiting the potential of
+  reconfigurable devices such as Field-Programmable Gate Arrays (FPGAs) is
+  typically a complex and tedious hardware engineering task. Recently the major
+  FPGA vendors (Altera, and Xilinx) have released their own high-level design
+  tools, which have great potential for rapid development of FPGA based custom
+  accelerators. In this paper, we will evaluate Altera's OpenCL Software
+  Development Kit, and Xilinx's Vivado High Level Sythesis tool. These tools
+  will be compared for their performance, logic utilisation, and ease of
+  development for the test case of a tri-diagonal linear system solver.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.procs.2014.05.009
+    \endverb
+    \field{issn}{18770509}
+    \field{pages}{95\bibrangedash 101}
+    \field{title}{Comparison of {{High Level FPGA Hardware Design}} for
+  {{Solving Tri-diagonal Linear Systems}}}
+    \field{volume}{29}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/PYTHG937/Warne et al. - 2014 - Comp
+    \verb arison of High Level FPGA Hardware Design for Solving Tri-diagonal Li
+    \verb near Systems.pdf
+    \endverb
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2014}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{deschryverFPGABasedAccelerators2015}{book}{}{}
     \name{editor}{1}{}{%
       {{hash=DSC}{%
@@ -710,6 +583,70 @@
     \verb Based Accelerators for Financial Applications.pdf
     \endverb
     \field{year}{2015}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{warneVectorOperationsAccelerating2022}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=WDJ}{%
+         family={Warne},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SSA}{%
+         family={Sisson},
+         familyi={S\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Drovandi},
+         familyi={D\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDJ+2}
+    \strng{fullhash}{WDJSSADC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Many applications in Bayesian statistics are extremely computationally
+  intensive. However, they are often inherently parallel, making them prime
+  targets for modern massively parallel processors. Multi-core and distributed
+  computing is widely applied in the Bayesian community, however, very little
+  attention has been given to fine-grain parallelisation using single
+  instruction multiple data (SIMD) operations that are available on most modern
+  CPUs. In this work, we practically demonstrate, using standard programming
+  libraries, the utility of the SIMD approach for several topical Bayesian
+  applications. Using the C programming language, we show that SIMD can improve
+  the single-core floating point arithmetic performance by up to a factor of
+  6\texttimes{} compared scalar C code and more than 25\texttimes{} compared
+  with optimised R code. Such improvements are multiplicative to any gains
+  achieved through multi-core processing. We illustrate the potential of SIMD
+  for accelerating Bayesian computations and provide the reader with techniques
+  for exploiting modern massively parallel processing environments.%
+    }
+    \verb{doi}
+    \verb 10.1214/21-BA1265
+    \endverb
+    \field{issn}{1936-0975}
+    \field{number}{2}
+    \field{title}{Vector {{Operations}} for {{Accelerating Expensive Bayesian
+  Computations}} -- {{A Tutorial Guide}}}
+    \field{volume}{17}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/NZZETEH2/Warne et al. - 2022 - Vect
+    \verb or Operations for Accelerating Expensive Bayesian Computations – A
+    \verb Tutorial Guide.pdf
+    \endverb
+    \field{journaltitle}{Bayesian Analysis}
+    \field{month}{06}
+    \field{year}{2022}
     \field{urlday}{24}
     \field{urlmonth}{08}
     \field{urlyear}{2025}
@@ -876,6 +813,69 @@
     \field{urlday}{04}
     \field{urlmonth}{09}
     \field{urlyear}{2026}
+  \endentry
+
+  \entry{haasNestedMLMCFramework2025}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=HIB}{%
+         family={Haas},
+         familyi={H\bibinitperiod},
+         given={Irina-Beatrice},
+         giveni={I\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=GMB}{%
+         family={Giles},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Computer Science - Numerical Analysis,Mathematics - Numerical
+  Analysis,Quantitative Finance - Computational Finance}
+    \strng{namehash}{HIBGMB1}
+    \strng{fullhash}{HIBGMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multilevel Monte Carlo (MLMC) reduces the total computational cost of
+  financial option pricing by combining SDE approximations with multiple
+  resolutions. This paper explores a further avenue for reducing cost and
+  improving power efficiency through the use of low precision calculations on
+  configurable hardware devices such as Field-Programmable Gate Arrays (FPGAs).
+  We propose a new framework that exploits approximate random variables and
+  fixed-point operations with optimised precision to generate most SDE paths
+  with a lower cost and reduce the overall cost of the MLMC framework. We first
+  discuss several methods for the cheap generation of approximate random Normal
+  increments. To set the bit-width of variables in the path generation we then
+  propose a rounding error model and optimise the precision of all variables on
+  each MLMC level. With these key improvements, our proposed framework offers
+  higher computational savings than the existing mixed-precision MLMC
+  frameworks.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.2502.07123
+    \endverb
+    \verb{eprint}
+    \verb 2502.07123
+    \endverb
+    \field{number}{arXiv:2502.07123}
+    \field{title}{A Nested {{MLMC}} Framework for Efficient Simulations on
+  {{FPGAs}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/23E9E9WV/Haas and Giles - 2025 - A
+    \verb nested MLMC framework for efficient simulations on FPGAs.pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{q-fin}
+    \field{month}{02}
+    \field{year}{2025}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
   \endentry
 
   \entry{kulkarniAcceleratingSimulationbasedInference2020}{book}{}{}

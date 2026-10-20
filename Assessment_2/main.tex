@@ -261,20 +261,20 @@
 	In this type of simulation, it is well-known that the predominant computational cost arise from the generation of random numbers. Additionally, we also require these random numbers to be distributed, which necessitates expensive mathematical operations. Since, each SSA requires a distributed random number per species per time-step incrementation, significant focus is often placed in understanding how we can increase the efficiency of this operation to increase the efficiency of the overall algorithm. Since the Euler-Maruyama method only requires unit Normal random numbers, we can infact simply generate uniform random numbers and transform them to Normals via the Box-Muller transform \hl{cite}. The process of random number generation on reconfigurable hardware is explored further in \refsec{sec:future_work}.
 	
 	\subsection{Initial Findings}
-	
+	The findings we demonstrate in this work are representative of the preliminary milestones for the overall project. Our first goal with this set of deliverables is to validate the ability to run complex simulation pathway algorithms entirely within an FPGA, inclusive of random number generation. By doing this, we provide the groundwork for the continuation of this work in the second phase, focused more on the power usage and run time on physical hardware. Due to access limitations to the FPGA hardware, these initial findings are passed on emulated simulation of the hardwares true performance. As such, the findings reported here may deviate when moving to the physical hardware as it is accepted that this emulation is only an approximation. 
 	
 	\subsubsection{Hardware Emulation}
 	
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
+		\includegraphics[width=1\textwidth]{Figures/em-simulation-1.png}
 		\caption{vivado analysis.}
 		\label{fig:vivado_analysis}
 	\end{figure}
 	
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
+		\includegraphics[width=0.75\textwidth]{Figures/utilisation.png}
 		\caption{fpga utilisation.}
 		\label{fig:fpga_utilisation}
 	\end{figure}
@@ -282,14 +282,14 @@
 	\subsubsection{Validation of Implementation}
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
-		\caption{overlayed plot.}
+		\includegraphics[width=0.75\textwidth]{Figures/overlayed_plot.png}
+		\caption{comparison}
 		\label{fig:comparison}
 	\end{figure}
 	
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
+		\includegraphics[width=0.75\textwidth]{Figures/mean_behaviour.png}
 		\caption{mean behaviour.}
 		\label{fig:mean_behaviour}
 	\end{figure}
@@ -408,6 +408,13 @@
 		\end{tabularx}	
 		\caption{Project risk assessment}
 	\end{table}
+	\section{Kernel Schematic}\label{apn:kernel_schematic}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{Figures/schematic-1.png}
+		\caption{\hl{todo}}
+		\label{fig:kernel_schematic}
+	\end{figure}
 	\newpage
     \printbibliography
 
