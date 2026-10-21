@@ -187,9 +187,9 @@
     \pagenumbering{arabic} 
 	
 	\section{Introduction}
-	Most fields in modern engineering depend heavily on data intensive high performance computing (HPC). Server-based computation, such as data-centres and computational research facilities, are estimated to have produced more greenhouse gas emissions than the aviation sector in 2020 \hl{cite}. The impact of this has only increased with the rise in popularity of machine learning tools, such as artificial intelligence (AI), within the field \hl{cite}. Many of these computationally burdensome tasks require the parallelism of time-series simulations, such as Finite Element Analysis (FEA) and Stochastic simulation --- used in AI applications heavily \hl{cite}. 
+	Most fields in modern engineering depend heavily on data intensive high performance computing (HPC). Server-based computation, such as data-centres and computational research facilities, are estimated to have produced more greenhouse gas emissions than the aviation sector in 2020 \cite{CarbonFootprintComputational2023}. The impact of this has only increased with the rise in popularity of machine learning tools, such as artificial intelligence (AI), within the field \cite{dharCarbonImpactArtificial2020}. Many of these computationally burdensome tasks require the parallelism of time-series simulations, such as Finite Element Analysis (FEA) and Stochastic simulation --- used in AI applications heavily. 
 	
-	But as methods become more complex, and problems more difficult, it is infeasible to simply continuously add more computational devices to a cluster. This presents several types of issues, perhaps the most serious of which is the power input required to operate supercomputers. GPU-dense heterogeneous computing environments, used extensively in engineering modelling and simulation, dissipate \hl{enormous} amounts of heat which utilises a substantial quantity of power to cool. From this, GreenHPC aims to increase the amount of floating-point operations per second per watt (FLOPS/W) --- unlike traditional HPC, which is solely concerned with the FLOPS --- leveraging of specialised computing devices such as, tensor processing units (TPUs), application-specific integrated circuits (ASICs) and field programmable gate arrays (FPGAs). 
+	But as methods become more complex, and problems more difficult, it is infeasible to simply continuously add more computational devices to a cluster. This presents several types of issues, perhaps the most serious of which is the power input required to operate supercomputers. GPU-dense heterogeneous computing environments, used extensively in engineering modelling and simulation, dissipate large amounts of heat which utilises a substantial quantity of power to cool. From this, GreenHPC aims to increase the amount of floating-point operations per second per watt (FLOPS/W) --- unlike traditional HPC, which is solely concerned with the FLOPS --- leveraging of specialised computing devices such as, tensor processing units (TPUs), application-specific integrated circuits (ASICs) and field programmable gate arrays (FPGAs). 
 	
 	Clearly, the most power-efficient computational devices are ASICs, since they are purpose-built to perform operations at the circuit level. While this is useful in large supercomputers that perform extremely repetitive low-variant tasks, it is applicable to computational research. Reconfigurable computing however, positions itself to improve upon some of these flaws, by allowing the user to achieve \textit{near} true-circuit throughput efficiency while allowing for modifications to be made. These devices, primarily FPGAs, have been extensively used in the Electrical Engineering field for printed circuit board (PCB) design and have recently gained significant popularity in computational settings. 
 	
@@ -205,7 +205,7 @@
 	\end{enumerate}
 	
 	\subsection{Contribution}
-	The core expected contribution of this work is the implementation and analysis of novel simulation techniques utilising reconfigurable hardware. This is done through the portable programming framework, High-level Synthesis (HLS), which uses pragmatic flagging of \hl{standard} C++ code. Due to the size and complexity of this task, we segment our deliverables into clear milestones to enable clear progress throughout the project. The contribution delivered in EGH490--1 is the validation of the implementation of methods of simulated FPGA hardware --- evaluated against GPU-based implementations. With the physical FPGA hardware testing and analysis against existing methods being done in EGH490--2.
+	The core expected contribution of this work is the implementation and analysis of novel simulation techniques utilising reconfigurable hardware. This is done through the portable programming framework, High-level Synthesis (HLS), which uses pragmatic flagging of standard C++ code. Due to the size and complexity of this task, we segment our deliverables into clear milestones to enable clear progress throughout the project. The contribution delivered in EGH490--1 is the validation of the implementation of methods of simulated FPGA hardware --- evaluated against GPU-based implementations. With the physical FPGA hardware testing and analysis against existing methods being done in EGH490--2.
 
 	\section{Interim Deliverables}
 	We divide this project into two key aspects, first is the development of simulation algorithms and validating their outputs against proven methods using hardware emulation. Since, this involves both the understanding of heterogeneous computing code architectures and the specific methods in which the HLS compiler converts C++ to hardware description language (HDL). Following from this, we intend to undertake extensive power utilisation studies on the target FPGA cluster on the QUT supercomputer, \textit{Aqua}. This process involves the compilation of high board utilisation code and as such will take in the order of hours per experiment, meaning the initial validation and verification analysis we conduct in this initial report is vital for the proceeding work.
@@ -219,7 +219,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
+		\includegraphics[width=1\textwidth]{Figures/fpga.png} 
 		\caption{Visualisation of the simplified structure of a field programmable gate array.}
 		\label{fig:fpga_internals}
 	\end{figure}
@@ -228,8 +228,8 @@
 	The compilation of kernel code to an instruction set that is able to be utilised by the FPGA is a cascading process. \reffig{fig:kernel_loading} shows this high-level process as experienced by the user of the system. Each of these steps adds to the complexity and a potential failure point of the process and will be further analysed in the second phase of work. Marked in this figure is also the point at which our emulated hardware operates and the step following to which we can use the kernel on a physical card. We focus on this emulated hardware level throughout this work and later analysis. 
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
-		\caption{Visualisation of the compilation and execution of code on a supercomputer using field programmable gate arrays. \hl{HLS C++ code $\rightarrow$ system linking $\rightarrow$ logic synthesis $\rightarrow$ routing $\rightarrow$ bitstream generation --- describe the processes the user is involved with and what is handled by the compiler}}
+		\includegraphics[width=1\textwidth]{Figures/code-pipeline.png} 
+		\caption{Visualisation of the compilation and execution of code on a supercomputer using field programmable gate arrays. Compared to the process for existing implementations on a GPU.}
 		\label{fig:kernel_loading}
 	\end{figure}
 	
@@ -241,11 +241,11 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\rule{0.8\textwidth}{8cm} 
+		\includegraphics[width=0.75\textwidth]{Figures/mmc-fig.png} 
 		\caption{Monomolecular chain model for the production and degredation of two molecules.}
 		\label{fig:mmc_process}
 	\end{figure}
-	The exact system we use is the Monomolecular Chain (MMC) model, described in \reffig{fig:mmc_process}. This model describes the production of molecular A from an external environment, the decay of molecule A to molecule B, and the external consumption of molecular B. The exact solution for the behaviour of the population to this model can indeed be solved analytically using the chemical master equation \hl{cite}. We do not conduct this analysis in this work, however, this is a secondary method we are able to use to verify the integrity of our methods. Noting in \reffig{fig:mmc_process} the $k$ parameters represent the rate in which the three different reactions occur. 
+	The exact system we use is the Monomolecular Chain (MMC) model, described in \reffig{fig:mmc_process}. This model describes the production of molecular A from an external environment, the decay of molecule A to molecule B, and the external consumption of molecular B. The exact solution for the behaviour of the population to this model can indeed be solved analytically using the chemical master equation \cite{warneSimulationInferenceAlgorithms2019}. We do not conduct this analysis in this work, however, this is a secondary method we are able to use to verify the integrity of our methods. Noting in \reffig{fig:mmc_process} the $k$ parameters represent the rate in which the three different reactions occur. 
 	
 	\subsubsection{Euler-Maruyama Simulation}
 	To model the stochastic processes involved in biochemical reaction network modelling, we use stochastic simulation algorithms (SSA). There are many popular and well-studied methods to implement these algorithms, broken into two main catagories; exact\footnote{An exact solution means the algorithm computes an exact realisation of the chemical master equation to find the solution at the next timestep.} and approximate\footnote{An approximate algorithm encompasses many different algorithms which each utilise discretisations of the governing stochastic equations to progress the solution.} solutions. We select the Euler-Maruyama algorithm, an approximate SSA, which discretises the Ito stochastic partial differential equation representation of the chemical Langevin equation. This algorithm is widely used in the literature as a standard method for solving these systems, and also exhibits preferable programmatic characteristics. \reffig{fig:example_simulation} shows an example realisation of the Monomolecular chain model using the Euler-Maruyama algorithm.
@@ -257,7 +257,7 @@
 			GPU. With kinetic rate parameters $k_1 = 1.0$, $k_2 = 0.1$ and $k_3 = 0.05$, initial conditions $A(0) = 100$, $B(0) = 0$, final time $T = 100$.}
 		\label{fig:example_simulation}
 	\end{figure}
-	In this type of simulation, it is well-known that the predominant computational cost arise from the generation of random numbers. Additionally, we also require these random numbers to be distributed, which necessitates expensive mathematical operations. Since, each SSA requires a distributed random number per species per time-step incrementation, significant focus is often placed in understanding how we can increase the efficiency of this operation to increase the efficiency of the overall algorithm. Since the Euler-Maruyama method only requires unit Normal random numbers, we can infact simply generate uniform random numbers and transform them to Normals via the Box-Muller transform \hl{cite}. The process of random number generation on reconfigurable hardware is explored further in \refsec{sec:future_work}.
+	In this type of simulation, it is well-known that the predominant computational cost arise from the generation of random numbers. Additionally, we also require these random numbers to be distributed, which necessitates expensive mathematical operations. Since, each SSA requires a distributed random number per species per time-step incrementation, significant focus is often placed in understanding how we can increase the efficiency of this operation to increase the efficiency of the overall algorithm. Since the Euler-Maruyama method only requires unit Normal random numbers, we can infact simply generate uniform random numbers and transform them to Normals via the Box-Muller transform. The process of random number generation on reconfigurable hardware is explored further in \refsec{sec:future_work}.
 	
 	\subsection{Initial Findings}
 	The findings we demonstrate in this work are representative of the preliminary milestones for the overall project. Our first goal with this set of deliverables is to validate the ability to run complex simulation pathway algorithms entirely within an FPGA, inclusive of random number generation. By doing this, we provide the groundwork for the continuation of this work in the second phase, focused more on the power usage and run time on physical hardware. Due to access limitations to the FPGA hardware, these initial findings are passed on emulated simulation of the hardwares true performance. As such, the findings reported here may deviate when moving to the physical hardware as it is accepted that this emulation is only an approximation. 
@@ -268,7 +268,7 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=1\textwidth]{Figures/em-simulation-1.png}
-		\caption{\hl{todo} vivado analysis.}
+		\caption{Block diagram of the Euler-Maruyamaa simulation method using the Monomolecular chain model. Synthesis generated through the system link .xclbin file generated through compilation. As viewed in Vivado through the \textit{block diagram viewer}.}
 		\label{fig:vivado_analysis}
 	\end{figure}
 	\reffig{fig:vivado_analysis} shows the high-level block diagram of what our kernel code compiles to on the FPGA. A substantial benefit to the accelerator, or HPC, FPGA tools is that they come with many of the required dataflow and clock managers already developed. Unlike a tradition FPGA where the user is required to implement the entire design from the ground up, we are able to use predesigned blocks, meaning we only need to concentrate on the development of the actual kernel, reducing the time cost of this solution. 
@@ -282,7 +282,7 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.75\textwidth]{Figures/utilisation.png}
-		\caption{\hl{todo} fpga utilisation.}
+		\caption{Register resource utilisation generated by a single simulation kernel of the Euler-Maruyama method using a Monomolecular chain model. Data generated through the .xclbin system linking compilation and viewed in Vivado Vitis.}
 		\label{fig:fpga_utilisation}
 	\end{figure}
 	A primitive approximation to the total number of independent kernels able to be loaded onto the FPGA could use the usages found in \reffig{fig:fpga_utilisation} to find a maximum value. However, we are unsure how this would truly scale as we increase the number of kernels. It is likely that there will be efficiencies in the shared usage of DSPs and LUTs since the mathematical operations performed remain largely similar with the exception of the deviation caused by the random number generation. Limitations in memory bandwidth would also likely be introduced and would have to be investigated how the BRAM of the card handles the concurrent simulations.
@@ -300,7 +300,7 @@
 	\end{figure}
 	\reffig{fig:comparison} shows a comparison between the two implementations and their corresponding results. We can see that the two pathways clearly show a substantial deviation towards the beginning of the simulation and tend towards a similar final result. This is acceptable however, as the underlying process of our simulation is stochastic in nature and hence we expect to see variation in the population over time between simulations. This plot demonstrates that we achieve results usable for analysis from our FPGA the same as we do from our GPU implementation.
 	
-	A key decision for our choice of example model in this report is the ability for us to solve it analytically. This means we can find an analytic expression for the time-dependant average population of both species. This analysis is not within the scope of this report, however, \reffig{fig:mean_behaviour} demonstrates a close match to this behaviour \hl{cite}. The results used in the generation of this plot come from the independent serial simulation of ten pathways. Of course, in the limit as we increase the number of simulations used, we will find the average behaviour and standard deviation will approach the known values more closely.
+	A key decision for our choice of example model in this report is the ability for us to solve it analytically. This means we can find an analytic expression for the time-dependant average population of both species. This analysis is not within the scope of this report, however, \reffig{fig:mean_behaviour} demonstrates a close match to this behaviour \cite{warneSimulationInferenceAlgorithms2019}. The results used in the generation of this plot come from the independent serial simulation of ten pathways. Of course, in the limit as we increase the number of simulations used, we will find the average behaviour and standard deviation will approach the known values more closely.
 	
 	\begin{figure}[h!]
 		\centering
@@ -337,7 +337,7 @@
 	Leadership is shown expressly when communicating to the DevOps team at HPC. Leading the finalisation of the creation of the FPGA cluster on the HPC. This involved several months of communication with the HPC team and conducting investigations independantly to assist the team. We also ensure to not make erroneous claims within this work before understanding the full picture of the work. Given this is a preliminary report we are not able to make definitive claims about the results of our findings and ensure to clearly state the limitations to our approach.
 	
 	\subsection{Sustainability}\label{sec:sustainability}
-	Sustainability has been a focus and forms a key part of our overall research goal. The largest risk to sustainable practice in our work is the efficiency gained is offset by energy development costs of methods \hl{cite}. To reduce the impact of the development and experimentation that we complete in this work, we spend significant time ensuring that our algorithms are validated in emulation before moving to hardware. The computational cost for developing in emulation is significantly less than that of hardware and allows us to validate the correctness of our solution without requiring the large computational time required to run on the actual FPGA. Meaning, that when we move to hardware implementations we are already confident in our implementation. By doing this, we both significantly increase our efficiency in developing algorithms, as code-to-test time is reduced, and the overall power use of our research. 
+	Sustainability has been a focus and forms a key part of our overall research goal. The largest risk to sustainable practice in our work is the efficiency gained is offset by energy development costs of methods. To reduce the impact of the development and experimentation that we complete in this work, we spend significant time ensuring that our algorithms are validated in emulation before moving to hardware. The computational cost for developing in emulation is significantly less than that of hardware and allows us to validate the correctness of our solution without requiring the large computational time required to run on the actual FPGA. Meaning, that when we move to hardware implementations we are already confident in our implementation. By doing this, we both significantly increase our efficiency in developing algorithms, as code-to-test time is reduced, and the overall power use of our research. 
 	
 	Another sustainability risk that has been examined throughout our research is Jevon's Paradox, by which efficiency is offset by greater consumption. The rise of artificial intelligence is a clear follower of this paradox, as computational power has only exponentially increased, and yet the demand and consumption of these models has also increased. In the scope of our work, by decreasing the total cost of simulation in a biochemical reaction network context, the long-term goal is to reduce the wall-time and power utilisation in inference problems. Complex inference problems often requires in the magnitude of days and weeks worth of computational time on a supercomputer. The goal criterion of the analysis however, does not often change. As such, increasing the throughput ability is aimed to not increase total demand. 
 	
@@ -352,7 +352,7 @@
 	The final stakeholder we consider are the potential end-users of our programs and methodologies. Our target is scientists who utilise HPC environments for computationally intensive research. Throughout the research we consider the complexity of the code and results we produce to ensure that we provide a fair analysis as to whether HLS is accessible to this group of researchers who are potentially not trained in computer science or do not have the time to implement such methods. 
 	
 	\subsection{Resources}
-	The primary resources used in the codebase developed were the OpenCL and HLS coding standards \hl{cite}. These provided the necessary documentation and explanation of concepts to be able to create compliant code. In parallel to this we heavily utilised open sourced example repositories provided by AMD for their HLS codebase and FPGA development pipelines \hl{cite}. These repositories, alongside the documentation, allow us to create code that is efficient and follows the intended structure to reduce potential issues or overheads.
+	The primary resources used in the codebase developed were the OpenCL and HLS coding standards. These provided the necessary documentation and explanation of concepts to be able to create compliant code. In parallel to this we heavily utilised open sourced example repositories provided by AMD for their HLS codebase and FPGA development pipelines. These repositories, alongside the documentation, allow us to create code that is efficient and follows the intended structure to reduce potential issues or overheads.
 	
 	To complete the next milestone deliverable, we will also utilise the AMD U55C FPGA card located in the QUT HPC. We will draw upon the guidance of the DevOps team and the appropriate documentation for implementing programs on this hardware. Since this can be a quite difficult and ownersome task we will ensure to collaborate heavily with the academic resources available to reduce delays to the project. 
 	
@@ -428,7 +428,7 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=1\textwidth]{Figures/schematic-1.png}
-		\caption{\hl{todo}}
+		\caption{Circuit diagram of a single simulation Euler-Maruyama method of a Monomolecular chain model. Diagram obtained through Vivado using hardware emulation.}
 		\label{fig:kernel_schematic}
 	\end{figure}
 	\newpage

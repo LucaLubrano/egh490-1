@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.9.30)  20 OCT 2026 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.8.21)  21 OCT 2026 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,6 +1366,12 @@ Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 1
 76.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [2 <./Figures/Misc/QUT_logo_footer.png>] (./main.lof
+Overfull \hbox (12.18678pt too wide) in paragraph at lines 6--6
+ [][] [][][]\OT1/cmr/m/n/10.95 Register re-source util-i-sa-tion gen-er-ated by
+ a sin-gle sim-u-la-tion ker-nel of the Euler-Maruyama 
+ []
+
+
 Overfull \hbox (5.88257pt too wide) in paragraph at lines 8--8
  \OT1/cmr/m/n/10.95 Monomolec-u-lar chain model us-ing C++/HLS on an em-u-lated
  FPGA. \OT1/cmr/bx/n/10.95 (blue/red shaded 
@@ -1395,6 +1401,12 @@ Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
 09.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [1]
+<Figures/fpga.png, id=251, 1175.89313pt x 353.06906pt>
+File: Figures/fpga.png Graphic file (type png)
+<use Figures/fpga.png>
+Package pdftex.def Info: Figures/fpga.png  used on input line 222.
+(pdftex.def)             Requested size: 483.69687pt x 145.23334pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1404,25 +1416,39 @@ Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
 27.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [2]
+<Figures/code-pipeline.png, id=266, 1234.6125pt x 374.14781pt>
+File: Figures/code-pipeline.png Graphic file (type png)
+<use Figures/code-pipeline.png>
+Package pdftex.def Info: Figures/code-pipeline.png  used on input line 231.
+(pdftex.def)             Requested size: 483.69687pt x 146.585pt.
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-38.
+41.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [3]
-File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
-<use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-52.
-(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [4]
-<Figures/mmc-gdm-example-samplepath.png, id=277, 844.65562pt x 597.73312pt>
+ [3 <./Figures/fpga.png> <./Figures/code-pipeline.png>]
+<Figures/mmc-fig.png, id=273, 854.44218pt x 357.58594pt>
+File: Figures/mmc-fig.png Graphic file (type png)
+<use Figures/mmc-fig.png>
+Package pdftex.def Info: Figures/mmc-fig.png  used on input line 244.
+(pdftex.def)             Requested size: 362.77264pt x 151.8165pt.
+<Figures/mmc-gdm-example-samplepath.png, id=283, 844.65562pt x 597.73312pt>
 File: Figures/mmc-gdm-example-samplepath.png Graphic file (type png)
 <use Figures/mmc-gdm-example-samplepath.png>
 Package pdftex.def Info: Figures/mmc-gdm-example-samplepath.png  used on input 
 line 255.
 (pdftex.def)             Requested size: 362.77264pt x 256.72836pt.
-<Figures/em-simulation-1.png, id=280, 1706.375pt x 2208.25pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
+<use Figures/Misc/QUT_logo_footer.png>
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
+64.
+(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
+[4 <./Figures/mmc-fig.png>]
+<Figures/em-simulation-1.png, id=295, 1706.375pt x 2208.25pt>
 File: Figures/em-simulation-1.png Graphic file (type png)
 <use Figures/em-simulation-1.png>
 Package pdftex.def Info: Figures/em-simulation-1.png  used on input line 270.
@@ -1434,36 +1460,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-75.
+79.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
 [5 <./Figures/mmc-gdm-example-samplepath.png>]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-76.
+81.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [6 <./Figures/em-simulation-1.png>]
-<Figures/utilisation.png, id=301, 1576.9314pt x 839.7774pt>
+<Figures/utilisation.png, id=316, 1576.9314pt x 839.7774pt>
 File: Figures/utilisation.png Graphic file (type png)
 <use Figures/utilisation.png>
 Package pdftex.def Info: Figures/utilisation.png  used on input line 284.
 (pdftex.def)             Requested size: 362.77264pt x 193.18318pt.
-File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
-<use Figures/Misc/QUT_logo_footer.png>
-Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 2
-92.
-(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [7 <./Figures/utilisation.png (PNG copy)>]
-<Figures/overlayed_plot.png, id=309, 1519.5972pt x 801.7152pt>
+<Figures/overlayed_plot.png, id=319, 1519.5972pt x 801.7152pt>
 File: Figures/overlayed_plot.png Graphic file (type png)
 <use Figures/overlayed_plot.png>
 Package pdftex.def Info: Figures/overlayed_plot.png  used on input line 297.
 (pdftex.def)             Requested size: 362.77264pt x 191.38799pt.
-<Figures/mean_behaviour.png, id=314, 1519.5972pt x 818.5782pt>
-File: Figures/mean_behaviour.png Graphic file (type png)
-<use Figures/mean_behaviour.png>
-Package pdftex.def Info: Figures/mean_behaviour.png  used on input line 307.
-(pdftex.def)             Requested size: 362.77264pt x 195.41357pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1471,31 +1486,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
+04.
+(pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
+[7 <./Figures/utilisation.png (PNG copy)>]
+<Figures/mean_behaviour.png, id=329, 1519.5972pt x 818.5782pt>
+File: Figures/mean_behaviour.png Graphic file (type png)
+<use Figures/mean_behaviour.png>
+Package pdftex.def Info: Figures/mean_behaviour.png  used on input line 307.
+(pdftex.def)             Requested size: 362.77264pt x 195.41357pt.
+File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
+<use Figures/Misc/QUT_logo_footer.png>
+Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
 15.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
-[8 <./Figures/overlayed_plot.png (PNG copy)>]
+ [8 <./Figures/overlayed_plot.png (PNG copy)> <./Figures/mean_behaviour.png (PN
+G copy)>]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-26.
+31.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [9 <./Figures/mean_behaviour.png (PNG copy)>]
+ [9]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-41.
+46.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [10]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-58.
+63.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [11]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 <use Figures/Misc/QUT_logo_footer.png>
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
-74.
+79.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
  [12]
 File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
@@ -1503,8 +1530,9 @@ File: Figures/Misc/QUT_logo_footer.png Graphic file (type png)
 Package pdftex.def Info: Figures/Misc/QUT_logo_footer.png  used on input line 3
 80.
 (pdftex.def)             Requested size: 67.60593pt x 21.33955pt.
- [13] (./Sections/LiteratureReview.tex
-<Figures/simd.png, id=349, 1271.5003pt x 392.21532pt>
+ [13]
+(./Sections/LiteratureReview.tex
+<Figures/simd.png, id=364, 1271.5003pt x 392.21532pt>
 File: Figures/simd.png Graphic file (type png)
 <use Figures/simd.png>
 Package pdftex.def Info: Figures/simd.png  used on input line 13.
@@ -1772,7 +1800,7 @@ Underfull \hbox (badness 7777) in paragraph at lines 424--424
 \OT1/cmr/m/n/10.95 force rea-son-able
  []
 
-<Figures/schematic-1.png, id=458, 1706.375pt x 2208.25pt>
+<Figures/schematic-1.png, id=473, 1706.375pt x 2208.25pt>
 File: Figures/schematic-1.png Graphic file (type png)
 <use Figures/schematic-1.png>
 Package pdftex.def Info: Figures/schematic-1.png  used on input line 430.
@@ -1827,13 +1855,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32092 strings out of 469515
- 620616 string characters out of 5470807
- 1288101 words of memory out of 5000000
- 60138 multiletter control sequences out of 15000+600000
- 642964 words of font info for 97 fonts, out of 8000000 for 9000
+ 32126 strings out of 469515
+ 621838 string characters out of 5470807
+ 1290127 words of memory out of 5000000
+ 60170 multiletter control sequences out of 15000+600000
+ 643310 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,15n,93p,1850b,2094s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,93p,1850b,2088s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
 , replaced by a fixed one
@@ -1870,10 +1898,10 @@ s/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (25 pages, 1360267 bytes).
+Output written on main.pdf (25 pages, 1592724 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 

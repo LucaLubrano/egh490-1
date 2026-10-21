@@ -17,6 +17,71 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
+  \entry{CarbonFootprintComputational2023}{article}{}{}
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Computational science,Sustainability}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Monitoring and reporting on the environmental impact of computational
+  science research is critical to ensure a more sustainable future.%
+    }
+    \verb{doi}
+    \verb 10.1038/s43588-023-00506-2
+    \endverb
+    \field{issn}{2662-8457}
+    \field{number}{8}
+    \field{pages}{659\bibrangedash 659}
+    \field{title}{The Carbon Footprint of Computational Research}
+    \field{volume}{3}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/B77XZQXZ/2023 - The carbon footprin
+    \verb t of computational research.pdf
+    \endverb
+    \field{journaltitle}{Nature Computational Science}
+    \field{month}{08}
+    \field{year}{2023}
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{dharCarbonImpactArtificial2020}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=DP}{%
+         family={Dhar},
+         familyi={D\bibinitperiod},
+         given={Payal},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DP1}
+    \strng{fullhash}{DP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s42256-020-0219-9
+    \endverb
+    \field{issn}{2522-5839}
+    \field{number}{8}
+    \field{pages}{423\bibrangedash 425}
+    \field{title}{The Carbon Impact of Artificial Intelligence}
+    \field{volume}{2}
+    \field{langid}{english}
+    \verb{file}
+    \verb /home/luca-lubrano/Zotero/storage/A35HLW8Z/Dhar - 2020 - The carbon i
+    \verb mpact of artificial intelligence.pdf
+    \endverb
+    \field{journaltitle}{Nature Machine Intelligence}
+    \field{month}{08}
+    \field{year}{2020}
+    \field{urlday}{25}
+    \field{urlmonth}{08}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{macintoshImplementingEvaluatingHeterogeneous2019}{article}{}{}
     \name{author}{3}{}{%
       {{hash=MHJ}{%

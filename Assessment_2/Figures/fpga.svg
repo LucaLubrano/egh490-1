@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="433.99634mm"
+   height="131.59131mm"
+   viewBox="0 0 433.99635 131.59131"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="code-pipeline.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="fpga.svg"
+   inkscape:export-batch-name="fpga"
+   inkscape:export-batch-path="/home/luca/Documents/egh490-1/Assessment_2/Figures"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.2853694"
+     inkscape:cx="228.72803"
+     inkscape:cy="225.22709"
+     inkscape:window-width="1594"
+     inkscape:window-height="964"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker25"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path25" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker23"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <rect
+       x="85.818642"
+       y="141.93085"
+       width="286.06216"
+       height="68.214821"
+       id="rect6" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-2" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-2-9" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-7" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-7-7-4" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-2-4" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-8" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-2-9-0" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-2-4-5" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-8-0" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-7-2" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-7-7-4-0" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="615.89282"
+       height="162.12807"
+       id="rect4-0-7-7-4-0-7" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="93.055145"
+       height="115.11689"
+       id="rect4-2-7" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="93.055145"
+       height="115.11689"
+       id="rect4-2-7-7" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="93.055145"
+       height="115.11689"
+       id="rect4-2-7-9" />
+    <rect
+       x="-168.91031"
+       y="1238.8909"
+       width="93.055145"
+       height="115.11689"
+       id="rect4-2-7-75" />
+    <rect
+       x="745.29053"
+       y="261.27594"
+       width="67.928001"
+       height="29.75428"
+       id="rect18059-1-6" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-0" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-0" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-0-3" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-0-3-6" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-1" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-06" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-06-3" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-06-8" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-06-8-8" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-8-7-2-15" />
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-1" />
+    </marker>
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-4" />
+    <rect
+       x="59.126972"
+       y="29.563486"
+       width="303.41473"
+       height="80.910591"
+       id="rect3-4-5" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1802.7958,2517.2841)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.58548684,0,0,0.58548684,-1837.7722,-2535.6116)"
+       id="text1"
+       style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="59.126953"
+         y="40.482955"
+         id="tspan4">Software Compilation Process</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.34289895,0,0,0.34289895,-1821.3907,-2515.1816)"
+       id="text1-5"
+       style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-4);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="59.126953"
+         y="40.482955"
+         id="tspan5">Host device (CPU)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.34289895,0,0,0.34289895,-1732.7466,-2515.519)"
+       id="text1-5-8"
+       style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-4-5);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="59.126953"
+         y="40.482955"
+         id="tspan7">Compute device</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-1807.898,-2522.2729)"
+       id="text5"
+       style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#000000;stroke:#32aa56;stroke-width:3.77953;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
+    <g
+       id="g31"
+       transform="translate(0.2589306,6.3042536)">
+      <g
+         id="g13"
+         transform="translate(4.1168451,-27.496582)">
+        <rect
+           style="fill:#73d691;fill-opacity:1;fill-rule:nonzero;stroke:#32aa56;stroke-width:0.955593;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18062"
+           width="77.543457"
+           height="22.803806"
+           x="-1800.822"
+           y="-2469.2239" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1816.8202,-2475.432)"
+           id="text1-2"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan8">Host Code (OpenCL)</tspan></text>
+      </g>
+      <g
+         id="g19-9"
+         transform="translate(-282.58503,83.226685)">
+        <rect
+           style="fill:#d6738a;fill-opacity:1;fill-rule:nonzero;stroke:#be3857;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-7-6-77-6"
+           width="77.581726"
+           height="21.808855"
+           x="-1514.1393"
+           y="-2507.2883" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1574.6973,-2517.5288)"
+           id="text1-2-2-7-9-9-3"
+           style="text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-06-8-8);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+           x="151.70737"
+           y="0"><tspan
+             x="157.81519"
+             y="40.482955"
+             id="tspan9">Executable Binary
+</tspan><tspan
+             x="158.67603"
+             y="55.482955"
+             id="tspan10">Not device specific</tspan></text>
+      </g>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.487729;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:1.95092, 1.95092;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle);paint-order:fill markers stroke"
+         d="m -1757.9334,-2472.9372 v 45.2443"
+         id="path21" />
+    </g>
+    <g
+       id="g30"
+       transform="translate(1.6096123,-0.67092778)">
+      <g
+         id="g27"
+         transform="translate(0,-26.199442)">
+        <g
+           id="g26">
+          <g
+             id="g15"
+             transform="translate(1.40847)">
+            <g
+               id="g25">
+              <rect
+                 style="fill:#738ed6;fill-opacity:1;fill-rule:nonzero;stroke:#466ac9;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+                 id="rect18064"
+                 width="77.581726"
+                 height="21.808855"
+                 x="-1711.832"
+                 y="-2416.3247" />
+            </g>
+            <text
+               xml:space="preserve"
+               transform="matrix(0.47132214,0,0,0.47132214,-1724.7852,-2422.7984)"
+               id="text1-2-2"
+               style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+                 x="59.126953"
+                 y="40.482955"
+                 id="tspan11">Kernel Code (HLS)</tspan></text>
+          </g>
+          <g
+             id="g16"
+             transform="translate(1.303922,0.4367961)">
+            <rect
+               style="fill:#738ed6;fill-opacity:1;fill-rule:nonzero;stroke:#466ac9;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect18064-7-7"
+               width="77.581726"
+               height="21.808855"
+               x="-1625.3856"
+               y="-2443.0952" />
+            <text
+               xml:space="preserve"
+               transform="matrix(0.47132214,0,0,0.47132214,-1639.9649,-2449.8008)"
+               id="text1-2-2-7-6"
+               style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-0);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+                 x="59.126953"
+                 y="40.482955"
+                 id="tspan12">Kernel Compilation</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g17"
+         transform="translate(-0.78933977,-25.404792)">
+        <rect
+           style="fill:#738ed6;fill-opacity:1;fill-rule:nonzero;stroke:#466ac9;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-7-7-9"
+           width="77.581726"
+           height="21.808855"
+           x="-1623.2924"
+           y="-2414.9495" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1632.3034,-2421.655)"
+           id="text1-2-2-7-6-0"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-0-3);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan13">System Linking</tspan></text>
+      </g>
+      <g
+         id="g18"
+         transform="translate(-0.34675957,2.3756671)">
+        <rect
+           style="fill:#738ed6;fill-opacity:1;fill-rule:nonzero;stroke:#466ac9;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-7-7-9-9"
+           width="77.581726"
+           height="21.808855"
+           x="-1537.3931"
+           y="-2414.127" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1546.916,-2420.8325)"
+           id="text1-2-2-7-6-0-5"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-0-3-6);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan14">Logic Synthesis</tspan></text>
+      </g>
+      <g
+         id="g14"
+         transform="translate(1.40847,-37.666069)">
+        <rect
+           style="fill:#738ed6;fill-opacity:1;fill-rule:nonzero;stroke:#466ac9;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-1"
+           width="77.581726"
+           height="21.808855"
+           x="-1711.832"
+           y="-2457.7363" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1730.2149,-2464.4419)"
+           id="text1-2-2-0"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-0);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan15">Kernel Code (OpenCL)</tspan></text>
+      </g>
+      <g
+         id="g21"
+         transform="translate(1.1644196,0.58221006)">
+        <rect
+           style="fill:#d6738a;fill-opacity:1;fill-rule:nonzero;stroke:#be3857;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-7-6"
+           width="77.581726"
+           height="21.808855"
+           x="-1452.5624"
+           y="-2412.3335" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1448.9552,-2418.4904)"
+           id="text1-2-2-7-9"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-06);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan16">FPGA</tspan></text>
+      </g>
+      <g
+         id="g20"
+         transform="translate(-173.34183,59.916196)">
+        <rect
+           style="fill:#d6738a;fill-opacity:1;fill-rule:nonzero;stroke:#be3857;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-7-6-7"
+           width="77.581726"
+           height="21.808855"
+           x="-1450.7399"
+           y="-2471.7668" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1460.5032,-2477.822)"
+           id="text1-2-2-7-9-6"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-06-3);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan17">Emulated FPGA</tspan></text>
+      </g>
+      <g
+         id="g19"
+         transform="translate(-23.600544,11.885933)">
+        <rect
+           style="fill:#d6738a;fill-opacity:1;fill-rule:nonzero;stroke:#be3857;stroke-width:0.99956;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect18064-7-6-77"
+           width="77.581726"
+           height="21.808855"
+           x="-1514.1393"
+           y="-2507.2883" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.47132214,0,0,0.47132214,-1508.9683,-2513.4453)"
+           id="text1-2-2-7-9-9"
+           style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-8-7-2-06-8);display:inline;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+             x="59.126953"
+             y="40.482955"
+             id="tspan18">GPU</tspan></text>
+      </g>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.491515;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:1.96606, 1.96606;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker23);paint-order:fill markers stroke"
+         d="m -1632.7785,-2484.4979 h 91.3025"
+         id="path22" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker25);paint-order:fill markers stroke"
+         d="m -1632.7701,-2430.9561 h 3.911 v -26.5537 l 1.3172,-0.01"
+         id="path24"
+         sodipodi:nodetypes="cccc" />
+      <g
+         id="g29"
+         transform="translate(3.9646649,-26.199442)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2.00001, 2.00001;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle);paint-order:fill markers stroke"
+           d="m -1589.2704,-2420.2965 c 0,4.2157 0,4.2157 0,4.2157"
+           id="path27" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2.00001, 2.00001;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle-3);paint-order:fill markers stroke"
+           d="m -1589.2406,-2392.1489 c 0,4.2157 0,4.2157 0,4.2157"
+           id="path27-9" />
+      </g>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2.00001, 2.00001;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle-3);paint-order:fill markers stroke"
+         d="m -1546.0413,-2430.0981 h 46.7224 v 16.1563"
+         id="path28"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2.00001, 2.00001;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ConcaveTriangle-3);paint-order:fill markers stroke"
+         d="m -1460.3772,-2400.8468 h 5.6607"
+         id="path29"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.502024;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2.00811, 2.00811;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect30"
+       width="85.582848"
+       height="114.45509"
+       x="-1800.4659"
+       y="-2500.3989" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:2.00001, 2.00001;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect31"
+       width="342.92157"
+       height="114.11312"
+       x="-1711.9711"
+       y="-2500.3999" />
+  </g>
+</svg>

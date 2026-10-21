@@ -4,22 +4,22 @@
 \contentsline {section}{\numberline {2}Interim Deliverables}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Codebase}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Preliminary Studies}{3}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Biochemical Reaction Networks}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Biochemical Reaction Networks}{3}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Euler-Maruyama Simulation}{4}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Initial Findings}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Initial Findings}{4}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Hardware Emulation}{5}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Validation of Implementation}{8}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Physical Hardware}{8}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.2}Validation of Implementation}{7}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Physical Hardware}{9}{subsubsection.2.3.3}%
 \contentsline {section}{\numberline {3}Risk Management}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Health \& Safety}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Progress Inhibitors}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Emergent Issues}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Emergent Issues}{9}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Ethics}{10}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Sustainability}{10}{subsection.4.1}%
 \contentsline {section}{\numberline {5}Project Collaboration}{11}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Stakeholders}{11}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Resources}{11}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Discussion}{12}{section.6}%
+\contentsline {section}{\numberline {6}Discussion}{11}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Future Work}{12}{subsection.6.1}%
 \contentsline {paragraph}{Timing Studies}{12}{subsection.6.1}%
 \contentsline {paragraph}{Power Studies}{12}{subsection.6.1}%
